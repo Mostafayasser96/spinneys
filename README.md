@@ -44,3 +44,36 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- This is the part of the project where we'll create the whole structure before coding -->
+================================> The major project parts <============================
+=>The main folders we'll have are:
+1- pages. 2- components.
+=> Inside pages folder:- 1- Recipes. 2- Lifestyle. 3- Podcast. 4- Register. 5- Sign Up. 6- Basket.
+=> Inside the components folder:- 
+## Header: navbar, carousel.   
+## carousel.  
+## What's new this month?
+## Advertisements space.
+## SPINNEYSFOOD carousel.
+## Fruit & Vegetables.
+## The Big Grill
+## Recipe Inspiration.
+## Spinneys Studio.
+## Bakery
+## Flower Shop.
+## Lifestyle Reads.
+## Vegetarian & vegan.
+## Footer.
+
