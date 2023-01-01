@@ -60,20 +60,67 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ================================> The major project parts <============================
 =>The main folders we'll have are:
 1- pages. 2- components.
-=> Inside pages folder:- 1- Recipes. 2- Lifestyle. 3- Podcast. 4- Register. 5- Sign Up. 6- Basket.
+=> Inside pages folder:- 1-Home. 2-Recipes. 3-Lifestyle. 4-Podcast.
 => Inside the components folder:- 
+1- Home Page Components:
 ## Header: navbar, carousel.   
-## carousel.  
-## What's new this month?
-## Advertisements space.
+## Stories Carousel.  
+## What's new this month?.
+## Ads space.
 ## SPINNEYSFOOD carousel.
 ## Fruit & Vegetables.
-## The Big Grill
+## The Big Grill.
 ## Recipe Inspiration.
 ## Spinneys Studio.
-## Bakery
+## Bakery.
 ## Flower Shop.
 ## Lifestyle Reads.
 ## Vegetarian & vegan.
 ## Footer.
+
+2- Recipes Page Components:
+## Header: navbar and carousel.
+## categories.
+## Popular articles.
+## Recipe Inspiration.
+## Sugar & home baking.
+## More Recipe Inspiration.
+## Footer.
+
+3- Lifestyle Page Components:
+## Header: navbar.
+## This WEEK ON SPINNEYS.
+## Editor's Picks.
+## Featured Videos.
+## Food Stories.
+## Interviews.
+## Footer.
+
+4- Podcast Page Components:
+## Header: Navbar and Image.
+## Last Released.
+## Latest Episodes.
+## Footer.
+
+5- Catalogue Page Components:
+## Header: navbar.
+## All Products div: All Products list, Products.
+## Footer.
+
+6- Flower Shop Page Components:
+## Header: navbar.
+## flower Shop headline.
+## Flowers for all occasions.
+## Our favourites right now.
+## Perfect Pairings.
+## Footer.
+
+7- mutual Components:
+## Navbar.
+## Footer.
+## Register.
+## Sign Up.
+## Shopping Cart.
+
+
 
