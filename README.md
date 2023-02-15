@@ -122,5 +122,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## Sign Up.
 ## Shopping Cart.
 
-
+==> Note:- 1- In the navbar component inside mutual components folder, the href
 
