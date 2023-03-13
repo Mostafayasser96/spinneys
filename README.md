@@ -122,5 +122,9 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## Sign Up.
 ## Shopping Cart.
 
-==> Note:- 1- In the navbar component inside mutual components folder, the href
+==> Note:- 1- In the navbar component inside mutual components folder, all the href values come from the      designer.
+2- We have 2 approaches to deal with different groups of element inside the navbar:- 
+   => The first approach:- first ul contains shop, recipes, lifestyle and podcast elements. the second ul contains Arabic, register and sign-in elements. 
+   => The second approach:- it's only one ul containing all elements [shop, recipes, lifestyle, podcast, Arabic, register, sign-in].
+
 
