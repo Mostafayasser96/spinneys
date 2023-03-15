@@ -45,9 +45,9 @@ const MyNavbar = () => {
 
 
     <nav className="navbar w-100 border-bottom p-0">
-      <ul className="navbar-nav">
+      <ul className="navbar-nav w-100 d-flex flex-nowrap flex-row">
         <li className="toggler-li border-end">
-          <button className="navbar-toggler d-sm-block d-md-none d-lg-none d-xl-none"
+          <button className="navbar-toggler d-sm-block d-md-none d-lg-none d-xl-none border border-white"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasExample"
@@ -62,7 +62,7 @@ const MyNavbar = () => {
           </a>
         </li>
         <li className="single-search d-none">
-          <button className="single-search-btn"
+          <button className="single-search-btn w-100 border border-white"
             type="submit"
             data-bs-toggle='offcanvas'
             data-bs-target='#offcanvasTop'
@@ -75,8 +75,8 @@ const MyNavbar = () => {
           </button>
         </li>
         <li className="shop border-end">
-          <a href="/" className="nav-link text-black">
-            Shop
+          <a href="/" className="text-black w-100% h-100% d-flex justify-content-space-between text-decoration-none">
+            <span>Shop</span>
             <img src="https://prod-spinneys-cdn.azureedge.net/static/spinneys/svg/arrow-menu-down-black.a21cbb2d6b36.svg"
               alt="arrow"
               className="arrow"
@@ -84,17 +84,17 @@ const MyNavbar = () => {
           </a>
         </li>
         <li className="recipes border-end">
-          <a href="/" className="nav-link text-black">Recipes</a>
+          <a href="/" className="nav-link fw-600 p-0 text-black">Recipes</a>
         </li>
         <li className="lifestyle border-end">
-          <a href="/" className="nav-link text-black">Lifestyle</a>
+          <a href="/" className="nav-link fw-600 p-0 text-black">Lifestyle</a>
         </li>
         <li className="podcast border-end">
-          <a href="/" className="nav-link text-black">Podcast</a>
+          <a href="/" className="nav-link fw-600 p-0 text-black">Podcast</a>
         </li>
         <li className="search border-end">
           <form className="form border-none">
-            <button className="search-btn position-absolute border border-none" type="submit">
+            <button className="search-btn position-absolute outline-none border border-white" type="submit">
               <img src="https://prod-spinneys-cdn.azureedge.net/static/spinneys/svg/search-icon.f7270e7c129d.svg"
                 alt="search"
                 className="search-img"
@@ -105,14 +105,14 @@ const MyNavbar = () => {
           </form>
         </li>
         <li className="arabic border-end">
-          <a href="/" className="nav-link text-black">العربية</a>
+          <a href="/" className="nav-link fw-600 p-0 text-black">العربية</a>
         </li>
         <li className="register border-end">
-          <a href="/" className="nav-link text-black">Register</a>
+          <a href="/" className="nav-link fw-600 p-0 text-black">Register</a>
         </li>
         <li className="sign-in border-end">
-          <a href="/" className="nav-link text-black">
-            Sign In
+          <a href="/" className=" d-flex justify-content-space-between h-100% text-decoration-none text-black">
+            <span>Sign In</span>
             <img src="https://prod-spinneys-cdn.azureedge.net/static/spinneys/svg/sign-in.01d28dab1267.svg"
               className="signin-img"
               alt="person"
@@ -120,7 +120,7 @@ const MyNavbar = () => {
           </a>
         </li>
         <li className="cart">
-          <a className="nav-link text-black"
+          <a className="text-black h-100 d-flex justify-content-between text-decoration-none"
             data-bs-toggle="offcanvas"
             href="#offcanvasRight"
             role="button"
