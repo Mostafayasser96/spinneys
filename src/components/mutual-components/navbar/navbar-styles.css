@@ -36,22 +36,29 @@
 
 .shop a {
   font-family: 'IBM Plex Sans', sans-serif;
-  cursor: pointer;
   padding: 18px 25px;
 }
 
+.shop span,
+.sign-in span {
+  font-size: 14px;
+}
+
 .shop a img {
-  margin-top: 13px;
+  margin-top: 10px;
 }
 
 .sign-in {
   height: 60px;
 }
 
+.sign-in span {
+  padding-top: 3px;
+}
+
 .sign-in a {
   padding: 18px 21px;
   font-family: 'IBM Plex Sans', sans-serif;
-  cursor: pointer;
 }
 
 .sign-in span {
@@ -76,7 +83,6 @@
   height: 10px;
   top: 5px;
   color: green;
-
 }
 
 .shop:hover,
@@ -106,7 +112,7 @@
 
 .search-btn {
   top: 26%;
-  left: 45%;
+  left: 44%;
   background-color: white;
   font-family: 'IBM Plex Sans', sans-serif;
 }
@@ -137,11 +143,69 @@
 }
 
 /* carousel styles  */
+.carousel-indicators {
+  display: none;
+}
+
+.carousel-item img {
+  max-height: 80vh;
+  object-fit: cover;
+}
+
+.carousel-control-prev {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  top: 50%;
+  left: 3%;
+  border-radius: 50%;
+}
+
+.carousel-control-next {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  top: 50%;
+  right: 3%;
+  border-radius: 50%;
+}
+
+.carousel-control-next span,
+.carousel-control-prev span {
+  filter: invert(100%);
+  height: 14px;
+}
+
+.caption {
+  font-family: 'Noto Serif', serif;
+  font-size: 20px;
+  padding: 0px 0px 3% 0px;
+  font-weight: 600;
+}
+
+.shop-btn {
+  color: white;
+  background-color: transparent;
+  padding: 15px 25px;
+  border: 1px solid #efefef;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'IBM Plex Sans', sans-serif;
+  transition: .5s;
+}
+
+.shop-btn:hover {
+  background-color: white;
+  color: black;
+}
 
 /* end of carousel styles */
 
 @media (min-width: 0px) and (max-width: 500px) {
-
+  .header {
+    margin-bottom: 30px;
+  }
   .shop,
   .recipes,
   .lifestyle,
@@ -189,13 +253,20 @@
     background-color: white;
     height: 97%;
   }
+
   .single-search img {
     height: 16px;
+  }
+  .shop-btn:hover {
+    background-color: white;
+    color: black;
   }
 }
 
 @media (min-width: 500px) and (max-width: 900px) {
-
+  .header {
+    margin-bottom: 20px;
+  }
   .shop,
   .recipes,
   .lifestyle,
@@ -245,6 +316,20 @@
 
   .single-search-img {
     height: 20px;
+  }
+
+  .caption {
+    font-size: 15px;
+  }
+
+  .carousel-control-next .carousel-control-prev {
+    height: 45px;
+    width: 45px;
+  }
+  
+  .shop-btn:hover {
+    background-color: white;
+    color: black;
   }
 }
 

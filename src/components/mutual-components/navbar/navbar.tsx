@@ -1,11 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import '../css/navbar-styles.css';
+import '../navbar/navbar-styles.css';
+import { Carousel } from 'react-bootstrap';
 
 const MyNavbar = () => {
-
   return (
     <div className='header'>
-      <nav className="navbar w-100 border-bottom p-0">
+      <nav className="navbar fixed-top w-100 bg-white border-bottom p-0">
         <ul className="navbar-nav w-100 d-flex flex-nowrap flex-row">
           <li className="toggler-li border-end">
             <button className="navbar-toggler d-sm-block d-md-none d-lg-none d-xl-none border border-white"
@@ -36,7 +36,7 @@ const MyNavbar = () => {
             </button>
           </li>
           <li className="shop border-end">
-            <a href="/" className="text-black w-100% h-100% d-flex justify-content-space-between text-decoration-none">
+            <a href="/" className="text-black w-100% h-100% d-flex justify-content-space-between text-decoration-none cursor-pointer">
               <span>Shop</span>
               <img src="https://prod-spinneys-cdn.azureedge.net/static/spinneys/svg/arrow-menu-down-black.a21cbb2d6b36.svg"
                 alt="arrow"
@@ -72,7 +72,7 @@ const MyNavbar = () => {
             <a href="/" className="nav-link fw-600 p-0 text-black">Register</a>
           </li>
           <li className="sign-in border-end">
-            <a href="/" className=" d-flex justify-content-space-between h-100% text-decoration-none text-black">
+            <a href="/" className=" d-flex justify-content-space-between h-100% text-decoration-none text-black cursor-pointer">
               <span>Sign In</span>
               <img src="https://prod-spinneys-cdn.azureedge.net/static/spinneys/svg/sign-in.01d28dab1267.svg"
                 className="signin-img"
@@ -121,39 +121,60 @@ const MyNavbar = () => {
         </div>
       </nav>
 
-      <div id="carouselExampleControls" data-bs-interval= "false" className="carousel slide" data-bs-ride="carousel">
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src="https://prod-spinneys-cdn.azureedge.net/media/images/Ramadan-Mob-Banner_20233_573uANM.original.jpg" 
-                 className="carousel-img d-block w-100" alt="..." />
-          </div>
-          <div className="carousel-item">
-            <img src="https://prod-spinneys-cdn.azureedge.net/media/images/Easter-Mob-Banner_20233-resized.original.jpg" 
-                 className="carousel-img d-block w-100" alt="..." />
-          </div>
-          <div className="carousel-item">
-            <img src="https://prod-spinneys-cdn.azureedge.net/media/images/Newness-FEB20-EN-Mob.original.jpg" 
-                 className="carousel-img d-block w-100" alt="..."  />
-          </div>
-          <div className="carousel-item">
-            <img src="https://prod-spinneys-cdn.azureedge.net/media/images/March-TFE-EN-mob.original.jpg" 
-                 className="carousel-img d-block w-100" alt="..."  />
-          </div>
-          <div className="carousel-item">
-            <img src="https://prod-spinneys-cdn.azureedge.net/media/images/Mothers-day-Mob-Banner3-resized_pGONcPA.original.jpg" 
-                 className="carousel-img d-block w-100" alt="..."  />
-          </div>
+      <Carousel className='carousel' interval={null}>
+        <Carousel.Item>
+          <img src="https://prod-spinneys-cdn.azureedge.net/media/images/Ramadan-Mob-Banner_20233_573uANM.original.jpg"
+            className="carousel-img d-block w-100" alt="Ramadan Mob" />
 
-        </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
-        </button>
-      </div>
+          <Carousel.Caption>
+            <p className='caption'>Prepare for Ramadan with these essentials</p>
+            <button className='shop-btn text-uppercase' type='button'>Shop Now</button>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src="https://prod-spinneys-cdn.azureedge.net/media/images/Easter-Mob-Banner_20233-resized.original.jpg"
+            className="carousel-img d-block w-100" alt="Easter Mob" />
+
+          <Carousel.Caption>
+            <p className='caption'>
+              Shop our wide range of Easter products
+            </p>
+            <button className='shop-btn text-uppercase' type='button'>Shop Now</button>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src="https://prod-spinneys-cdn.azureedge.net/media/images/Newness-FEB20-EN-Mob.original.jpg"
+            className="carousel-img d-block w-100 object-fit-cover" alt="English Mob" />
+
+          <Carousel.Caption>
+            <p className='caption'>
+              Shop our wide range of new products
+            </p>
+            <button className='shop-btn text-uppercase' type='button'>Shop Now</button>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src="https://prod-spinneys-cdn.azureedge.net/media/images/March-TFE-EN-mob.original.jpg"
+            className="carousel-img d-block w-100" alt="March mob" />
+
+          <Carousel.Caption>
+            <p className='caption'>
+              Bringing you the fresher experience straight to your door. Explore our wide range of products, recipes and articles.
+            </p>
+            <button className='shop-btn text-uppercase' type='button'>Shop Now</button>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src="https://prod-spinneys-cdn.azureedge.net/media/images/Mothers-day-Mob-Banner3-resized_pGONcPA.original.jpg"
+            className="carousel-img d-block w-100" alt="Mother's day Mob" />
+          <Carousel.Caption>
+            <p className='caption'>
+              Spoil Mum with an extensive selection of goodies
+            </p>
+            <button className='shop-btn text-uppercase' type='button'>Shop Now</button>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
 
     </div>
   )
