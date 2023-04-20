@@ -1,0 +1,50 @@
+.whatsNew {
+  margin-top: 5%;
+}
+.whatsNew-heading {
+  padding: 2%;
+}
+
+.address1 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.address2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #8C8C8C;
+  margin-bottom: 40px;
+}
+
+.shop-now {
+  width: 14%;
+  border: none;
+  color: #8C8C8C;
+}
+
+.shop-now:hover {
+  cursor: default;
+}
+
+.view-more {
+  height: 42%;
+  color: #8C8C8C;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px 15px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.view-more:hover {
+  color: #8C8C8C;
+}
+
+.shop-now-arrow {
+  height: 7px;
+  margin-top: 7px;
+}

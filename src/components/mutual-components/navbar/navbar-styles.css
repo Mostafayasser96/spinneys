@@ -1,7 +1,7 @@
-* {
+/* * {
   margin: 0px;
   padding: 0px;
-}
+} */
 
 .navbar {
   height: 60px;
@@ -334,6 +334,9 @@
 }
 
 @media (min-width: 900px) and (max-width: 1326px) {
+  .header {
+    margin-bottom: 30px !important;
+  }
   .toggler-li {
     display: none !important;
   }

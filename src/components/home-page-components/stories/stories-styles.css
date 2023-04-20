@@ -1,16 +1,25 @@
+.splide {
+   padding: 2%;
+}
+
+.carousel-control-prev-icon {
+   left: 10%;
+}
 @media (min-width: 0px) and (max-width: 500px) {
    .splide {
       margin-bottom: 30px;
    }
-   .splide__arrow--next{
-      right: 10%!important;
-      height: 50px!important;
-      width: 50px!important;
+
+   .splide__arrow--next {
+      right: 10% !important;
+      height: 50px !important;
+      width: 50px !important;
    }
-    .splide__arrow--prev {
+
+   .splide__arrow--prev {
       left: 10% !important;
       height: 50px !important;
-      width: 50px!important;
+      width: 50px !important;
    }
 }
 
@@ -18,9 +27,11 @@
    .splide {
       padding: 2%;
    }
+
    .splide__list {
       height: 287px !important;
    }
+
    .carousel-control-next-icon,
    .carousel-control-prev-icon {
       filter: invert(100%) !important;
@@ -30,9 +41,6 @@
 }
 
 @media (min-width: 900px) and (max-width: 1326px) {
-   .splide {
-      padding: 3%!important;
-   }
    .splide__arrow {
       height: 50px !important;
       width: 50px !important;
@@ -40,7 +48,7 @@
    }
 
    .splide__arrow:hover {
-      background: white!important;
+      background: white !important;
    }
 
    .carousel-control-next-icon,

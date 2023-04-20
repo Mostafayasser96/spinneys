@@ -1,0 +1,10 @@
+{ 
+  "products": [
+  {
+    "srcImage": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/58/22/5822f2e277f21fed9fbd5a1d76cc123c.jpg",
+    "padgeImage": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
+    "price": 25.25,
+    "description": "sweet home diffurus"
+  }
+]
+}

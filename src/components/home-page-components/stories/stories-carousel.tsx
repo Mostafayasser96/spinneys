@@ -10,68 +10,56 @@ const MyStories = () => {
 		{
 			key: 1,
 			path: '/',
-			source: "https://prod-spinneys-cdn.azureedge.net/media/images/NEWNESS-Tile-Feb20-EN.2e16d0ba.fill-350x350.jpg",
-			caption: 'Power Plants Story'
+			source: "https://prod-spinneys-cdn-new.azureedge.net/media/images/magazine-Tiles_2023.2e16d0ba.fill-350x350.jpg",
+			caption: 'March/April issues Story'
 		},
 		{
 			key: 2,
 			path: '/',
-			source: "https://prod-spinneys-cdn.azureedge.net/media/images/magazine-Tiles_2023.2e16d0ba.fill-350x350.jpg",
-			caption: 'The Big Grill Story'
+			source: "https://prod-spinneys-cdn-new.azureedge.net/media/images/Ramadan-Tiles_2023-2_nL0zwWn.2e16d0ba.fill-350x350.jpg",
+			caption: 'Ramadan Kareem Story'
 		},
 		{
 			key: 3,
 			path: '/',
-			source: "https://prod-spinneys-cdn.azureedge.net/media/images/Ramadan-Tiles_2023-2_nL0zwWn.2e16d0ba.fill-350x350.jpg",
-			caption: 'Podcast Tiles Story'
+			source: "https://prod-spinneys-cdn-new.azureedge.net/media/images/PowerofPlants-EN.2e16d0ba.fill-350x350.jpg",
+			caption: 'Eat well live well Story'
 		},
 		{
 			key: 4,
 			path: '/',
-			source: "https://prod-spinneys-cdn.azureedge.net/media/images/Easter-Tiles_2023-resized_DUSKpyu.2e16d0ba.fill-350x350.jpg",
-			caption: 'Farm To The Table Story'
+			source: "https://prod-spinneys-cdn-new.azureedge.net/media/images/TheBigGrill_EN.2e16d0ba.fill-350x350.jpg",
+			caption: 'The big grill Story'
 		},
 		{
 			key: 5,
 			path: '/',
-			source: "https://prod-spinneys-cdn.azureedge.net/media/images/PowerofPlants-EN.2e16d0ba.fill-350x350.jpg",
-			caption: 'Ramadan Tiles Story'
+			source: "https://prod-spinneys-cdn-new.azureedge.net/media/images/Podcast-Tiles-EN.2e16d0ba.fill-350x350.jpg",
+			caption: 'Podcast Tiles Story'
 		},
 		{
 			key: 6,
 			path: '/',
-			source: "https://prod-spinneys-cdn.azureedge.net/media/images/TheBigGrill_EN.2e16d0ba.fill-350x350.jpg",
-			caption: 'Easter Tiles Story'
+			source: "https://prod-spinneys-cdn-new.azureedge.net/media/images/Latest_Recipes.2e16d0ba.fill-350x350.jpg",
+			caption: 'Latest Recipes Story'
 		},
 		{
 			key: 7,
 			path: '/',
-			source: "https://prod-spinneys-cdn.azureedge.net/media/images/Farm_to_Table.2e16d0ba.fill-350x350.jpg",
-			caption: 'Mothers Day Tiles Story'
+			source: "https://prod-spinneys-cdn-new.azureedge.net/media/images/Flower-Tile-en.2e16d0ba.fill-350x350.jpg",
+			caption: 'Flower Tiles Story'
 		},
 		{
 			key: 8,
 			path: '/',
-			source: "https://prod-spinneys-cdn.azureedge.net/media/images/Latest_Recipes.2e16d0ba.fill-350x350.jpg",
-			caption: 'Mothers Day Tiles Story'
+			source: "https://prod-spinneys-cdn-new.azureedge.net/media/images/The_Producers.2e16d0ba.fill-350x350.jpg",
+			caption: 'The Producers Story'
 		},
 		{
 			key: 9,
 			path: '/',
-			source: "https://prod-spinneys-cdn.azureedge.net/media/images/Flower-Tile-en.2e16d0ba.fill-350x350.jpg",
-			caption: 'Mothers Day Tiles Story'
-		},
-		{
-			key: 10,
-			path: '/',
-			source: "https://prod-spinneys-cdn.azureedge.net/media/images/The_Producers.2e16d0ba.fill-350x350.jpg",
-			caption: 'Mothers Day Tiles Story'
-		},
-		{
-			key: 11,
-			path: '/',
-			source: "https://prod-spinneys-cdn.azureedge.net/media/images/Our_Magazine.2e16d0ba.fill-350x350.jpg",
-			caption: 'Mothers Day Tiles Story'
+			source: "https://prod-spinneys-cdn-new.azureedge.net/media/images/Our_Magazine.2e16d0ba.fill-350x350.jpg",
+			caption: 'Our Magazine Story'
 		}
 	]
 

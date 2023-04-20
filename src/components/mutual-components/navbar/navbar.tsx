@@ -19,7 +19,7 @@ const MyNavbar = () => {
           </li>
           <li className="logo-li border-end">
             <a href="/" className="logo">
-              <img alt='logo' className='logo-img' src="https://prod-spinneys-cdn.azureedge.net/static/spinneys/svg/logo-color.ee51dd2e8427.svg" />
+              <img alt='logo' className='logo-img' src="https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/logo-color.ee51dd2e8427.svg" />
             </a>
           </li>
           <li className="single-search d-none">
@@ -38,7 +38,7 @@ const MyNavbar = () => {
           <li className="shop border-end">
             <a href="/" className="text-black w-100% h-100% d-flex justify-content-space-between text-decoration-none cursor-pointer">
               <span>Shop</span>
-              <img src="https://prod-spinneys-cdn.azureedge.net/static/spinneys/svg/arrow-menu-down-black.a21cbb2d6b36.svg"
+              <img src="https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/arrow-menu-down-black.a21cbb2d6b36.svg"
                 alt="arrow"
                 className="arrow"
               />
@@ -56,7 +56,7 @@ const MyNavbar = () => {
           <li className="search border-end">
             <form className="form border-none">
               <button className="search-btn position-absolute outline-none border border-white" type="submit">
-                <img src="https://prod-spinneys-cdn.azureedge.net/static/spinneys/svg/search-icon.f7270e7c129d.svg"
+                <img src="https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/search-icon.f7270e7c129d.svg"
                   alt="search"
                   className="search-img"
                 />
@@ -74,7 +74,7 @@ const MyNavbar = () => {
           <li className="sign-in border-end">
             <a href="/" className=" d-flex justify-content-space-between h-100% text-decoration-none text-black cursor-pointer">
               <span>Sign In</span>
-              <img src="https://prod-spinneys-cdn.azureedge.net/static/spinneys/svg/sign-in.01d28dab1267.svg"
+              <img src="https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/sign-in.01d28dab1267.svg"
                 className="signin-img"
                 alt="person"
               />
@@ -87,7 +87,7 @@ const MyNavbar = () => {
               role="button"
               aria-controls="offcanvasRight"
             >
-              <img src="https://prod-spinneys-cdn.azureedge.net/static/spinneys/svg/cart-green.16c44836996c.svg"
+              <img src="https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/cart-green.16c44836996c.svg"
                 alt="shopping cart"
                 className="cart-img"
               />
@@ -123,7 +123,7 @@ const MyNavbar = () => {
 
       <Carousel className='carousel' interval={null}>
         <Carousel.Item>
-          <img src="https://prod-spinneys-cdn.azureedge.net/media/images/Ramadan-Mob-Banner_20233_573uANM.original.jpg"
+          <img src="https://prod-spinneys-cdn-new.azureedge.net/media/images/Ramadan-Mob-Banner_20233_573uANM.original.jpg"
             className="carousel-img d-block w-100" alt="Ramadan Mob" />
 
           <Carousel.Caption>
@@ -132,18 +132,7 @@ const MyNavbar = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src="https://prod-spinneys-cdn.azureedge.net/media/images/Easter-Mob-Banner_20233-resized.original.jpg"
-            className="carousel-img d-block w-100" alt="Easter Mob" />
-
-          <Carousel.Caption>
-            <p className='caption'>
-              Shop our wide range of Easter products
-            </p>
-            <button className='shop-btn text-uppercase' type='button'>Shop Now</button>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src="https://prod-spinneys-cdn.azureedge.net/media/images/Newness-FEB20-EN-Mob.original.jpg"
+          <img src="https://prod-spinneys-cdn-new.azureedge.net/media/images/Newness-FEB20-EN-Mob.original.jpg"
             className="carousel-img d-block w-100 object-fit-cover" alt="English Mob" />
 
           <Carousel.Caption>
@@ -154,22 +143,12 @@ const MyNavbar = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src="https://prod-spinneys-cdn.azureedge.net/media/images/March-TFE-EN-mob.original.jpg"
+          <img src="https://prod-spinneys-cdn-new.azureedge.net/media/images/March-TFE-EN-mob.original.jpg"
             className="carousel-img d-block w-100" alt="March mob" />
 
           <Carousel.Caption>
             <p className='caption'>
               Bringing you the fresher experience straight to your door. Explore our wide range of products, recipes and articles.
-            </p>
-            <button className='shop-btn text-uppercase' type='button'>Shop Now</button>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src="https://prod-spinneys-cdn.azureedge.net/media/images/Mothers-day-Mob-Banner3-resized_pGONcPA.original.jpg"
-            className="carousel-img d-block w-100" alt="Mother's day Mob" />
-          <Carousel.Caption>
-            <p className='caption'>
-              Spoil Mum with an extensive selection of goodies
             </p>
             <button className='shop-btn text-uppercase' type='button'>Shop Now</button>
           </Carousel.Caption>

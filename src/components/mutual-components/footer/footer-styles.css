@@ -1,0 +1,193 @@
+.footer {
+  /* background-color: #386455; */
+  background-color: rgb(17, 70, 52);
+
+}
+
+.footer1 {
+  display: flex;
+  padding: 60px 60px 0px 60px;
+}
+
+.contact-info {
+  width: 80%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.logo {
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.footer-white-logo {
+  width: 150px;
+  margin: 0px 0px 40px;
+}
+
+.quick-links {
+  display: flex;
+  justify-content: space-between;
+  width: 86%;
+}
+
+.quick-links1,
+.quick-links2,
+.quick-links3 {
+  list-style: none;
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+.quick-link1 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.quick-link {
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  opacity: .5;
+}
+
+.quick-link:hover {
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  padding: 75px 0px 10px;
+  color: #212529;
+  text-align: left;
+}
+
+.twitter,
+.instagram,
+.facebook {
+  opacity: .5;
+  height: 15px;
+}
+
+.sign-up {
+
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: left;
+  width: 37%;
+}
+
+.sign-up-p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.email {
+  font-family: 'IBM Plex Sans', sans-serif;
+  padding: 15px;
+  background-color: rgb(17, 70, 52);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  width: 72%;
+  font-size: 14px;
+}
+
+.email::placeholder {
+  color: #FFFFFF;
+}
+
+.sub-btn {
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  color: white;
+  background-color: rgb(17, 70, 52);
+}
+
+.region {
+  margin: 20px 0px 0px;
+  color: #fff;
+}
+
+.region-span1 {
+  font-size: 14px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  padding-right: 18px;
+  font-weight: 200;
+}
+
+.country-flag {
+  cursor: pointer;
+  height: 15px;
+  padding-right: 5px;
+  border-radius: 50%;
+}
+
+.region-span2 {
+  cursor: pointer;
+  font-family: 'IBM Plex Sans', sans-serif;
+  opacity: .7;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.payment-methods {
+  font-size: 16px;
+  padding: 75px 0px 10px;
+}
+
+.rights-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 60px 20px 60px;
+  list-style: none;
+}
+
+.apple-img {
+  padding-right: 5px;
+}
+
+.rights {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  font-size: 12px;
+  opacity: .5;
+}
+
+.made-by {
+  display: flex;
+  justify-content: space-between;
+}
+
+.made-by-span {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 12px;
+  color: #fff;
+  opacity: .5;
+  padding-top: 5px;
+}
+
+.dev-company {
+  margin-left: 10px;
+  height: 13px;
+  opacity: .5;
+}
+
+.developer {
+  color: #fff;
+}
+
+.dev-company:hover {
+  opacity: 1;
+}
