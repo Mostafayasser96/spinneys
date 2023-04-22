@@ -1,7 +1,5 @@
 .footer {
-  /* background-color: #386455; */
   background-color: rgb(17, 70, 52);
-
 }
 
 .footer1 {
@@ -190,4 +188,326 @@
 
 .dev-company:hover {
   opacity: 1;
+}
+
+.footer-logo {
+  display: none;
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+  .footer1 {
+    display: block;
+    padding: 0px;
+  }
+
+  .contact-info {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .quick-links {
+    display: block;
+    width: 100%;
+  }
+
+  .quick-links1,
+  .quick-links2,
+  .quick-links3 {
+    display: none;
+  }
+
+  .sign-up-p {
+    display: none;
+  }
+
+  .form {
+    display: none;
+  }
+
+  .region {
+    display: none;
+  }
+
+  .card-body {
+    margin: 20px 0px;
+  }
+
+  .accordion-collapse {
+    background-color: rgb(17, 70, 52);
+    color: #fff;
+  }
+
+  .accordion-button {
+    border-radius: 0px !important;
+    background-color: rgb(17, 70, 52);
+    color: white;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 20px;
+  }
+
+  .collapsed::after {
+    color: white !important;
+  }
+
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: rgb(17, 70, 52);
+    color: white;
+    border-bottom: none;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    color: red !important;
+  }
+
+  .accordion-body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .accord-links1,
+  .accord-links2,
+  .accord-links3 {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+  }
+
+  .accord-link1,
+  .accord-link {
+    color: #fff;
+    font-size: 14px;
+    background-color: rgb(17, 70, 52);
+    opacity: .5;
+  }
+
+  .social {
+    width: 100%;
+    padding: 20px 24px;
+  }
+
+  .sign-up {
+    width: 100%;
+  }
+
+  .payment-methods {
+    width: 100%;
+    padding: 0px 0px 10px;
+    border-bottom: 1px solid transparent;
+    text-align: center;
+  }
+
+  .rights-info {
+    display: block;
+    margin-bottom: 0px;
+    padding: 35px 45px 25px 40px;
+  }
+
+  .apps {
+    display: none;
+  }
+
+  .footer-logo {
+    display: block;
+  }
+
+  .footer-logo .footer-white-logo {
+    width: 125px;
+  }
+
+  .rights {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    margin: 0px 0px 16px;
+    opacity: 1;
+  }
+
+  .made-by {
+    display: block;
+  }
+
+  .made-by-span {
+    display: block;
+    font-size: 18px;
+    opacity: 1;
+  }
+
+  .dev-company {
+    margin-left: 0px;
+  }
+
+  .dev-company:hover {
+    color: #fff !important;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+  .footer1 {
+    display: block;
+    padding: 0px;
+  }
+
+  .contact-info {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .quick-links {
+    display: block;
+    width: 100%;
+  }
+
+  .quick-links1,
+  .quick-links2,
+  .quick-links3 {
+    display: none;
+  }
+
+  .sign-up-p {
+    display: none;
+  }
+
+  .form {
+    display: none;
+  }
+
+  .region {
+    display: none;
+  }
+
+  .card-body {
+    margin: 20px 0px;
+  }
+
+  .accordion-collapse {
+    background-color: rgb(17, 70, 52);
+    color: #fff;
+  }
+
+  .accordion-button {
+    border-radius: 0px !important;
+    background-color: rgb(17, 70, 52);
+    color: white;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 20px;
+  }
+
+  .collapsed::after {
+    color: white !important;
+  }
+
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: rgb(17, 70, 52);
+    color: white;
+    border-bottom: none;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    color: red !important;
+  }
+
+  .accordion-body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .accord-links1,
+  .accord-links2,
+  .accord-links3 {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+  }
+
+  .accord-link1,
+  .accord-link {
+    color: #fff;
+    font-size: 14px;
+    background-color: rgb(17, 70, 52);
+    opacity: .5;
+  }
+
+  .social {
+    width: 100%;
+    padding: 20px 24px;
+  }
+
+  .sign-up {
+    width: 100%;
+  }
+
+  .payment-methods {
+    width: 100%;
+    padding: 0px 0px 10px;
+    border-bottom: 1px solid transparent;
+    text-align: center;
+  }
+
+  .rights-info {
+    display: block;
+    margin-bottom: 0px;
+    padding: 35px 45px 25px 40px;
+  }
+
+  .apps {
+    display: none;
+  }
+
+  .footer-logo {
+    display: block;
+  }
+
+  .footer-logo .footer-white-logo {
+    width: 125px;
+  }
+
+  .rights {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    margin: 0px 0px 16px;
+    opacity: 1;
+  }
+
+  .made-by {
+    display: block;
+  }
+
+  .made-by-span {
+    display: block;
+    font-size: 18px;
+    opacity: 1;
+  }
+
+  .dev-company {
+    margin-left: 0px;
+  }
+
+  .dev-company:hover {
+    color: #fff !important;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1326px) {
+  .accordion {
+    display: none;
+  }
 }

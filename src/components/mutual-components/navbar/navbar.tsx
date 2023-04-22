@@ -29,7 +29,7 @@ const MyNavbar = () => {
               data-bs-target='#offcanvasTop'
               aria-controls="offcanvasTop"
             >
-              <img src="https://prod-spinneys-cdn.azureedge.net/static/spinneys/svg/search-icon.f7270e7c129d.svg"
+              <img src="https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/search-icon.f7270e7c129d.svg"
                 alt="single search"
                 className="single-search-img"
               />

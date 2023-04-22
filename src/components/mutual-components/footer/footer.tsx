@@ -1,6 +1,7 @@
 import React from "react";
 import "../footer/footer-styles.css";
 import 'bootstrap/dist/css/bootstrap.css';
+import { Accordion } from "react-bootstrap";
 
 
 
@@ -13,20 +14,61 @@ const MyFooter = () => {
             <img className="footer-white-logo" alt="spinneys" src="https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/logo-white.5d7ed9a5d307.svg" />
           </div>
           <div className="quick-links">
-            <ul className="quick-links1">
+            <Accordion>
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>About Us</Accordion.Header>
+                <Accordion.Body>
+                  <ul className="accord-links1">
+                    <li className="accord-link1">Who We Are</li>
+                    <li className="accord-link">About Us</li>
+                    <li className="accord-link">Our Story</li>
+                    <li className="accord-link">Let's Do Better Together</li>
+                    <li className="accord-link">Store Locator</li>
+                  </ul>
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
+            <Accordion>
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>Shipping Online</Accordion.Header>
+                <Accordion.Body>
+                  <ul className="accord-links2">
+                    <li className="accord-link1">Shopping Online</li>
+                    <li className="accord-link">Frequently Asked Questions</li>
+                    <li className="accord-link">Terms & Conditions</li>
+                    <li className="accord-link">Privacy Policy</li>
+                  </ul>
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
+            <Accordion>
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>Customer Services</Accordion.Header>
+                <Accordion.Body>
+                  <ul className="accord-links3">
+                    <li className="accord-link1">Customer Service</li>
+                    <li className="accord-link">Contact Us</li>
+                    <li className="accord-link">Corporate Portal</li>
+                    <li className="accord-link">Careers</li>
+                  </ul>
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
+
+            <ul className="quick-links1 list-unstyled">
               <li className="quick-link1">Who We Are</li>
               <li className="quick-link">About Us</li>
               <li className="quick-link">Our Story</li>
               <li className="quick-link">Let's Do Better Together</li>
               <li className="quick-link">Store Locator</li>
             </ul>
-            <ul className="quick-links2">
+            <ul className="quick-links2 list-unstyled">
               <li className="quick-link1">Shopping Online</li>
               <li className="quick-link">Frequently Asked Questions</li>
               <li className="quick-link">Terms & Conditions</li>
               <li className="quick-link">Privacy Policy</li>
             </ul>
-            <ul className="quick-links3">
+            <ul className="quick-links3 list-unstyled">
               <li className="quick-link1">Customer Service</li>
               <li className="quick-link">Contact Us</li>
               <li className="quick-link">Corporate Portal</li>
@@ -92,6 +134,9 @@ const MyFooter = () => {
           <a className="google-store" rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.dnc.spinneys" target="_blank">
             <img src="https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/appstore.e2bb6fdcf290.svg" alt="google app store" />
           </a>
+        </li>
+        <li className="footer-logo">
+          <img className="footer-white-logo" alt="spinneys" src="https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/logo-white.5d7ed9a5d307.svg" />
         </li>
         <li className="rights">
           &copy; 2020-2023 Spinneys. All Rights Reserved.
