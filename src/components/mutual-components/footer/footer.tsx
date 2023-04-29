@@ -10,7 +10,7 @@ const MyFooter = () => {
     <div className="footer">
       <div className="footer1">
         <div className="contact-info">
-          <div className="logo">
+          <div className="footer-logo">
             <img className="footer-white-logo" alt="spinneys" src="https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/logo-white.5d7ed9a5d307.svg" />
           </div>
           <div className="quick-links">
@@ -135,8 +135,8 @@ const MyFooter = () => {
             <img src="https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/appstore.e2bb6fdcf290.svg" alt="google app store" />
           </a>
         </li>
-        <li className="footer-logo">
-          <img className="footer-white-logo" alt="spinneys" src="https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/logo-white.5d7ed9a5d307.svg" />
+        <li className="footer-logo2">
+          <img className="footer-white-logo2" alt="spinneys" src="https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/logo-white.5d7ed9a5d307.svg" />
         </li>
         <li className="rights">
           &copy; 2020-2023 Spinneys. All Rights Reserved.

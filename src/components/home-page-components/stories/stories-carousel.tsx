@@ -97,13 +97,12 @@ const MyStories = () => {
 		<div className="splide visibility-visible" aria-label="Splide Basic HTML Example">
 			<div className="splide__arrows">
 				<button className="splide__arrow splide__arrow--prev">
-					<img className='left' alt='splide left arrow' src='https://prod-spinneys-cdn.azureedge.net/static/spinneys/svg/arrow-left-slider-w.485c4677b0d0.svg' />
+					<span className='carousel-control-prev-icon'></span>
 				</button>
 				<button className="splide__arrow splide__arrow--next">
-					<img className='right' alt='splide right arrow' src='https://prod-spinneys-cdn.azureedge.net/static/spinneys/svg/arrow-right-slider-w.4877da06b9df.svg' />
+					<span className='carousel-control-next-icon'></span>
 				</button>
 			</div>
-
 			<div className="splide__track">
 				<ul className="splide__list">
 					{stories.map((story) => (

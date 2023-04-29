@@ -3,6 +3,8 @@ import "../what's-new/what's-new-styles.css";
 import { Splide } from '@splidejs/splide';
 import '@splidejs/splide/css';
 import 'bootstrap/dist/css/bootstrap.css';
+import Products from "./what's-new-products.json";
+
 
 const WhatsNew = () => {
   return (
@@ -20,7 +22,7 @@ const WhatsNew = () => {
 
         </button>
       </div>
-
+      
     </div>
   )
 }

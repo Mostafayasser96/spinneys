@@ -1,0 +1,139 @@
+{
+  "products": [
+    {
+      "id": "1", 
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/42/ac/42ac53f4efd5eda36a0acdc88b2522c3.jpg",
+      "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
+      "price": "25.25",
+      "product-name": "Sweet Home tier flower diffuser",
+      "product-src": "/en-ae/catalogue/suarez-sweet-home-tiare-flowers-100ml_55931/",
+      "rest-src": "/en-ae/catalogue/category/household/air-fresheners-candles/air-fresheners_719/"      
+    },
+    {
+      "id": "2", 
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/bb/ee/bbee5e961238de80ecce4401433790b0.jpg",
+      "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
+      "price": "25.25",
+      "product-name": "Sweet Home jasmine and ylang ylang flower diffuser",
+      "product-src": "/en-ae/catalogue/suarez-sweet-home-jasmne-ylang-100ml_55930/",
+      "rest-src": "/en-ae/catalogue/category/household/air-fresheners-candles/air-fresheners_719/"
+    },
+    {
+      "id": "3", 
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/91/ef/91efc4f234ea74fecccbb7ba830cf598.jpg",
+      "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
+      "price": "22.25",
+      "product-name": "Gu energy chews orange 60g",
+      "product-src": "/en-ae/catalogue/gu-energy-chews-orange-60g_55549/",
+      "rest-src": "/en-ae/catalogue/category/food-cupboard/sports-nutrition/energy-gels-chews_1020/"
+    },
+    {
+      "id": "4", 
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/bf/90/bf9083dafd372fbbcb11e07cb870c9a7.jpg",
+      "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
+      "price": "21.75",
+      "product-name": "Santa Bremor seafood paste Antarctic Krill classic 150g",
+      "product-src": "/en-ae/catalogue/santa-bremor-seafood-paste-antarctic-krill-classic-150g_55071/",
+      "rest-src": "/en-ae/catalogue/category/food-cupboard/cans-tins-packets/fish/mackerel-anchovy-other-fish_471/"
+    },
+    {
+      "id": "5", 
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/8b/df/8bdf80d4d80ebd7b70b0dac0663fc0a7.jpg",
+      "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
+      "price": "33.25",
+      "product-name": "Santa Bremor caviar cream salmon and avocado glass jar 180g",
+      "product-src": "/en-ae/catalogue/santa-bremor-caviar-cream-salmon-and-avocado-glass-jar-180g_55068/",
+      "rest-src": "/en-ae/catalogue/category/food-cupboard/cans-tins-packets/fish/mackerel-anchovy-other-fish_471/"
+    },
+    {
+      "id": "6", 
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/2b/75/2b75eab81dc3bc7fe452d944ccb03af8.jpg",
+      "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
+      "price": "120.00",
+      "product-name": "Santa Bremor salmon caviar tin 140g",
+      "product-src": "/en-ae/catalogue/santa-bremor-salmon-caviar-tin-140g_55067/",
+      "rest-src": "/en-ae/catalogue/category/food-cupboard/cans-tins-packets/fish/mackerel-anchovy-other-fish_471/"
+    },
+    {
+      "id": "7", 
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/72/fb/72fb175ee6d38c76b845fdf76f7813b9.jpg",
+      "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
+      "price": "23.25",
+      "product-name": "Santa Bremor herring fillet pieces original 200g",
+      "product-src": "/en-ae/catalogue/santa-bremor-herring-fillet-pieces-original-200g_55066/",
+      "rest-src": "/en-ae/catalogue/category/food-cupboard/cans-tins-packets/fish/mackerel-anchovy-other-fish_471/"
+    },
+    {
+      "id": "8", 
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/69/03/69034138f96f363c3e07e0a3a117d5a4.jpg",
+      "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
+      "price": "29.50",
+      "product-name": "Drivers chunky piccalilli 350g",
+      "product-src": "/en-ae/catalogue/drivers-chunky-piccalilli-350g_55054/",
+      "rest-src": "/en-ae/catalogue/category/food-cupboard/jars/chutney-pickles-relishes_667/"
+    },
+    {
+      "id": "9", 
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/d9/68/d968a2a491a987e64c237f0b58fa83a6.jpg",
+      "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
+      "price": "29.50",
+      "product-name": "Drivers spicy mango chutney 350g",
+      "product-src": "/en-ae/catalogue/drivers-spicy-mango-chutney-350g_55053/",
+      "rest-src": "/en-ae/catalogue/category/food-cupboard/jars/chutney-pickles-relishes_667/"
+    },
+    {
+      "id": "10", 
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/ff/ff/ffff7409c85cce783155b09850854011.jpg",
+      "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
+      "price": "39.00",
+      "product-name": "Canderel with stevia low calorie sweetener 100 sachets 200g",
+      "product-src": "/en-ae/catalogue/canderel-with-stevia-low-calorie-sweetener-100-sachets-200g_55043/",
+      "rest-src": "/en-ae/catalogue/category/food-cupboard/sugar-home-baking/sugar/alternatives_680/"
+    },
+    {
+      "id": "11", 
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/7b/e4/7be4b0dfdb60f419dbacccf845ccd845.jpg",
+      "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
+      "price": "7.00",
+      "product-name": "Carbury caramel ice cream cone 110ml",
+      "product-src": "/en-ae/catalogue/cadbury-caramel-cone-110ml_54682/",
+      "rest-src": "/en-ae/catalogue/category/frozen/desserts-ice-cream-lollies/ice-cream-sticks-cones_685/"
+    },
+    {
+      "id": "12", 
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/ff/83/ff83c029f74c1d08d3afcb367caccc62.jpg",
+      "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
+      "price": "8.00",
+      "product-name": "Toblerone ice cream stick 90ml",
+      "product-src": "/en-ae/catalogue/toblerone-stick-90ml_54681/",
+      "rest-src": "/en-ae/catalogue/category/frozen/desserts-ice-cream-lollies/ice-cream-sticks-cones_685/"
+    },
+    {
+      "id": "13", 
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/70/4f/704f0281cbf83737e3645e6bd0794a3f.jpg",
+      "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
+      "price": "24.00",
+      "product-name": "Good Good strawberry jam no added sugar 330g",
+      "product-src": "/en-ae/catalogue/good-good-strawberry-jam-no-added-sugar-330g_54345/",
+      "rest-src": "/en-ae/catalogue/category/food-cupboard/honey-jams-spreads/dietary-lifestyle_944/"
+    },
+    {
+      "id": "14", 
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/eb/16/eb1627ff3ac13f014982e1f724088e64.jpg",
+      "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
+      "price": "22.25",
+      "product-name": "Florida's natural lemonade 1.6l",
+      "product-src": "/en-ae/catalogue/floridas-natural-lemonade-16l_50855/",
+      "rest-src": "/en-ae/catalogue/category/beverages/refrigerated/fresh-juices_361/"
+    },
+    {
+      "id": "15", 
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/78/20/7820e148f67d54efe1a2cf7f750e3fab.jpg",
+      "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
+      "price": "23.25",
+      "product-name": "Ben and Jerry's chocolate fudge brownie ice cream 476g",
+      "product-src": "/en-ae/catalogue/benjerry-chocolate-fudge-brownie-473ml_17051/",
+      "rest-src": "/en-ae/catalogue/category/frozen/desserts-ice-cream-lollies/ice-cream-tubs-large_686/"
+    }
+  ]
+}

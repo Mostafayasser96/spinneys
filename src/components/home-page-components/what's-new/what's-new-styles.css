@@ -48,3 +48,34 @@
   height: 7px;
   margin-top: 7px;
 }
+
+@media (min-width: 0px) and (max-width: 500px) {
+  .address1 {
+    margin-bottom: 0px;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  .address2 {
+    font-weight: 200;
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+  .shop-now {
+    width: 30%;
+  }
+  .view-more {
+    height: 50%;
+    font-size: 12px;
+    padding: 10px 6px;
+
+  }
+}
+@media (min-width: 500px) and (max-width: 900px) {
+  .address2 {
+    font-size: 14px;
+    text-align: left;
+  }
+  .shop-now {
+    width: 20%;
+  }
+}
