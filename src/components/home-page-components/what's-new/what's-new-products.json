@@ -1,8 +1,9 @@
-{
-  "products": [
+{ 
+ "products": [
     {
       "id": "1", 
-      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/42/ac/42ac53f4efd5eda36a0acdc88b2522c3.jpg",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/14/4e/144e38fa6f2ac37c383a1eff1a87dcce.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/14/4e/144e38fa6f2ac37c383a1eff1a87dcce.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/14/4e/144e38fa6f2ac37c383a1eff1a87dcce.jpg 1x",
       "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
       "price": "25.25",
       "product-name": "Sweet Home tier flower diffuser",
@@ -11,7 +12,8 @@
     },
     {
       "id": "2", 
-      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/bb/ee/bbee5e961238de80ecce4401433790b0.jpg",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/bf/90/bf9083dafd372fbbcb11e07cb870c9a7.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/bf/90/bf9083dafd372fbbcb11e07cb870c9a7.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/bf/90/bf9083dafd372fbbcb11e07cb870c9a7.jpg 1x",
       "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
       "price": "25.25",
       "product-name": "Sweet Home jasmine and ylang ylang flower diffuser",
@@ -20,7 +22,8 @@
     },
     {
       "id": "3", 
-      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/91/ef/91efc4f234ea74fecccbb7ba830cf598.jpg",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/12/18/12189eb5443756717729a8c7b52905af.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/12/18/12189eb5443756717729a8c7b52905af.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/12/18/12189eb5443756717729a8c7b52905af.jpg 1x",
       "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
       "price": "22.25",
       "product-name": "Gu energy chews orange 60g",
@@ -30,6 +33,7 @@
     {
       "id": "4", 
       "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/bf/90/bf9083dafd372fbbcb11e07cb870c9a7.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/01/17/0117beaef99c98dbeb3bdb383ea0a331.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/01/17/0117beaef99c98dbeb3bdb383ea0a331.jpg 1x",
       "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
       "price": "21.75",
       "product-name": "Santa Bremor seafood paste Antarctic Krill classic 150g",
@@ -39,6 +43,7 @@
     {
       "id": "5", 
       "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/8b/df/8bdf80d4d80ebd7b70b0dac0663fc0a7.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/8b/df/8bdf80d4d80ebd7b70b0dac0663fc0a7.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/8b/df/8bdf80d4d80ebd7b70b0dac0663fc0a7.jpg 1x",
       "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
       "price": "33.25",
       "product-name": "Santa Bremor caviar cream salmon and avocado glass jar 180g",
@@ -48,6 +53,7 @@
     {
       "id": "6", 
       "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/2b/75/2b75eab81dc3bc7fe452d944ccb03af8.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/da/ac/daac7cd301c557035eb5fdaad7124dfc.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/da/ac/daac7cd301c557035eb5fdaad7124dfc.jpg 1x",
       "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
       "price": "120.00",
       "product-name": "Santa Bremor salmon caviar tin 140g",
@@ -57,6 +63,7 @@
     {
       "id": "7", 
       "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/72/fb/72fb175ee6d38c76b845fdf76f7813b9.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/e6/77/e677043837c6efe439ade283ee4ff49f.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/e6/77/e677043837c6efe439ade283ee4ff49f.jpg 1x",
       "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
       "price": "23.25",
       "product-name": "Santa Bremor herring fillet pieces original 200g",
@@ -66,6 +73,7 @@
     {
       "id": "8", 
       "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/69/03/69034138f96f363c3e07e0a3a117d5a4.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/ff/ff/ffff7409c85cce783155b09850854011.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/ff/ff/ffff7409c85cce783155b09850854011.jpg 1x",
       "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
       "price": "29.50",
       "product-name": "Drivers chunky piccalilli 350g",
@@ -75,6 +83,7 @@
     {
       "id": "9", 
       "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/d9/68/d968a2a491a987e64c237f0b58fa83a6.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/fe/e9/fee9517c9e0fe9e75ae8adbd10274b77.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/fe/e9/fee9517c9e0fe9e75ae8adbd10274b77.jpg 1x",
       "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
       "price": "29.50",
       "product-name": "Drivers spicy mango chutney 350g",
@@ -84,6 +93,7 @@
     {
       "id": "10", 
       "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/ff/ff/ffff7409c85cce783155b09850854011.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/5a/27/5a27dd974e0169871817c27ba4c66312.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/5a/27/5a27dd974e0169871817c27ba4c66312.jpg 1x",
       "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
       "price": "39.00",
       "product-name": "Canderel with stevia low calorie sweetener 100 sachets 200g",
@@ -93,6 +103,7 @@
     {
       "id": "11", 
       "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/7b/e4/7be4b0dfdb60f419dbacccf845ccd845.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/8d/58/8d58a2478b5764b233759870591564ed.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/8d/58/8d58a2478b5764b233759870591564ed.jpg 1x",
       "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
       "price": "7.00",
       "product-name": "Carbury caramel ice cream cone 110ml",
@@ -102,6 +113,7 @@
     {
       "id": "12", 
       "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/ff/83/ff83c029f74c1d08d3afcb367caccc62.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/da/c2/dac2144908a246a81286f3b56fad3066.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/da/c2/dac2144908a246a81286f3b56fad3066.jpg 1x",
       "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
       "price": "8.00",
       "product-name": "Toblerone ice cream stick 90ml",
@@ -111,6 +123,7 @@
     {
       "id": "13", 
       "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/70/4f/704f0281cbf83737e3645e6bd0794a3f.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/7b/e4/7be4b0dfdb60f419dbacccf845ccd845.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/7b/e4/7be4b0dfdb60f419dbacccf845ccd845.jpg 1x",
       "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
       "price": "24.00",
       "product-name": "Good Good strawberry jam no added sugar 330g",
@@ -120,6 +133,7 @@
     {
       "id": "14", 
       "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/eb/16/eb1627ff3ac13f014982e1f724088e64.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/ff/83/ff83c029f74c1d08d3afcb367caccc62.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/ff/83/ff83c029f74c1d08d3afcb367caccc62.jpg 1x",
       "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
       "price": "22.25",
       "product-name": "Florida's natural lemonade 1.6l",
@@ -129,6 +143,7 @@
     {
       "id": "15", 
       "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/78/20/7820e148f67d54efe1a2cf7f750e3fab.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/42/41/4241367ba3f81c6cdf9fcf8c2b695b46.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/42/41/4241367ba3f81c6cdf9fcf8c2b695b46.jpg 1x",
       "new-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
       "price": "23.25",
       "product-name": "Ben and Jerry's chocolate fudge brownie ice cream 476g",

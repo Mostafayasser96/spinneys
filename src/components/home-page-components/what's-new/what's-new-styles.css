@@ -1,6 +1,8 @@
 .whatsNew {
   margin-top: 5%;
+  border-bottom: 1px solid #fafafa;
 }
+
 .whatsNew-heading {
   padding: 2%;
 }
@@ -49,20 +51,152 @@
   margin-top: 7px;
 }
 
+.product {
+  border: 1px solid #fafafa;
+}
+
+.splide__arrow {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border: 1px solid lightgrey;
+}
+
+.splide__arrow svg {
+  height: 12px;
+
+}
+
+.product-card {
+  cursor: pointer;
+}
+
+.product-link {
+  display: block;
+  height: 311px;
+}
+
+.product-img {
+  position: absolute;
+  height: 59%;
+  width: 97%;
+  left: 3%;
+}
+
+.padge {
+  height: 30px;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  right: 3%;
+}
+
+.product-buttons {
+  height: 52px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 14px;
+  visibility: hidden;
+}
+
+.overlay {
+  position: absolute;
+  background-color: #000;
+  opacity: .16;
+  height: 56%;
+  width: 100%;
+  z-index: 3;
+  visibility: hidden;
+}
+
+.splide__slide:hover + .overlay {
+  visibility: visible!important;
+}
+.splide__slide:hover+.product-buttons {
+  visibility: visible !important;
+}
+
+.remove-btn,
+.add-btn {
+  width: 50%;
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.product-info {
+  padding: 24px;
+  text-align: left;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.price {
+  font-weight: 500;
+  color: #1A1A1A;
+  font-size: 16px;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.name {
+  height: 70px;
+}
+
+.name-link {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: #8C8C8C;
+  opacity: .7;
+  font-weight: 100 !important;
+}
+
+.name-link:hover {
+  color: #8C8C8C;
+}
+
+.rest {
+  display: flex;
+  width: 47%;
+}
+
+.rest:hover {
+  border-bottom: 1px solid #212529;
+  cursor: pointer;
+}
+
+.more-info {
+  text-decoration: none;
+  color: #212529;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.more-info:hover {
+  color: #212529;
+}
+
+.carousel-control-next-icon {
+  margin-left: 9px;
+  width: 10px;
+}
+
 @media (min-width: 0px) and (max-width: 500px) {
   .address1 {
     margin-bottom: 0px;
     font-weight: 300;
     font-size: 20px;
   }
+
   .address2 {
     font-weight: 200;
     font-size: 13px;
     margin-bottom: 30px;
   }
+
   .shop-now {
     width: 30%;
   }
+
   .view-more {
     height: 50%;
     font-size: 12px;
@@ -70,11 +204,13 @@
 
   }
 }
+
 @media (min-width: 500px) and (max-width: 900px) {
   .address2 {
     font-size: 14px;
     text-align: left;
   }
+
   .shop-now {
     width: 20%;
   }

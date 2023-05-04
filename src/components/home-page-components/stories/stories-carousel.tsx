@@ -3,7 +3,7 @@ import "../stories/stories-styles.css";
 import { Splide } from '@splidejs/splide';
 import '@splidejs/splide/css';
 import 'bootstrap/dist/css/bootstrap.css';
-
+import '@splidejs/splide/css/core';
 
 const MyStories = () => {
 	const stories = [
@@ -65,7 +65,7 @@ const MyStories = () => {
 
 
 	useEffect(() => {
-		var splide = new Splide('.splide', {
+		const splide = new Splide('.splide', {
 			perPage: 4,
 			perMove: 1,
 			gap: '2rem',

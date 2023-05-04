@@ -13,22 +13,10 @@
       margin-bottom: 30px;
    }
 
-   /* .splide__arrow--next {
-      right: 10% !important;
-      height: 50px !important;
-      width: 50px !important;
-   }
-
-   .splide__arrow--prev {
-      left: 10% !important;
-      height: 50px !important;
-      width: 50px !important;
-   } */
-
    .splide__arrow span,
    .splide__arrow span {
-      height: 50px!important;
-      width: 50px!important;
+      height: 50px !important;
+      width: 50px !important;
    }
 }
 
@@ -57,7 +45,7 @@
    }
 
    .splide__arrow:hover {
-      background-color: white!important;
+      background-color: white !important;
    }
 
    .splide__pagination {
