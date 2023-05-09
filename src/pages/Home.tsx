@@ -3,6 +3,7 @@ import MyStories from "../components/home-page-components/stories/stories-carous
 import WhatsNew from "../components/home-page-components/what's-new/what's-new";
 import MyNavbar from "../components/mutual-components/navbar/navbar";
 import MyFooter from "../components/mutual-components/footer/footer";
+import SpinneysFood from "../components/home-page-components/spinneysfood/spinneysfood";
 
 
 
@@ -12,7 +13,8 @@ const Home = () => {
       <MyNavbar />
       <MyStories />
       <WhatsNew />
-      <MyFooter />
+      <SpinneysFood />
+      <MyFooter />    
     </div>
 
   )

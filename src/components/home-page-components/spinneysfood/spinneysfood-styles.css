@@ -1,0 +1,345 @@
+  .spinneys-food {
+    padding: 70px 2% !important;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .category {
+    text-align: left;
+    width: 25%;
+    height: 520px;
+  }
+
+  .cat-img {
+    position: absolute;
+    z-index: 1;
+    width: 24%;
+    height: 520px;
+  }
+
+  .cat-overlay {
+    width: 24%;
+    height: 520px;
+    position: absolute;
+    z-index: 2;
+    background-color: #000;
+    opacity: .45;
+  }
+
+  .cat-banner {
+    position: absolute;
+    z-index: 3;
+    width: 11%;
+    margin-top: 75px;
+    left: 9%;
+  }
+
+  .cat-p {
+    position: absolute;
+    z-index: 3;
+    width: 20%;
+    padding-top: 20%;
+    text-align: center;
+    margin-left: 2%;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 100;
+  }
+
+  .spinneys-food .splide {
+    width: 75%;
+  }
+
+  .category .shop-btn {
+    color: white;
+    background-color: transparent;
+    padding: 3px 6px;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    position: absolute;
+    z-index: 3;
+    margin-top: 32%;
+    margin-left: 7%;
+    padding: 0px;
+  }
+
+  .category .shop-btn:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .category .shop-btn .view-more {
+    height: 42%;
+    color: #FFFFFF;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px 25px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    outline: none;
+    transition: .5s;
+  }
+
+  .category .shop-btn .view-more:hover {
+    background-color: #FFFFFF;
+    color: #8C8C8C;
+  }
+
+  .category .view-more svg {
+    margin-top: 9px;
+    margin-left: 15px;
+  }
+
+  .view-more .shop-now-svg:hover path {
+    fill: #8C8C8C;
+  }
+
+  .spinneys-food .splide {
+    padding: 0px;
+  }
+
+  .spinneys-food .splide .splide__slide .product {
+    height: 520px;
+  }
+
+  .spinneys-food .splide .splide__slide .product .product-img {
+    height: 55%;
+  }
+
+  .spinneys-food .splide .splide__slide .product .overlay {
+    position: absolute;
+    height: 61%;
+    width: 100%;
+    background-color: black;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .spinneys-food .splide .splide__slide .product .ctr {
+    position: absolute;
+    transform: translate(0%, -98%);
+  }
+
+  .spinneys-food .splide .splide__slide .product:hover .overlay {
+    opacity: .2;
+  }
+
+  .spinneys-food .splide .splide__slide .product .product-card {
+    height: 290;
+  }
+
+  .spinneys-food .splide .splide__slide .product .product-img {
+    height: 290px;
+  }
+
+  .spinneys-food .splide .splide__slide .product .product-info {
+    padding: 21px;
+  }
+
+  .spinneys-food .splide .splide__slide .rest {
+    width: 55%;
+  }
+
+  .spinneys-food .splide .splide__slide .rest .more-info {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+  }
+
+  .spinneys-food .splide .splide__slide .rest .more-info:hover {
+    color: #007bff;
+  }
+
+  .spinneys-food .splide .splide__arrows .splide__arrows--ltr .splide__arrow .splide__arrow--prev {
+    margin-right: 20px;
+    left: 0rem;
+  }
+
+  .spinneys-food .splide .splide__arrows .splide__arrows--ltr .splide__arrow .splide__arrow--next {
+    right: 0rem;
+  }
+
+  .spinneys-food .splide .splide__slide .product .product-info .name {
+    height: 55px;
+  }
+
+  @media (min-width: 0px) and (max-width: 500px) {
+    .spinneys-food {
+      padding: 10px 2% !important;
+      border-bottom: 1px solid #fafafa;
+    }
+
+    .shop-btn:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .category,
+    .cat-overlay,
+    .cat-img {
+      width: 50%;
+      height: 450px;
+    }
+
+    .cat-banner {
+      width: 30%;
+      margin-top: 50px;
+      left: 10%;
+    }
+
+    .cat-p {
+      width: 43%;
+      padding-top: 50%;
+      font-size: 15px;
+    }
+
+    .category .shop-btn {
+      margin-top: 78%;
+      margin-left: 9%;
+    }
+
+    .spinneys-food .splide {
+      width: 50%;
+    }
+
+    .spinneys-food .splide .splide__slide .product {
+      height: 450px;
+    }
+
+    .spinneys-food .splide .splide__slide .product .product-card,
+    .spinneys-food .splide .splide__slide .product .product-img {
+      height: 260px;
+    }
+
+    .spinneys-food .splide .splide__slide .product .overlay,
+    .spinneys-food .splide .splide__slide .product .product-buttons {
+      display: none;
+    }
+
+    .spinneys-food .splide .splide__slide .rest {
+      width: 80%;
+    }
+
+    .spinneys-food .splide .splide__slide .rest .more-info {
+      font-size: 13px;
+    }
+
+    .spinneys-food .splide .splide__slide .product .product-info .add-remove {
+      margin-top: 4px;
+    }
+
+    .spinneys-food .splide .splide__slide .product .product-info .name {
+      height: 50px;
+      margin-bottom: 0px;
+    }
+
+    .spinneys-food .splide .splide__slide .product .product-info .name .name-link {
+      font-size: 10px;
+    }
+
+    .spinneys-food .splide .splide__slide .product .product-info .add-remove {
+      margin-top: 10px !important;
+      height: 40px;
+      margin-top: 0px;
+    }
+
+    .spinneys-food .splide .splide__slide .product .product-info .add-remove .remove,
+    .spinneys-food .splide .splide__slide .product .product-info .add-remove .add {
+      padding: 5px;
+    }
+
+    .spinneys-food .splide .splide__slide .product .product-info .add-remove .remove .remove-product,
+    .spinneys-food .splide .splide__slide .product .product-info .add-remove .add .add-product {
+      height: 16px;
+    }
+
+    .spinneys-food .splide .splide__slide .product .product-info .add-remove .count {
+      padding: 7px;
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 900px) {
+    .shop-btn:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .category,
+    .cat-overlay,
+    .cat-img {
+      width: 30%;
+      height: 480px;
+    }
+
+    .cat-banner {
+      width: 18%;
+      margin-top: 40px;
+      left: 8%;
+    }
+
+    .cat-p {
+      padding-top: 30%;
+      margin-left: 4%;
+      font-size: 15px;
+      width: 20%;
+    }
+
+    .spinneys-food .category .shop-btn {
+      margin-top: 46%;
+      margin-left: 6%;
+
+    }
+
+    .spinneys-food .splide {
+      width: 70%;
+    }
+
+    .spinneys-food .splide .splide__slide .product {
+      height: 480px;
+    }
+
+    .spinneys-food .splide .splide__slide .product .product-card,
+    .spinneys-food .splide .splide__slide .product .product-img {
+      height: 260px;
+    }
+
+    .spinneys-food .splide .splide__slide .product .overlay,
+    .spinneys-food .splide .splide__slide .product .product-buttons {
+      display: none;
+    }
+
+    .spinneys-food .splide .splide__slide .rest {
+      width: 61%;
+      margin-bottom: 20px;
+    }
+
+    .spinneys-food .splide .splide__slide .product .product-info .add-remove {
+      margin-top: 10px;
+    }
+
+    .spinneys-food .splide .splide__slide .product .product-info .name {
+      height: 50px;
+      margin-bottom: 15px;
+    }
+
+    .spinneys-food .splide .splide__slide .product .product-info .add-remove {
+      height: 40px;
+      margin-top: 0px;
+    }
+
+    .spinneys-food .splide .splide__slide .product .product-info .add-remove .remove,
+    .spinneys-food .splide .splide__slide .product .product-info .add-remove .add {
+      padding: 5px;
+    }
+
+    .spinneys-food .splide .splide__slide .product .product-info .add-remove .remove .remove-product,
+    .spinneys-food .splide .splide__slide .product .product-info .add-remove .add .add-product {
+      height: 16px;
+    }
+
+    .spinneys-food .splide .splide__slide .product .product-info .add-remove .count {
+      padding: 7px;
+    }
+  }

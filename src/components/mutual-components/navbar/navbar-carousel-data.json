@@ -1,0 +1,22 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/images/Ramadan-Mob-Banner_20233_573uANM.original.jpg",
+      "alt": "Ramadan Mob",
+      "caption": "Prepare for Ramadan with these essentials"
+    },
+    {
+      "id": 2,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/images/Newness-FEB20-EN-Mob.original.jpg",
+      "alt": "English Mob",
+      "caption": "Shop our wide range of new products"
+    },
+    {
+      "id": 3,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/images/March-TFE-EN-mob.original.jpg",
+      "alt": "March mob",
+      "caption": "Bringing you the fresher experience straight to your door. Explore our wide range of products, recipes and articles."
+    }
+  ]
+}

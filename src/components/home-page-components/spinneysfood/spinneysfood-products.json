@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "price": "20.00",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/27/f8/27f81a9f994bab4f5300da271e94634f.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/27/f8/27f81a9f994bab4f5300da271e94634f.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/27/f8/27f81a9f994bab4f5300da271e94634f.jpg 1x",
+      "name": "SpinneysFOOD Extra Virgin Olive Oil With Chilli Pepper 250ml",
+      "product-src": "/en-ae/catalogue/spinneysfood-extra-virgin-olive-oil-with-chilli-pepper-250ml_46864/",
+      "rest": "/en-ae/catalogue/category/food-cupboard/cooking-ingredients-oils/olive-oils_499/"
+    },
+    {
+      "id": "2",
+      "price": "10.00",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/42/47/424752ae705c018c89c159e65e19d069.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/42/47/424752ae705c018c89c159e65e19d069.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/42/47/424752ae705c018c89c159e65e19d069.jpg 1x",
+      "name": "SpinneysFOOD Spaghetti 500g",
+      "product-src": "/en-ae/catalogue/spinneysfood-spaghetti-500g_16245/",
+      "rest": "/en-ae/catalogue/category/food-cupboard/cooking-ingredients-oils/olive-oils_499/"
+    },
+    {
+      "id": "3",
+      "price": "24.00",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/bb/b0/bbb0995ed69992b81edf2a21cd8ec5cc.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/bb/b0/bbb0995ed69992b81edf2a21cd8ec5cc.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/bb/b0/bbb0995ed69992b81edf2a21cd8ec5cc.jpg 1x",
+      "name": "SpinneysFOOD organic balsamic vinegar of modena 250ml",
+      "product-src": "/en-ae/catalogue/sf-org-balsamic-vinegar-of-modena-250ml_15826/",
+      "rest": "/en-ae/catalogue/category/food-cupboard/condiments-table-sauces_487/"
+    },
+    {
+      "id": "4",
+      "price": "10.50",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/37/19/37197015e407618d71ca1713240c8665.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/37/19/37197015e407618d71ca1713240c8665.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/37/19/37197015e407618d71ca1713240c8665.jpg 1x",
+      "name": "SpinneysFOOD freeze dried Italian herbs 8g",
+      "product-src": "/en-ae/catalogue/spinneysfood-italian-herbs-freeze-8g_11684/",
+      "rest": "/en-ae/catalogue/category/food-cupboard/cooking-ingredients-oils/herbs-spices/dried-herbs_652/"
+    },
+    {
+      "id": "5",
+      "price": "26.50",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/7f/bf/7fbf16810cb83522c53fba8cd879d15b.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/7f/bf/7fbf16810cb83522c53fba8cd879d15b.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/7f/bf/7fbf16810cb83522c53fba8cd879d15b.jpg 1x",
+      "name": "SpinneysFOOD Parmigiano Regianno Cheese 200g",
+      "product-src": "/en-ae/catalogue/spinneysfood-parmigiano-reggiano-pdo-cheese-200g_56201/",
+      "rest": "/en-ae/catalogue/category/dairy-deli-chilled-foods/cheese/grated-sliced/grated/mozzarella-parmigiano_413/"
+    }
+  ]
+}

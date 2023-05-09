@@ -1,15 +1,14 @@
-.splide {
+.stories .splide {
    padding: 2%;
 }
 
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
+.story-arrow-svg {
    filter: invert(50%);
-   height: 20px !important;
+   height: 20px;
 }
 
 @media (min-width: 0px) and (max-width: 500px) {
-   .splide {
+   .stories .splide {
       margin-bottom: 30px;
    }
 
@@ -18,34 +17,41 @@
       height: 50px !important;
       width: 50px !important;
    }
+
+   .stories .splide__arrows .splide__arrow {
+      top: 37%;
+   }
 }
 
 @media (min-width: 500px) and (max-width: 900px) {
-   .splide {
+   .stories .splide {
       padding: 2%;
    }
 
-   .splide__list {
-      height: 287px !important;
+   .stories .splide .splide__list {
+      height: 287px;
    }
 
-   .carousel-control-next-icon,
-   .carousel-control-prev-icon {
-      filter: invert(100%) !important;
-      height: 14px !important;
-      background-color: transparet !important;
+   .stories .splide__arrows .splide__arrow {
+      top: 37%;
+   }
+
+   .story-arrow-svg {
+      filter: invert(30%);
+      height: 14px;
+      background-color: transparet;
    }
 }
 
 @media (min-width: 900px) and (max-width: 1326px) {
-   .splide__arrow {
-      height: 50px !important;
-      width: 50px !important;
-      background: white !important;
+   .stories .splide .splide__arrows .splide__arrow {
+      height: 50px;
+      width: 50px;
+      background: white;
    }
 
-   .splide__arrow:hover {
-      background-color: white !important;
+   .stories .splide .splide__arrows .splide__arrow:hover {
+      background-color: white;
    }
 
    .splide__pagination {

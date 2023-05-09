@@ -1,15 +1,17 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "../what's-new/what's-new-styles.css";
-// import { Splide } from '@splidejs/splide';
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-// import '@splidejs/splide/css';
-// import '@splidejs/splide/css/core';
+import '@splidejs/splide/css';
+import '@splidejs/splide/css/core';
 import 'bootstrap/dist/css/bootstrap.css';
 import Products from "./what's-new-products.json";
-
+import { Offcanvas } from "react-bootstrap";
+import OffcanvasRight from "../../offcanvas-components/offcanvas-right";
 
 const WhatsNew = () => {
-
+  const [show, setShow] = useState<boolean>(false);
+  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false);
 
 
   return (
@@ -33,26 +35,40 @@ const WhatsNew = () => {
         perPage: 4,
         pagination: false,
         breakpoints: {
+          500: {
+            perPage: 1,
+            perMove: 1,
+            pagination: false,
+            gap: '.7rem',
+            height: '20rem'
+          },
+          900: {
+            perPage: 2,
+            perMove: 1,
+            gap: '2rem',
+            pagination: false,
+            height: '10rem'
+          },
 
-        }
+        },
       }}>
         {Products.products.map((product, i) => (
           <SplideSlide key={i}>
             <div className="product">
               <div className="product-card">
-               
+
                 <a className="product-link" href={product["product-src"]} >
                   <img className="product-img" alt="product" src={product["product-src"]} srcSet={product.srcset} />
                   <img className="padge" alt="new padge" src={product["new-padge"]} />
                 </a>
 
               </div>
-              <div className="overlay"></div>
+              <div className="overlay ctr"></div>
               <div className="product-buttons">
-                <button className="remove-btn">
+                <button className="remove-btn"  onClick={handleShow}>
                   <img className="remove-product" alt="Remove" src="https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/minus-green.6302dea6e804.svg" />
                 </button>
-                <button className="add-btn">
+                <button className="add-btn"  onClick={handleShow}>
                   <img className="add-product" alt="Add" src="https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/plus-green.bad8810df108.svg" />
                 </button>
               </div>
@@ -69,17 +85,38 @@ const WhatsNew = () => {
                   <a className="more-info" href={product["rest-src"]}>
                     Rest of the aisle
                   </a>
-                  <span className="carousel-control-next-icon"></span>
+                  <svg className="whatsnew-arrow-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="30" height="10" focusable="false">
+                    <path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path>
+                  </svg>
                 </div>
-
+                <div className="add-remove d-none" onClick={handleShow}>
+                  <div className="remove">
+                    <img className="remove-product" alt="Remove" src="https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/minus-green.6302dea6e804.svg" />
+                  </div>
+                  <div className="count">
+                    0
+                  </div>
+                  <div className="add">
+                    <img className="add-product" alt="Add" src="https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/plus-green.bad8810df108.svg" />
+                  </div>
+                </div>
               </div>
-
             </div>
-
 
           </SplideSlide>
         ))}
       </Splide>
+
+      <Offcanvas show={show} onHide={handleClose} placement="end">
+        <Offcanvas.Header closeButton>
+          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+          Some text as placeholder. In real life you can have the elements you
+          have chosen. Like, text, images, lists, etc.
+        </Offcanvas.Body>
+      </Offcanvas>
+
     </div>
   )
 }

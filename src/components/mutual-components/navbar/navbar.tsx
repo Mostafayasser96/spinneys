@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import '../navbar/navbar-styles.css';
 import { Carousel } from 'react-bootstrap';
+import Menu from "../navbar/navbar-carousel-data.json";
 
 const MyNavbar = () => {
   return (
@@ -120,40 +121,21 @@ const MyNavbar = () => {
           </div>
         </div>
       </nav>
-
       <Carousel className='carousel' interval={null}>
-        <Carousel.Item>
-          <img src="https://prod-spinneys-cdn-new.azureedge.net/media/images/Ramadan-Mob-Banner_20233_573uANM.original.jpg"
-            className="carousel-img d-block w-100" alt="Ramadan Mob" />
-
-          <Carousel.Caption>
-            <p className='caption'>Prepare for Ramadan with these essentials</p>
-            <button className='shop-btn text-uppercase' type='button'>Shop Now</button>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src="https://prod-spinneys-cdn-new.azureedge.net/media/images/Newness-FEB20-EN-Mob.original.jpg"
-            className="carousel-img d-block w-100 object-fit-cover" alt="English Mob" />
-
-          <Carousel.Caption>
-            <p className='caption'>
-              Shop our wide range of new products
-            </p>
-            <button className='shop-btn text-uppercase' type='button'>Shop Now</button>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src="https://prod-spinneys-cdn-new.azureedge.net/media/images/March-TFE-EN-mob.original.jpg"
-            className="carousel-img d-block w-100" alt="March mob" />
-
-          <Carousel.Caption>
-            <p className='caption'>
-              Bringing you the fresher experience straight to your door. Explore our wide range of products, recipes and articles.
-            </p>
-            <button className='shop-btn text-uppercase' type='button'>Shop Now</button>
-          </Carousel.Caption>
-        </Carousel.Item>
+        {Menu.menu.map((element) => (
+          <Carousel.Item key={element.id} >
+            <img src={element.src} className="carousel-img d-block w-100" alt={element.alt} />
+            <Carousel.Caption>
+              <p className='caption'> {element.caption} </p>
+              <button className='shop-btn text-uppercase' type='button'>
+                Shop Now
+              </button>
+            </Carousel.Caption>
+          </Carousel.Item>
+        ))}
       </Carousel>
+
+
 
     </div>
   )

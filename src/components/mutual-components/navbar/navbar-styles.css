@@ -195,12 +195,14 @@
   color: black;
 }
 
+
 /* end of carousel styles */
 
 @media (min-width: 0px) and (max-width: 500px) {
   .header {
     margin-bottom: 30px;
   }
+  
   .shop,
   .recipes,
   .lifestyle,
