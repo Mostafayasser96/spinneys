@@ -1,0 +1,341 @@
+.new-in-store {
+  padding: 70px 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-banner {
+  text-align: left;
+  width: 25%;
+  height: 520px;
+}
+
+.cat-img {
+  position: absolute;
+  z-index: 1;
+  width: 24%;
+  height: 520px;
+}
+
+.cat-overlay {
+  width: 24%;
+  height: 520px;
+  position: absolute;
+  z-index: 2;
+  background-color: #000;
+  opacity: .45;
+}
+
+.cat-p {
+  position: absolute;
+  z-index: 3;
+  width: 96%;
+  padding-top: 50%;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 100;
+}
+
+.category-banner .view-recipe {
+  color: white;
+  background-color: transparent;
+  padding: 3px 6px;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'IBM Plex Sans', sans-serif;
+  position: absolute;
+  z-index: 3;
+  bottom: 15%;
+  left: 23%;
+  padding: 0px;
+}
+
+.category-banner .view-recipe:hover {
+  background-color: white;
+  color: black;
+}
+
+.category-banner .view-recipe .view-more {
+  height: 42%;
+  color: #FFFFFF;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px 25px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  outline: none;
+  transition: .5s;
+}
+
+.category-banner .view-recipe .view-more:hover {
+  background-color: #FFFFFF;
+  color: #8C8C8C;
+}
+
+.category-banner .view-more svg {
+  margin-top: 9px;
+  margin-left: 15px;
+}
+
+.view-more .view-recipe-svg:hover path {
+  fill: #8C8C8C;
+}
+
+.new-in-store .splide {
+  padding: 0px;
+  width: 75%;
+}
+
+.new-in-store .splide .splide__slide {
+  height: 520px;
+}
+
+.new-in-store .splide .splide__slide .product-img {
+  height: 55%;
+}
+
+.new-in-store .splide .splide__slide .overlay {
+  position: absolute;
+  height: 61%;
+  width: 100%;
+  background-color: black;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.new-in-store .splide .splide__slide .ctr {
+  position: absolute;
+  transform: translate(0%, -98%);
+}
+
+.new-in-store .splide .splide__slide:hover .overlay {
+  opacity: .2;
+}
+
+.new-in-store .splide .splide__slide .product-card {
+  height: 290;
+}
+
+.new-in-store .splide .splide__slide .product-img {
+  height: 290px;
+}
+
+.new-in-store .splide .splide__slide .product-info {
+  padding: 21px;
+}
+
+.new-in-store .splide .splide__slide .rest {
+  width: 55%;
+}
+
+.new-in-store .splide .splide__slide .rest .more-info {
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+}
+
+.new-in-store .splide .splide__slide .rest .more-info:hover {
+  color: #007bff;
+}
+
+.new-in-store .splide .splide__arrows .splide__arrows--ltr .splide__arrow .splide__arrow--prev {
+  margin-right: 20px;
+  left: 0rem;
+}
+
+.new-in-store .splide .splide__arrows .splide__arrows--ltr .splide__arrow .splide__arrow--next {
+  right: 0rem;
+}
+
+.new-in-store .splide .splide__slide .product-info .name {
+  height: 55px;
+}
+
+
+@media (min-width: 0px) and (max-width: 500px) {
+  .new-in-store {
+    padding: 10px 2% !important;
+    display: block;
+    border-bottom: 1px solid #fafafa;
+  }
+
+  .view-recipe:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .category-banner,
+  .cat-overlay,
+  .cat-img {
+    width: 95%;
+    height: 450px;
+  }
+
+  .cat-p {
+    width: 95%;
+    font-size: 20px;
+  }
+
+  .new-in-store .category-banner .view-recipe {
+    left: 30%!important;
+  }
+
+  .new-in-store .splide .splide__slide .product-card,
+  .new-in-store .splide .splide__slide .product-img,
+  .new-in-store .splide .splide__slide .product {
+    height: 260px;
+    width: 99%;
+  }
+
+  .new-in-store .splide .splide__slide .overlay,
+  .new-in-store .splide .splide__slide .product-buttons {
+    display: none;
+  }
+
+  .new-in-store .splide {
+    width: 100%;
+  }
+
+  .new-in-store .splide .splide__slide {
+    height: 450px;
+  }
+
+  .new-in-store .splide .splide__slide .rest {
+    width: 80%;
+  }
+
+  .new-in-store .splide .splide__track .splide__list .splide__slide .price {
+    font-size: 18px;
+  }
+
+  .new-in-store .splide .splide__track .splide__list .splide__slide .name .name-link {
+    font-size: 15px;
+  }
+
+  .new-in-store .splide .splide__slide .rest .more-info {
+    font-size: 18px;
+  }
+
+  .new-in-store .splide .splide__slide .product-info .add-remove {
+    margin-top: 4px;
+  }
+
+  .new-in-store .splide .splide__slide .product-info .name {
+    height: 50px;
+    margin-bottom: 0px;
+  }
+
+  .new-in-store .splide .splide__slide .product-info .add-remove {
+    margin-top: 0px;
+    height: 60px;
+    margin-top: 10px!important;
+  }
+
+  .new-in-store .splide .splide__slide .product-info .add-remove .remove,
+  .new-in-store .splide .splide__slide .product-info .add-remove .add {
+    padding: 10px;
+  }
+
+  .new-in-store .splide .splide__slide .product-info .add-remove .remove .remove-product,
+  .new-in-store .splide .splide__slide .product-info .add-remove .add .add-product {
+    height: 16px;
+  }
+
+  .new-in-store .splide .splide__slide .product-info .add-remove .count {
+    padding: 18px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+  .new-in-store {
+    padding: 30px 2%;
+    display: block;
+  }
+
+  .view-recipe:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .new-in-store .category-banner,
+  .category-banner .cat-overlay,
+  .category-banner .cat-img {
+    width: 95%;
+    height: 480px;
+  }
+
+  .cat-p {
+    font-size: 19px;
+    width: 94%;
+    text-align: center;
+  }
+
+  .new-in-store .category-banner .view-recipe {
+    width: 22%;
+    left: 31%;
+    height: 70px;
+  }
+
+  .category-banner .view-recipe .view-more {
+    height: 100%;
+    padding: 21px 25px;
+    font-size: 16px;
+  }
+
+  .category-banner .view-more .view-recipe-svg {
+    margin-top: 12px;
+    margin-left: 10px;
+  }
+
+  .new-in-store .splide {
+    width: 99%;
+    margin-top: 20px;
+  }
+
+  .new-in-store .splide .splide__slide {
+    height: 480px;
+  }
+
+  .new-in-store .splide .splide__slide .product-card,
+  .new-in-store .splide .splide__slide .product-img,
+  .new-in-store .splide .splide__slide .product-card .product-link {
+    height: 260px;
+    width: 97%;
+  }
+
+  .new-in-store .splide .splide__slide .overlay,
+  .new-in-store .splide .splide__slide .product-buttons {
+    display: none;
+  }
+
+  .new-in-store .splide .splide__slide .rest {
+    width: 61%;
+    margin-bottom: 20px;
+  }
+
+  .new-in-store .splide .splide__slide .product-info .name {
+    height: 50px;
+    margin-bottom: 0px;
+  }
+
+  .new-in-store .splide .splide__slide .product-info .add-remove {
+    height: 60px;
+    margin-top: 20px !important;
+  }
+
+  .new-in-store .splide .splide__slide .product-info .add-remove .remove,
+  .new-in-store .splide .splide__slide .product-info .add-remove .add {
+    padding: 10px !important;
+  }
+
+  .new-in-store .splide .splide__slide .product-info .add-remove .remove .remove-product,
+  .new-in-store .splide .splide__slide .product-info .add-remove .add .add-product {
+    height: 20px !important;
+  }
+
+  .new-in-store .splide .splide__slide .product-info .add-remove .count {
+    padding: 18px;
+  }
+}

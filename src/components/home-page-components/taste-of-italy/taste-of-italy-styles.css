@@ -285,6 +285,7 @@
     font-weight: 200;
     font-size: 13px;
     margin-bottom: 30px;
+    text-align: left;
   }
 
   .taste-of-italy .taste-heading .shop-now {
@@ -313,10 +314,10 @@
     display: none;
   }
 
-  .add-remove {
+  .taste-of-italy .splide .splide__track .splide__list .splide__slide .product-info .add-remove {
     display: flex !important;
     justify-content: space-around !important;
-    margin-top: 33px !important;
+    margin-top: 33px;
   }
 
   .remove {

@@ -5,6 +5,7 @@ import MyNavbar from "../components/mutual-components/navbar/navbar";
 import MyFooter from "../components/mutual-components/footer/footer";
 import SpinneysFood from "../components/home-page-components/spinneysfood/spinneysfood";
 import TasteofItaly from "../components/home-page-components/taste-of-italy/taste-of-italy";
+import NewinStore from "../components/home-page-components/new-in-store/new-in-store";
 
 
 
@@ -16,7 +17,7 @@ const Home = () => {
       <WhatsNew />
       <SpinneysFood />
       <TasteofItaly />
-
+      <NewinStore />
       <MyFooter />
     </div>
 

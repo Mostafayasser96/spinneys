@@ -69,6 +69,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## Ads space.
 ## SPINNEYSFOOD carousel.
 ## Taste of Italy.
+## New in store.
 ## Fruit & Vegetables.
 ## The Big Grill.
 ## Recipe Inspiration.

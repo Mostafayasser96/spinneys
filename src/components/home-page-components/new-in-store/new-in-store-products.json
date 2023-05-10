@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/b6/08/b6085abb8703a0865c60b04338622c17.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/b6/08/b6085abb8703a0865c60b04338622c17.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/b6/08/b6085abb8703a0865c60b04338622c17.jpg 1x",
+      "price": "13.25 / Each",
+      "product-name": "Waitrose French creme fraiche 200ml",
+      "product-src": "/en-ae/catalogue/wr-french-creme-fraiche-full-fat-200ml_11028/",
+      "rest-src": "/en-ae/catalogue/category/dairy-deli-chilled-foods/milk-cream/cream_434/"
+    },
+    {
+      "id": "2",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/7d/b2/7db27bf2061afa077e413c309a9943ed.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/7d/b2/7db27bf2061afa077e413c309a9943ed.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/7d/b2/7db27bf2061afa077e413c309a9943ed.jpg 1x",
+      "price": "3.95 / Each",
+      "product-name": "SpinneysFOOD Fresh Basil Kenya 100g",
+      "product-src": "/en-ae/catalogue/spinneys-food-fresh-basil-kenya-100g_1785/",
+      "rest-src": "/en-ae/catalogue/category/fruit-vegetables/salad-herbs/fresh-herbs_543/"
+    },
+    {
+      "id": "3",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/0c/54/0c540a8c0d827afab3d850896ae5ef92.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/0c/54/0c540a8c0d827afab3d850896ae5ef92.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/0c/54/0c540a8c0d827afab3d850896ae5ef92.jpg 1x",
+      "price": "7.50 / Each",
+      "product-name": "SpinneysFOOD extra fine caster sugar 1kg",
+      "product-src": "/en-ae/catalogue/spinneysfood-extra-fine-caster-sugar-1kg_13398/",
+      "rest-src": "/en-ae/catalogue/category/food-cupboard/sugar-home-baking/sugar_512/"
+    },
+    {
+      "id": "4",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/fa/d9/fad9de807cd4918e0f1ec16292c26c30.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/fa/d9/fad9de807cd4918e0f1ec16292c26c30.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/fa/d9/fad9de807cd4918e0f1ec16292c26c30.jpg 1x",
+      "price": "2.85 / Each",
+      "product-name": "SpinneysFOOD Full Fat Fresh Cow's Milk 500ml",
+      "product-src": "/en-ae/catalogue/spinneysfood-full-fat-fresh-cows-milk-500ml_46094/",
+      "rest-src": "/en-ae/catalogue/category/dairy-deli-chilled-foods/milk-cream/milk/full-fat_442/"
+    },
+    {
+      "id": "5",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/91/21/9121df9fc89e8cb06213235dc92d458a.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/91/21/9121df9fc89e8cb06213235dc92d458a.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/91/21/9121df9fc89e8cb06213235dc92d458a.jpg 1x",
+      "price": "38.50 / Each",
+      "product-name": "Driscoll's strawberries 425g",
+      "product-src": "/en-ae/catalogue/driscolls-strawberries-425g_50207/",
+      "rest-src": "/en-ae/catalogue/category/fruit-vegetables/fruit/berries/strawberries-raspberries_524/"
+    }
+  ]
+}
