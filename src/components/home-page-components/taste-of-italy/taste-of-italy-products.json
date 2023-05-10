@@ -1,0 +1,97 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/c6/c5/c6c56d31a91257e497b937e0588c3cc2.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/c6/c5/c6c56d31a91257e497b937e0588c3cc2.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/c6/c5/c6c56d31a91257e497b937e0588c3cc2.jpg 1x",
+      "country-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/new.3a16cd745b40.svg",
+      "price": "36.75 / Each",
+      "product-name": "SpinneysFOOD Italian Extra Virgin Olive Oil 500ml",
+      "product-src": "/en-ae/catalogue/spinneysfood-italian-extra-virgin-olive-oil-500ml_46867/",
+      "rest-src": "/en-ae/catalogue/category/food-cupboard/cooking-ingredients-oils/olive-oils_499/"
+    },
+    {
+      "id": "2",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/e0/9a/e09abadb1f8599cac3f05470a2d660a8.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/e0/9a/e09abadb1f8599cac3f05470a2d660a8.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/e0/9a/e09abadb1f8599cac3f05470a2d660a8.jpg 1x",
+      "price": "12.75 / Each",
+      "product-name": "SpinneysFOOD Balsamic Vinegar of Modena 250ml",
+      "product-src": "/en-ae/catalogue/sf-balsamic-vinegar-of-modena-250ml_15825/",
+      "rest-src": "/en-ae/catalogue/category/food-cupboard/condiments-table-sauces_487/"
+    },
+    {
+      "id": "3",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/71/a3/71a30c2e60b21da7dce790b443d5327e.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/71/a3/71a30c2e60b21da7dce790b443d5327e.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/71/a3/71a30c2e60b21da7dce790b443d5327e.jpg 1x",
+      "country-padge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/flags/ita.ca3c72694033.svg",
+      "price": "13.25 / Each",
+      "product-name": "SpinneysFOOD Ricotta 250g",
+      "product-src": "/en-ae/catalogue/spinneysfood-ricotta-250g_46027/",
+      "rest-src": "/en-ae/catalogue/category/dairy-deli-chilled-foods/cheese/soft-cheese-spreads/mozzarella-burrata-ricotta_426/"
+    },
+    {
+      "id": "4",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/45/1f/451f34ba22ce109bbb0812de4d1a4541.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/45/1f/451f34ba22ce109bbb0812de4d1a4541.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/45/1f/451f34ba22ce109bbb0812de4d1a4541.jpg 1x",
+      "price": "52.50 / Each",
+      "product-name": "Acqua Panna mineral 1.5ltr x6",
+      "product-src": "/en-ae/catalogue/acqua-panna-mineral-water-15ltr_5269/",
+      "rest-src": "/en-ae/catalogue/category/beverages/water/multipacks_876/"
+    },
+    {
+      "id": "5",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/e4/02/e40293c22176d4997e3b181a2972ea5b.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/e4/02/e40293c22176d4997e3b181a2972ea5b.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/e4/02/e40293c22176d4997e3b181a2972ea5b.jpg 1x",
+      "price": "8.50 / Each",
+      "product-name": "Waitrose chopped Italian tomatoes with herbs 400g",
+      "product-src": "/en-ae/catalogue/wr-chopped-tomatoes-with-herbs-400g_23533/",
+      "rest-src": "/en-ae/catalogue/category/food-cupboard/cans-tins-packets/tomatoes-pastes/chopped-plum-tomatoes_924/"
+    },
+    {
+      "id": "6",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/4c/55/4c5540a2001d04ca14afae72b107505c.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/4c/55/4c5540a2001d04ca14afae72b107505c.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/4c/55/4c5540a2001d04ca14afae72b107505c.jpg 1x",
+      "price": "4.25 / Each",
+      "product-name": "SpinneysFOOD cannellini beans 400g",
+      "product-src": "/en-ae/catalogue/spinneys-food-cannellini-beans-400g_5632/",
+      "rest-src": "/en-ae/catalogue/category/food-cupboard/cans-tins-packets/beans-pulses_469/"
+    },
+    {
+      "id": "7",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/00/3d/003d4911c2b42cd02e98d1defee05a63.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/00/3d/003d4911c2b42cd02e98d1defee05a63.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/00/3d/003d4911c2b42cd02e98d1defee05a63.jpg 1x",
+      "price": "24.25 / Each",
+      "product-name": "Mario Fongo grissini all'acqua 200g",
+      "product-src": "/en-ae/catalogue/mario-fongo-grissino-allacqua-200g_25955/",
+      "rest-src": "/en-ae/catalogue/category/food-cupboard/biscuits-crackers/crackers-savoury-biscuits_463/"
+    },
+    {
+      "id": "8",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/ea/ba/eaba61c8495daeb25381f6bc112872dd.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/ea/ba/eaba61c8495daeb25381f6bc112872dd.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/ea/ba/eaba61c8495daeb25381f6bc112872dd.jpg 1x",
+      "price": "22.25 / Each",
+      "product-name": "Waitrose Cooks' Ingredients sundried tomatoes 80g",
+      "product-src": "/en-ae/catalogue/wr-ci-sundried-tomatoes-80g_26393/",
+      "rest-src": "/en-ae/catalogue/category/food-cupboard/jars/antipasti-olives_666/"
+    },
+    {
+      "id": "9",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/1d/d3/1dd37a8b9c0c9f17d2d808eaf0e6bf46.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/1d/d3/1dd37a8b9c0c9f17d2d808eaf0e6bf46.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/1d/d3/1dd37a8b9c0c9f17d2d808eaf0e6bf46.jpg 1x",
+      "tooltip": "Roughly 100g per unit",
+      "price": "230.00 / Per Kg",
+      "product-name": "Rigamonti Italian bresaola air dried beef",
+      "product-src": "/en-ae/catalogue/bresaola-italin-dry-beef_25703/",
+      "rest-src": "/en-ae/catalogue/category/dairy-deli-chilled-foods/deli-counters/cold-meat-olives-antipasti_634/"
+    },
+    {
+      "id": "10",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/31/d9/31d945c77a1ede1c6c3a41bd55156a41.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/31/d9/31d945c77a1ede1c6c3a41bd55156a41.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/31/d9/31d945c77a1ede1c6c3a41bd55156a41.jpg 1x",
+      "price": "10.50 / Each",
+      "product-name": "SpinneysFOOD basil 50g",
+      "product-src": "/en-ae/catalogue/spinneys-food-basil-50g_1781/",
+      "rest-src": "/en-ae/catalogue/category/fruit-vegetables/salad-herbs/fresh-herbs_543/"
+    }
+  ]
+}

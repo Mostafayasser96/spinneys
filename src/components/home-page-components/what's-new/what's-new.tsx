@@ -26,7 +26,6 @@ const WhatsNew = () => {
             Shop Now
             <img className="shop-now-arrow" alt="view more" src="https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/arrow-right-grey.0942813cbb44.svg" />
           </a>
-
         </button>
       </div>
 

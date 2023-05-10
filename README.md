@@ -68,6 +68,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## What's new this month?.
 ## Ads space.
 ## SPINNEYSFOOD carousel.
+## Taste of Italy.
 ## Fruit & Vegetables.
 ## The Big Grill.
 ## Recipe Inspiration.
