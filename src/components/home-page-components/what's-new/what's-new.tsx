@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "../what's-new/what's-new-styles.css";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import '@splidejs/splide/css';
@@ -44,7 +44,6 @@ const WhatsNew = () => {
           900: {
             perPage: 2,
             perMove: 1,
-            gap: '2rem',
             pagination: false,
             height: '10rem'
           },

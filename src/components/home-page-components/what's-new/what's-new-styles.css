@@ -1,10 +1,15 @@
 .whatsNew {
-  margin-top: 5%;
+  padding-top: 5%;
   border-bottom: 1px solid #fafafa;
+  background-color: rgb(250, 250, 250);
 }
 
 .whatsNew-heading {
   padding: 2%;
+}
+
+.address {
+  text-align: left;
 }
 
 .address1 {
@@ -23,8 +28,10 @@
 }
 
 .shop-now {
-  width: 14%;
+  height: 42%;
+  width: 12%;
   border: none;
+  padding: 0px;
   color: #8C8C8C;
 }
 
@@ -59,6 +66,10 @@
   padding: 2%;
 }
 
+.whatsNew .splide .splide__track .splide__list .splide__slide {
+  background-color: white;
+}
+
 .splide__arrow {
   height: 50px;
   width: 50px;
@@ -68,7 +79,6 @@
 
 .splide__arrow svg {
   height: 12px;
-
 }
 
 .product-card {
@@ -101,8 +111,7 @@
 .product-img {
   position: absolute;
   height: 59%;
-  width: 97%;
-  left: 3%;
+  width: 100%;
 }
 
 .padge {
@@ -137,13 +146,13 @@
   background-color: #f9f9f9;
 }
 
-.product-info {
+.whatsNew .splide .splide__track .splide__list .splide__slide .product .product-info {
   padding: 24px;
   text-align: left;
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.price {
+.whatsNew .splide .splide__track .splide__list .splide__slide .product .product-info .price {
   font-weight: 500;
   color: #1A1A1A;
   font-size: 16px;
@@ -151,11 +160,11 @@
   margin-bottom: 12px;
 }
 
-.name {
+.whatsNew .splide .splide__track .splide__list .splide__slide .product .product-info .name {
   height: 70px;
 }
 
-.name-link {
+.whatsNew .splide .splide__track .splide__list .splide__slide .product .product-info .name .name-link {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 15px;
   text-decoration: none;
@@ -170,26 +179,26 @@
 
 .whatsNew .product .rest {
   display: flex;
-  width: 51%;
+  width: 58%;
 }
 
-.rest:hover {
+.whatsNew .product .rest:hover {
   border-bottom: 1px solid #212529;
   cursor: pointer;
 }
 
-.more-info {
+.whatsNew .splide .splide__track .splide__list .splide__slide .product .product-info {
   text-decoration: none;
   color: #212529;
   font-size: 14px;
   font-weight: 500;
 }
 
-.more-info:hover {
+.whatsNew .splide .splide__track .splide__list .splide__slide .product .product-info:hover {
   color: #212529;
 }
 
-.whatsnew-arrow-svg {
+.whatsNew .splide .splide__track .splide__list .splide__slide .product .product-info .rest .whatsnew-arrow-svg {
   margin-top: 6px;
 }
 
@@ -198,16 +207,22 @@
     margin-bottom: 50px;
   }
 
+  .address {
+    width: 77%;
+  }
+
   .address1 {
+    text-align: left;
     margin-bottom: 0px;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 23px;
   }
 
   .address2 {
+    text-align: left;
     font-weight: 200;
-    font-size: 13px;
-    margin-bottom: 30px;
+    font-size: 16px;
+    margin-bottom: 20px;
   }
 
   .shop-now {
@@ -234,6 +249,21 @@
 
   .product-buttons {
     display: none;
+  }
+
+  .whatsNew .splide .splide__track .splide__list .splide__slide .product .product-info .price {
+    font-size: 24px;
+  }
+
+  .whatsNew .splide .splide__track .splide__list .splide__slide .product .product-info .name .name-link {
+    font-size: 17px;
+  }
+
+  .whatsNew .splide .splide__track .splide__list .splide__slide .product .product-info .rest .more-info {
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    color: black;
   }
 
   .add-remove {
@@ -285,16 +315,30 @@
   .carousel-control-next-icon {
     margin-top: 2px;
   }
+
+  .whatsnew-arrow-svg {
+    margin-top: 9px;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 900px) {
   .whatsNew {
-    margin-bottom: 50px;
+    padding-bottom: 40px;
+  }
+
+  .address {
+    width: 75%;
+  }
+
+  .address1 {
+    font-size: 26px;
+    text-align: left;
   }
 
   .address2 {
-    font-size: 14px;
+    font-size: 17px;
     text-align: left;
+    margin-bottom: 15px;
   }
 
   .shop-now {
@@ -305,13 +349,42 @@
     height: 500px;
   }
 
+  .whatsNew .splide .splide__track .splide__list .splide__slide {
+    background-color: white;
+  }
+
+  .whatsNew .splide .splide__track .splide__list .splide__slide .product .product-info {
+    background-color: white;
+  }
+
   .overlay {
     display: none;
+  }
+
+  .whatsNew .splide .splide__track .splide__list .splide__slide .product .product-info .price {
+    font-size: 20px;
+  }
+
+  .whatsNew .splide .splide__track .splide__list .splide__slide .product .product-info .price .name .name-link {
+    font-size: 18px;
+  }
+
+  .whatsNew .splide .splide__track .splide__list .splide__slide .product .product-info .rest .more-info {
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    color: black;
+  }
+
+  .whatsNew .splide .splide__track .splide__list .splide__slide .product .product-info .rest .whatsnew-arrow-svg {
+    margin-top: 9px;
+
   }
 
   .product-buttons {
     display: none;
   }
+
 
   .add-remove {
     display: flex !important;

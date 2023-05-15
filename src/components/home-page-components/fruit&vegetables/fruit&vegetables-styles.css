@@ -1,14 +1,14 @@
-.taste-of-italy {
+#fruit-vegetables {
   margin-top: 5%;
   border-bottom: 1px solid #fafafa;
   background-color: rgb(250, 250, 250);
 }
 
-.taste-heading {
+#fruit-heading {
   padding: 2%;
 }
 
-.title {
+#title {
   font-family: 'IBM Plex Sans', sans-serif;
   margin-bottom: 2px;
   font-weight: 500;
@@ -16,28 +16,28 @@
   text-align: left;
 }
 
-.subtitle {
+#subtitle {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 300;
   font-size: 16px;
   color: #8C8C8C;
   margin-bottom: 40px;
+  text-align: left;
 }
 
-.taste-of-italy .taste-heading .shop-now {
-  width: 18%;
+#shop-now {
   height: 42%;
-  padding: 0px;
   width: 12%;
   border: none;
   color: #8C8C8C;
+  padding: 0px;
 }
 
-.taste-of-italy .taste-heading .shop-now:hover {
+#shop-now:hover {
   cursor: default;
 }
 
-.taste-of-italy .taste-heading .shop-now .view-more {
+#view-more {
   height: 42%;
   color: #8C8C8C;
   border: 1px solid #efefef;
@@ -47,20 +47,21 @@
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.taste-of-italy .taste-heading .shop-now .view-more:hover {
+#view-more:hover {
   color: #8C8C8C;
 }
 
-.shop-now-arrow {
+#shop-now-arrow {
   height: 7px;
   margin-top: 7px;
 }
 
-.splide_slide {
-  border: 1px solid #fafafa;
+.fruit-vegetables .splide__slide {
+  border: 1px solid #efefef;
+  background-color: white;
 }
 
-.taste-of-italy .splide {
+#splide {
   padding: 2%;
 }
 
@@ -76,22 +77,18 @@
 
 }
 
-.taste-of-italy .splide__slide {
-  background-color: white;
-}
-
-.product-card {
+#product-card {
   cursor: pointer;
 }
 
-.product-link {
+#product-link {
   display: block;
   height: 311px;
 }
 
-.overlay {
+#splide-slide .overlay {
   position: absolute;
-  height: 58%;
+  height: 60%;
   width: 100%;
   background-color: black;
   opacity: 0;
@@ -103,26 +100,38 @@
   transform: translate(0%, -98%);
 }
 
-.taste-of-italy .splide__track .splide__list .splide__slide:hover .overlay {
+.splide__slide:hover .overlay {
   opacity: .2;
 }
 
-.product-img {
+#product-img {
   position: absolute;
   height: 59%;
   width: 100%;
   left: 0%;
 }
 
-.padge {
-  height: 30px;
+#badges {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 20%;
   position: absolute;
   z-index: 2;
-  top: 50%;
   right: 3%;
+  bottom: 41%;
 }
 
-.product-buttons {
+#badge1,
+#badge2 {
+  height: 30px;
+  /* position: absolute; */
+  /* z-index: 2; */
+  /* top: 50%; */
+  /* right: 3%; */
+}
+
+#product-buttons {
   height: 52px;
   display: flex;
   justify-content: space-around;
@@ -130,29 +139,29 @@
   visibility: hidden;
 }
 
-.taste-of-italy .splide__track .splide__list .splide__slide:hover .product-buttons {
-  visibility: visible !important;
+.splide__slide:hover #product-buttons {
+  visibility: visible;
 }
 
-.remove-btn,
-.add-btn {
+#remove-btn,
+#add-btn {
   width: 50%;
   background-color: #FFFFFF;
   border: none;
 }
 
-.remove-btn:hover,
-.add-btn:hover {
+#remove-btn:hover,
+#add-btn:hover {
   background-color: #f9f9f9;
 }
 
-.product-info {
+#product-info {
   padding: 24px;
   text-align: left;
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.price {
+#price {
   font-weight: 500;
   color: #1A1A1A;
   font-size: 16px;
@@ -160,11 +169,11 @@
   margin-bottom: 12px;
 }
 
-.name {
+#name {
   height: 70px;
 }
 
-.name-link {
+#name-link {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 15px;
   text-decoration: none;
@@ -173,67 +182,186 @@
   font-weight: 100 !important;
 }
 
-.name-link:hover {
+#name-link:hover {
   color: #8C8C8C;
 }
 
-.taste-of-italy .splide .rest {
+#splide #rest {
   display: flex;
   width: 51%;
 }
 
-.taste-of-italy .splide .splide__track .splide__list .splide_slide .rest:hover {
+#rest:hover {
   border-bottom: 1px solid #212529;
   cursor: pointer;
 }
 
-.taste-of-italy .splide .splide__track .splide__list .splide_slide .rest .more-info {
+#more-info {
   text-decoration: none;
   color: #212529;
   font-size: 14px;
   font-weight: 500;
 }
 
-.taste-of-italy .splide .splide__track .splide__list .splide_slide .rest .more-info:hover {
+#more-info:hover {
   color: #212529;
 }
 
-.italy-arrow-svg {
+#fruit-arrow-svg {
   margin-top: 6px;
 }
 
-@media (min-width: 0px) and (max-width: 500px) {
-  .taste-of-italy {
+@media (min-width: 500px) and (max-width: 900px) {
+  #fruit-vegetables {
     margin-bottom: 50px;
   }
 
-  .titles {
-    width: 80%;
-  }
-  .title {
-    margin-bottom: 0px;
-    font-weight: 300;
-    font-size: 24px;
+  #product-info {
+    background-color: #FFFFFF;
   }
 
-  .subtitle {
+  #subtitle {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  #shop-now {
+    width: 20%;
+  }
+
+  #view-more {
+    padding: 13px 20px;
+  }
+
+  .splide__track {
+    height: 500px;
+  }
+
+  #splide-slide .overlay {
+    display: none;
+  }
+
+  #badges {
+    right: 0%;
+    bottom: 1%;
+  }
+
+  #price {
+    font-size: 20px;
+  }
+
+  #name-link {
+    font-size: 18px;
+  }
+
+  #product-buttons {
+    display: none;
+  }
+
+  #more-info {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+  }
+
+  #add-remove {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+  }
+
+  #remove {
+    border: 1px solid #fafafa;
+    width: 20%;
+    text-align: center;
+    min-height: 40px;
+    padding: 10px;
+  }
+
+  #add {
+    border: 1px solid #fafafa;
+    width: 20%;
+    text-align: center;
+    min-height: 40px;
+    padding: 10px;
+  }
+
+  #count {
+    border: 1px solid #fafafa;
+    color: #212529;
+    width: 60%;
+    text-align: center;
+    min-height: 40px;
+    padding: 18px;
+  }
+
+  #product-link {
+    height: 160px;
+  }
+
+  #product-img {
+    width: 100%;
+    height: 160px;
+    left: 0%;
+  }
+
+  /* #badge1,
+  #badge2 {
+    top: 80%;
+    right: 5%;
+  } */
+
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+  #fruit-vegetables {
+    margin-bottom: 50px;
+  }
+
+  #product-info {
+    background-color: #FFFFFF;
+  }
+
+  #titles {
+    width: 75%;
+  }
+
+  #title {
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 23px;
+  }
+
+  #subtitle {
     font-weight: 200;
     font-size: 16px;
     margin-bottom: 15px;
     text-align: left;
   }
 
-  .taste-of-italy .taste-heading .shop-now {
+  #badges {
+    right: 0%;
+    bottom: 40%;
+  }
+
+  #price {
+    font-size: 20px;
+  }
+
+  #name-link {
+    font-size: 18px;
+  }
+
+  #shop-now {
     width: 30%;
   }
 
-  .taste-of-italy .taste-heading .shop-now .view-more {
+  #view-more {
     height: 50%;
     font-size: 12px;
-    padding: 10px 6px;
+    padding: 15px 6px;
   }
 
-  .splide {
+  #splide {
     margin-bottom: 0px;
   }
 
@@ -241,38 +369,30 @@
     height: 500px;
   }
 
-  .splide__slide .overlay {
+  #splide-slide .overlay {
     display: none;
   }
 
-  .product-buttons {
+  #product-buttons {
     display: none;
   }
 
-  .product-info {
-    background-color: white;
-  }
-  .price {
-    font-size: 20px;
-  }
-
-  .name-link {
-    font-size: 17px;
-  }
-
-  .taste-of-italy .splide .splide__track .splide__list .splide__slide .product-info .rest .more-info {
-    text-decoration: none;
-    color: #1A1A1A;
+  #more-info {
     font-family: 'Roboto Slab', serif;
+    font-size: 18px;
   }
-  
-  .taste-of-italy .splide .splide__track .splide__list .splide__slide .product-info .add-remove {
+
+  #fruit-arrow-svg {
+    margin-top: 11px;
+  }
+
+  #add-remove {
     display: flex !important;
     justify-content: space-around !important;
     margin-top: 33px;
   }
 
-  .remove {
+  #remove {
     border: 1px solid #fafafa;
     width: 20%;
     text-align: center;
@@ -280,7 +400,7 @@
     padding: 10px;
   }
 
-  .add {
+  #add {
     border: 1px solid #fafafa;
     width: 20%;
     text-align: center;
@@ -288,7 +408,7 @@
     padding: 10px;
   }
 
-  .count {
+  #count {
     border: 1px solid #fafafa;
     color: #212529;
     width: 60%;
@@ -297,42 +417,35 @@
     padding: 18px;
   }
 
-  .product-link {
+  #product-link {
     height: 160px;
   }
 
-  .product-img {
+  #product-img {
     width: 100%;
     height: 180px;
     left: 0%;
   }
 
-  .padge {
+  /* #badge1,
+  #badge2 {
     top: 45%;
     right: 5%;
-  }
+  } */
 
-  .carousel-control-next-icon {
-    margin-top: 2px;
-  }
 }
 
 @media (min-width: 500px) and (max-width: 900px) {
-  .taste-of-italy {
-    padding-bottom: 50px;
-    margin-top: 0px;
+  #fruit-vegetables {
+    margin-bottom: 50px;
   }
 
-  .taste-of-italy .taste-heading .shop-now {
-    width: 20%;
-  }
-
-  .subtitle {
-    font-size: 17px;
+  #subtitle {
+    font-size: 14px;
     text-align: left;
   }
 
-  .shop-now {
+  #shop-now {
     width: 20%;
   }
 
@@ -340,26 +453,21 @@
     height: 500px;
   }
 
-  .splide__slide .overlay {
+  #splide-slide .overlay {
     display: none;
   }
 
-  .product-buttons {
+  #product-buttons {
     display: none;
   }
 
-  .taste-of-italy .splide .splide__track .splide__list .splide__slide .product-info .rest .more-info {
-    text-decoration: none;
-    color: #1A1A1A;
-    font-family: 'Roboto Slab', serif;
-  }
-  .add-remove {
+  #add-remove {
     display: flex !important;
     justify-content: space-around !important;
     margin-top: 45px !important;
   }
 
-  .remove {
+  #remove {
     border: 1px solid #fafafa;
     width: 20%;
     text-align: center;
@@ -367,7 +475,7 @@
     padding: 10px;
   }
 
-  .add {
+  #add {
     border: 1px solid #fafafa;
     width: 20%;
     text-align: center;
@@ -375,7 +483,7 @@
     padding: 10px;
   }
 
-  .count {
+  #count {
     border: 1px solid #fafafa;
     color: #212529;
     width: 60%;
@@ -384,23 +492,20 @@
     padding: 18px;
   }
 
-  .product-link {
+  #product-link {
     height: 160px;
   }
 
-  .product-img {
+  #product-img {
     width: 100%;
-    height: 177px;
+    height: 160px;
     left: 0%;
   }
 
-  .padge {
+  /* #badge1,
+  #badge2 {
     top: 80%;
     right: 5%;
-  }
-
-  .carousel-control-next-icon {
-    margin-top: 5px;
-  }
+  } */
 
 }

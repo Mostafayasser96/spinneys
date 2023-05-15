@@ -1,3 +1,8 @@
+.stories {
+   padding-top: 30px;
+   background-color: rgb(250, 250, 250);
+}
+
 .stories .splide {
    padding: 2%;
 }
@@ -9,7 +14,7 @@
 
 @media (min-width: 0px) and (max-width: 500px) {
    .stories .splide {
-      margin-bottom: 30px;
+      padding-bottom: 15px;
    }
 
    .splide__arrow span,
@@ -44,6 +49,9 @@
 }
 
 @media (min-width: 900px) and (max-width: 1326px) {
+   .stories {
+      padding-top: 30px;
+   }
    .stories .splide .splide__arrows .splide__arrow {
       height: 50px;
       width: 50px;

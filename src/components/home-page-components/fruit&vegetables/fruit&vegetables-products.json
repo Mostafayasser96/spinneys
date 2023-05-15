@@ -1,0 +1,137 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/78/92/789219f4c013a6e0011b6a4611346fe1.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/78/92/789219f4c013a6e0011b6a4611346fe1.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/78/92/789219f4c013a6e0011b6a4611346fe1.jpg 1x",
+      "price": "24.00 / Each",
+      "product-name": "SpinneysFOOD Spanish clementine with leaves 1kg",
+      "product-src": "/en-ae/catalogue/spinneysfood-spanish-clementine-with-leaves-1kg_36851/",
+      "rest-src": "/en-ae/catalogue/category/fruit-vegetables/fruit/citrus_525/"
+    },
+    {
+      "id": "2",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/02/e4/02e4fad33fd7876a9891644a0425166d.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/02/e4/02e4fad33fd7876a9891644a0425166d.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/02/e4/02e4fad33fd7876a9891644a0425166d.jpg 1x",
+      "price": "19.00 / Each",
+      "product-name": "Jackfruit Thailand 250g",
+      "product-src": "/en-ae/catalogue/jackfruit-thailand-250-g_29919/",
+      "rest-src": "/en-ae/catalogue/category/fruit-vegetables/fruit/tropical-exotic/exotic_536/"
+    },
+    {
+      "id": "3",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/41/17/4117324571adcd6e989b9f15ffe03c15.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/41/17/4117324571adcd6e989b9f15ffe03c15.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/41/17/4117324571adcd6e989b9f15ffe03c15.jpg 1x",
+      "price": "6.75 / Each",
+      "product-name": "Fresh herbs pot mint",
+      "product-src": "/en-ae/catalogue/local-herb-pots-mint_25269/",
+      "rest-src": "/en-ae/catalogue/category/fruit-vegetables/salad-herbs/fresh-herbs_543/"
+    },
+    {
+      "id": "4",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/0d/fb/0dfbb1c67082616ebaca6c574ae805bb.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/0d/fb/0dfbb1c67082616ebaca6c574ae805bb.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/0d/fb/0dfbb1c67082616ebaca6c574ae805bb.jpg 1x",
+      "country-badge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/flags/are.26ac1f68c61c.svg",
+      "price": "9.50 / Each",
+      "product-name": "Curly Kale Green",
+      "product-src": "/en-ae/catalogue/curly-kale-green_25256/",
+      "rest-src": "/en-ae/catalogue/category/fruit-vegetables/vegetables/spinach-greens-cabbage_559/"
+    },
+    {
+      "id": "5",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/4a/86/4a8663d723150e87798d5e0d4857ffae.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/4a/86/4a8663d723150e87798d5e0d4857ffae.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/4a/86/4a8663d723150e87798d5e0d4857ffae.jpg 1x",
+      "price": "27.25 / Each",
+      "product-name": "Randy Pac microwaveable spinach bag 255g",
+      "product-src": "/en-ae/catalogue/ready-pac-spinach-microwaveable-9-oz_25012/",
+      "rest-src": "/en-ae/catalogue/category/fruit-vegetables/salad-herbs/salad-bags_691/"
+    },
+    {
+      "id": "6",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/cd/22/cd22f60fc1bc400f2691018d92cbc302.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/cd/22/cd22f60fc1bc400f2691018d92cbc302.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/cd/22/cd22f60fc1bc400f2691018d92cbc302.jpg 1x",
+      "country-badge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/flags/usa.a3db80c240fc.svg",
+      "price": "23.25 / Each",
+      "product-name": "Ready Pac coleslaw bag 227g",
+      "product-src": "/en-ae/catalogue/usa-ready-pac-coleslaw-8oz_25009/",
+      "rest-src": "/en-ae/catalogue/category/fruit-vegetables/salad-herbs/salad-bags_691/"
+    },
+    {
+      "id": "7",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/5d/1d/5d1d4e8d9717c4bb23481f3d438e7ffa.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/5d/1d/5d1d4e8d9717c4bb23481f3d438e7ffa.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/5d/1d/5d1d4e8d9717c4bb23481f3d438e7ffa.jpg 1x",
+      "price": "8.00 / Each",
+      "product-name": "SpinneysFOOD chives bunch 50g",
+      "product-src": "/en-ae/catalogue/herbs-chives-fresh-50g_13857/",
+      "rest-src": "/en-ae/catalogue/category/fruit-vegetables/salad-herbs_539/"
+    },
+    {
+      "id": "8",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/21/13/2113815331bb4e0fd14bf86264cde4be.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/21/13/2113815331bb4e0fd14bf86264cde4be.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/21/13/2113815331bb4e0fd14bf86264cde4be.jpg 1x",
+      "price": "30.00 / Each",
+      "product-name": "SpinneysFOOD mixed berries 260g",
+      "product-src": "/en-ae/catalogue/sf-fresh-mix-berries_7933/",
+      "rest-src": "/en-ae/catalogue/category/fruit-vegetables/fruit/berries_521/"
+    },
+    {
+      "id": "9",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/3d/6e/3d6eae932fb6e17e84da73f6a699b27e.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/3d/6e/3d6eae932fb6e17e84da73f6a699b27e.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/3d/6e/3d6eae932fb6e17e84da73f6a699b27e.jpg 1x",
+      "organic-badge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/flags/organic.cd927f5ce70e.svg",
+      "price": "12.50 / Each",
+      "product-name": "SpinneysFOOD organic okra 250g pack",
+      "product-src": "/en-ae/catalogue/spinneys-food-organic-okra-local-per-250-gm-pack_7416/",
+      "rest-src": "/en-ae/catalogue/category/fruit-vegetables/vegetables/vegetables-of-the-world_560/"
+    },
+    {
+      "id": "10",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/82/3a/823a8cb878e13cdeaf5bb303ca3de43c.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/82/3a/823a8cb878e13cdeaf5bb303ca3de43c.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/82/3a/823a8cb878e13cdeaf5bb303ca3de43c.jpg 1x",
+      "price": "20.50 / Each",
+      "product-name": "SpinneysFOOD trimmed green beans 500g",
+      "product-src": "/en-ae/catalogue/spinneys-food-home-choice-trimmed-green-beans-500g_6298/",
+      "rest-src": "/en-ae/catalogue/category/fruit-vegetables/vegetables/beans-peas-sweetcorn_548/"
+    },
+    {
+      "id": "11",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/37/01/3701af9bcac95a4de5bcd0109d9f765a.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/37/01/3701af9bcac95a4de5bcd0109d9f765a.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/37/01/3701af9bcac95a4de5bcd0109d9f765a.jpg 1x",
+      "organic-badge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/flags/organic.cd927f5ce70e.svg",
+      "country-badge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/flags/are.26ac1f68c61c.svg",
+      "price": "9.00 / Each",
+      "product-name": "SpinneysFOOD Organic Cocumber 500g",
+      "product-src": "/en-ae/catalogue/spinneys-food-organic-cucumber-local-500g_6261/",
+      "rest-src": "/en-ae/catalogue/category/fruit-vegetables/salad-herbs/cucumbers_542/"
+    },
+    {
+      "id": "12",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/01/ca/01ca01fb557aad057907decb9d1c409b.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/01/ca/01ca01fb557aad057907decb9d1c409b.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/01/ca/01ca01fb557aad057907decb9d1c409b.jpg 1x",
+      "country-badge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/flags/omn.329bca9adf79.svg",
+      "price": "1.35 / Each",
+      "product-name": "Pak choi bunch Oman",
+      "product-src": "/en-ae/catalogue/pak-choi-bunch-oman_3527/",
+      "rest-src": "/en-ae/catalogue/category/fruit-vegetables/vegetables/spinach-greens-cabbage_559/"
+    },
+    {
+      "id": "13",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/6a/55/6a55e56c8ec9a5b54511978aa432aa39.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/6a/55/6a55e56c8ec9a5b54511978aa432aa39.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/6a/55/6a55e56c8ec9a5b54511978aa432aa39.jpg 1x",
+      "price": "126 / Each",
+      "product-name": "Fuji melon 1.4kg",
+      "product-src": "/en-ae/catalogue/fuji-melon-14kg_3415/",
+      "rest-src": "/en-ae/catalogue/category/fruit-vegetables/fruit/melons/sweet-rock-other-melons_529/"
+    },
+    {
+      "id": "14",
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/d9/a7/d9a7b1a5f8fd83e79ed2f6945acf2584.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/d9/a7/d9a7b1a5f8fd83e79ed2f6945acf2584.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/d9/a7/d9a7b1a5f8fd83e79ed2f6945acf2584.jpg 1x",
+      "country-badge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/flags/are.26ac1f68c61c.svg",
+      "price": "3.95 / Each",
+      "product-name": "Fresh lime leaves 20g",
+      "product-src": "/en-ae/catalogue/fresh-lime-leaves-20g_1776/",
+      "rest-src": "/en-ae/catalogue/category/fruit-vegetables/salad-herbs/fresh-herbs_543/"
+    }
+  ]
+}

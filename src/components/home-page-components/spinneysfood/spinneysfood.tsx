@@ -22,7 +22,7 @@ const SpinneysFood = () => {
           <a className="view-more w-100 d-flex justify-content-evenly text-decoration-none" href="https://www.spinneys.com/en-ae/catalogue/?selected_facets=is_new_exact%3ATrue&sort_by=boost-value">
             Shop Now
             <svg className="shop-now-svg" xmlns="http://www.w3.org/2000/svg" width="3.558" height="5.707" viewBox="0 0 3.558 5.707">
-              <path id="Path_388" data-name="Path 388" d="M1775.881,1072.323l2.5,2.5-2.5,2.5" transform="translate(-1775.527 -1071.97)" fill="none" stroke="#fff" strokeMiterlimit="10" stroke-width="1"></path>
+              <path id="Path_388" data-name="Path 388" d="M1775.881,1072.323l2.5,2.5-2.5,2.5" transform="translate(-1775.527 -1071.97)" fill="none" stroke="#fff" strokeMiterlimit="10" strokeWidth="1"></path>
             </svg>
           </a>
         </button>

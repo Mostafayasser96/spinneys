@@ -79,7 +79,7 @@ const MyStories = () => {
 				},
 				900: {
 					perPage: 2,
-					gap: '2rem',
+					gap: '1rem',
 					pagination: false,
 					height: '10rem'
 				},

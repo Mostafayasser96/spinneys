@@ -6,6 +6,7 @@ import MyFooter from "../components/mutual-components/footer/footer";
 import SpinneysFood from "../components/home-page-components/spinneysfood/spinneysfood";
 import TasteofItaly from "../components/home-page-components/taste-of-italy/taste-of-italy";
 import NewinStore from "../components/home-page-components/new-in-store/new-in-store";
+import FruitVegetables from "../components/home-page-components/fruit&vegetables/fruit-&-vegetables";
 
 
 
@@ -18,6 +19,7 @@ const Home = () => {
       <SpinneysFood />
       <TasteofItaly />
       <NewinStore />
+      <FruitVegetables />
       <MyFooter />
     </div>
 
