@@ -71,8 +71,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## Taste of Italy.
 ## New in store.
 ## Fruit & Vegetables.
-## The Big Grill.
 ## Recipe Inspiration.
+## The Big Grill.
 ## Spinneys Studio.
 ## Bakery.
 ## Flower Shop.

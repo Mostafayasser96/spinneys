@@ -1,5 +1,5 @@
 #fruit-vegetables {
-  margin-top: 5%;
+  padding-top: 2%;
   border-bottom: 1px solid #fafafa;
   background-color: rgb(250, 250, 250);
 }
@@ -125,10 +125,6 @@
 #badge1,
 #badge2 {
   height: 30px;
-  /* position: absolute; */
-  /* z-index: 2; */
-  /* top: 50%; */
-  /* right: 3%; */
 }
 
 #product-buttons {
@@ -213,15 +209,14 @@
 
 @media (min-width: 500px) and (max-width: 900px) {
   #fruit-vegetables {
-    margin-bottom: 50px;
+    padding-bottom: 20px;
   }
-
-  #product-info {
-    background-color: #FFFFFF;
+ 
+  #title {
+    font-size: 26px;
   }
-
   #subtitle {
-    font-size: 14px;
+    font-size: 17px;
     text-align: left;
   }
 
@@ -244,6 +239,10 @@
   #badges {
     right: 0%;
     bottom: 1%;
+  }
+
+  #product-info {
+    background-color: #FFFFFF;
   }
 
   #price {
@@ -304,21 +303,11 @@
     left: 0%;
   }
 
-  /* #badge1,
-  #badge2 {
-    top: 80%;
-    right: 5%;
-  } */
-
 }
 
 @media (min-width: 0px) and (max-width: 500px) {
   #fruit-vegetables {
-    margin-bottom: 50px;
-  }
-
-  #product-info {
-    background-color: #FFFFFF;
+    padding-bottom: 20px;
   }
 
   #titles {
@@ -336,11 +325,16 @@
     font-size: 16px;
     margin-bottom: 15px;
     text-align: left;
+    margin-top: 10px;
   }
 
   #badges {
     right: 0%;
     bottom: 40%;
+  }
+
+  #product-info {
+    background-color: #FFFFFF;
   }
 
   #price {
@@ -427,15 +421,9 @@
     left: 0%;
   }
 
-  /* #badge1,
-  #badge2 {
-    top: 45%;
-    right: 5%;
-  } */
-
 }
 
-@media (min-width: 500px) and (max-width: 900px) {
+/* @media (min-width: 500px) and (max-width: 900px) {
   #fruit-vegetables {
     margin-bottom: 50px;
   }
@@ -502,10 +490,6 @@
     left: 0%;
   }
 
-  /* #badge1,
-  #badge2 {
-    top: 80%;
-    right: 5%;
-  } */
+  
 
-}
+} */

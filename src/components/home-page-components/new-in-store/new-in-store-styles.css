@@ -27,7 +27,7 @@
   opacity: .45;
 }
 
-.new-in-store .category .cat-overlay .cat-p {
+.new-in-store .category-banner .cat-overlay .cat-p {
   position: absolute;
   z-index: 3;
   width: 96%;
@@ -92,6 +92,7 @@
 
 .new-in-store .splide .splide__slide {
   height: 520px;
+  background-color: white;
 }
 
 .new-in-store .splide .splide__slide .product-img {
@@ -175,8 +176,14 @@
   .cat-img {
     width: 95%;
     height: 450px;
+    opacity: .9;
   }
 
+  .new-in-store .category-banner .cat-overlay .cat-p {
+    margin-top: 44%;
+    text-align: center;
+    font-size: 22px;
+  }
 
   .new-in-store .category-banner .view-recipe {
     left: 30% !important;
@@ -266,7 +273,7 @@
     height: 480px;
   }
 
-  .new-in-store .category .cat-overlay .cat-p {
+  .new-in-store .category-banner .cat-overlay .cat-p {
     font-size: 22px;
     width: 99%;
     text-align: center;
@@ -274,17 +281,17 @@
     opacity: 1;
   }
 
-
   .new-in-store .category-banner .view-recipe {
     width: 22%;
-    left: 31%;
-    height: 70px;
+    left: 37%;
+    height: 58px;
   }
 
   .category-banner .view-recipe .view-more {
     height: 100%;
-    padding: 21px 25px;
+    padding: 15px 16px;
     font-size: 16px;
+    height: 58px;
   }
 
   .category-banner .view-more .view-recipe-svg {
@@ -299,18 +306,32 @@
 
   .new-in-store .splide .splide__slide {
     height: 480px;
+    border: 1px solid #fafafa;
   }
 
   .new-in-store .splide .splide__slide .product-card,
   .new-in-store .splide .splide__slide .product-img,
   .new-in-store .splide .splide__slide .product-card .product-link {
     height: 260px;
-    width: 97%;
+    width: 100%;
   }
 
   .new-in-store .splide .splide__slide .overlay,
   .new-in-store .splide .splide__slide .product-buttons {
     display: none;
+  }
+
+
+  .new-in-store .splide .splide__slide .product .product-info .price {
+    font-size: 22px;
+  }
+
+  .new-in-store .splide .splide__slide .product .product-info {
+    background-color: white;
+  }
+
+  .new-in-store .splide .splide__slide .product .product-info .name .name-link {
+    font-size: 17px;
   }
 
   .new-in-store .splide .splide__slide .rest {

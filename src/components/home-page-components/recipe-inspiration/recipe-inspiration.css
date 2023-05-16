@@ -1,0 +1,116 @@
+#recipe-inspiration {
+  padding-top: 2%;
+  border-bottom: 1px solid #fafafa;
+  background-color: rgb(250, 250, 250);
+}
+
+#recipe-heading {
+  padding: 2%;
+}
+
+#recipe-title {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: left;
+}
+
+#recipe-subtitle {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #8C8C8C;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+#recipe-shop-now {
+  height: 42%;
+  width: 12%;
+  border: none;
+  color: #8C8C8C;
+  padding: 0px;
+}
+
+#recipe-shop-now:hover {
+  cursor: default;
+}
+
+#recipe-view-more {
+  height: 42%;
+  color: #8C8C8C;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px 15px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#recipe-view-more:hover {
+  color: #8C8C8C;
+}
+
+#shop-now-arrow {
+  height: 7px;
+  margin-top: 7px;
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+  #recipe-inspiration {
+    padding-bottom: 20px;
+  }
+
+  #recipe-titles {
+    width: 75%;
+  }
+
+  #recipe-title {
+    font-size: 26px;
+  }
+
+  #recipe-subtitle {
+    font-size: 17px;
+    text-align: left;
+  }
+
+  #recipe-shop-now {
+    width: 20%;
+  }
+
+  #recipe-view-more {
+    padding: 13px 20px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+  #recipe-inspiration {
+    padding-bottom: 20px;
+  }
+
+  #recipe-titles {
+    width: 75%;
+  }
+
+  #recipe-title {
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 23px;
+  }
+
+  #recipe-subtitle {
+    font-weight: 200;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  #recipe-shop-now {
+    width: 32%;
+  }
+  
+  #recipe-view-more {
+    width: 100%;
+  }
+}

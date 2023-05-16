@@ -7,6 +7,7 @@ import SpinneysFood from "../components/home-page-components/spinneysfood/spinne
 import TasteofItaly from "../components/home-page-components/taste-of-italy/taste-of-italy";
 import NewinStore from "../components/home-page-components/new-in-store/new-in-store";
 import FruitVegetables from "../components/home-page-components/fruit&vegetables/fruit-&-vegetables";
+import RecipeInspiration from "../components/home-page-components/recipe-inspiration/recipe-inspiration";
 
 
 
@@ -20,6 +21,7 @@ const Home = () => {
       <TasteofItaly />
       <NewinStore />
       <FruitVegetables />
+      <RecipeInspiration />
       <MyFooter />
     </div>
 

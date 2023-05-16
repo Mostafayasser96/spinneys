@@ -142,7 +142,9 @@
     width: 55%;
   }
 
-  .spinneys-food .splide .splide__slide .rest .more-info {
+  .spinneys-food .splide .splide__slide .product-info .rest .more-info {
+    color: #212529;
+    text-decoration: none;
     font-family: 'Roboto Slab', serif;
     font-size: 16px;
   }
