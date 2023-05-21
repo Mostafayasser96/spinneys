@@ -1,0 +1,229 @@
+#lifestyle-reads {
+  padding-top: 2%;
+  border-bottom: 1px solid #fafafa;
+  background-color: rgb(250, 250, 250);
+  padding-bottom: 40px;
+}
+
+#lifestyle-heading {
+  padding: 2%;
+}
+
+#lifestyle-title {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: left;
+}
+
+#lifestyle-subtitle {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #8C8C8C;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+#shop-now {
+  height: 42%;
+  width: 12%;
+  border: none;
+  color: #8C8C8C;
+  padding: 0px;
+}
+
+#shop-now:hover {
+  cursor: default;
+}
+
+#view-more {
+  height: 42%;
+  color: #8C8C8C;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px 15px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#view-more:hover {
+  color: #8C8C8C;
+}
+
+#shop-now-arrow {
+  height: 7px;
+  margin-top: 7px;
+}
+
+#articles {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-right: 2%;
+}
+
+#article {
+  width: 384px;
+  height: 100%;
+  border: 1px solid #efefef;
+  background-color: #FFFFFF;
+}
+
+#article-link {
+  display: block;
+  width: 384px;
+  height: 384px;
+  cursor: pointer;
+}
+
+#article-img {
+  width: 384px;
+  height: 384px;
+  object-fit: cover;
+}
+
+#article-details {
+  padding: 60px 30px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#article-address {
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 30px;
+  color: #000000;
+  font-family: 'Roboto Slab', serif;
+}
+
+#article-caption {
+  font-size: 17px;
+  line-height: 22px;
+  color: #808080;
+  min-height: 48px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 200;
+  margin-bottom: 45px;
+}
+
+#cat {
+  color: #AE862E;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+#date {
+  font-size: 13px;
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+  #lifestyle-reads {
+    padding-bottom: 20px;
+  }
+
+  #lifestyle-title {
+    font-size: 26px;
+  }
+
+  #lifestyle-subtitle {
+    font-size: 17px;
+    text-align: left;
+  }
+
+  #shop-now {
+    width: 20%;
+  }
+
+  #view-more {
+    padding: 13px 20px;
+  }
+
+  #articles {
+    display: block;
+    padding-bottom: 50px;
+  }
+
+  #article,
+  #article-link,
+  #article-img {
+    width: 100%;
+  }
+
+  #article-address {
+    font-size: 50px;
+    margin-bottom: 45px;
+  }
+
+  #article-caption {
+    font-size: 21px;
+    line-height: 24px;
+  }
+
+  #cat {
+    font-size: 17px;
+  }
+
+  #date {
+    font-size: 17px;
+  }
+
+
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+  #lifestyle-reads {
+    padding-bottom: 20px;
+  }
+
+  #lifestyle-titles {
+    width: 75%;
+  }
+
+  #lifestyle-title {
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 23px;
+  }
+
+  #lifestyle-subtitle {
+    font-weight: 200;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  #articles {
+    display: block;
+    padding-bottom: 50px;
+  }
+
+  #article,
+  #article-link,
+  #article-img {
+    width: 100%;
+  }
+
+  #article-address {
+    font-size: 50px;
+    margin-bottom: 45px;
+  }
+
+  #article-caption {
+    font-size: 21px;
+    line-height: 24px;
+  }
+
+  #cat {
+    font-size: 17px;
+  }
+
+  #date {
+    font-size: 17px;
+  }
+}

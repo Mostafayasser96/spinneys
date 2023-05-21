@@ -1,0 +1,52 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/images/French-Butter-3569.2e16d0ba.fill-1200x640.jpg",
+      "url": "https://player.vimeo.com/progressive_redirect/playback/769746802/rendition/1080p/file.mp4?loc=external&signature=427b494dade426852eddecbde1c4d05b0b18ef6f99e298aca8cd595ded396c1b",
+      "title": "Recipe: Brown-butter leeks with toasted hazelnuts and sage",
+      "name": "Recipe: Brown-butter leeks with toasted hazelnuts and sage",
+      "length": "01:31"
+    },
+    {
+      "id": 2,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/images/French-Butter-3601-2.2e16d0ba.fill-1200x640.jpg",
+      "url": "https://player.vimeo.com/progressive_redirect/playback/769750553/rendition/1080p/file.mp4?loc=external&signature=58d65f5b750967068614b0c939561e4e17802ee0eca5ed33cd2ebe2177c2fc91",
+      "title": "Recipe: Butter-poached lobster Benedict",
+      "name": "Recipe: Butter-poached lobster Benedict",
+      "length": "01:38"
+    },
+    {
+      "id": 3,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/images/French-Butter-3585.2e16d0ba.fill-1200x640.jpg",
+      "url": "https://player.vimeo.com/progressive_redirect/playback/769752062/rendition/1080p/file.mp4?loc=external&signature=555a1a82bc997670709346fc691cb792302cfd61760cad57ca940744c98cd11c",
+      "title": "Recipe: Lemon, garlic and thyme butter-roasted chicken",
+      "name": "Recipe: Lemon, garlic and thyme butter-roasted chicken",
+      "length": "01:31"
+    },
+    {
+      "id": 4,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/images/DJI_0099_s2cnrtM.2e16d0ba.fill-1200x640.jpg",
+      "url": "https://player.vimeo.com/progressive_redirect/playback/771090588/rendition/1080p/file.mp4?loc=external&signature=338f128196c139f8807f53b16fbf0c1dba5bfaa1dc0b419dc97731b03c118395",
+      "title": "Taste the ocean with Mowi Ireland",
+      "name": "Taste the ocean with Mowi Ireland",
+      "length": "06:00"
+    },
+    {
+      "id": 5,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/images/stanbroke.2e16d0ba.fill-1200x640.jpg",
+      "url": "https://player.vimeo.com/progressive_redirect/playback/759002047/rendition/1080p/file.mp4?loc=external&signature=a4ece6ffb3bd807d56dafe67bfd4299544151b119a507eb7aa7c5c597c2f223f",
+      "title": "Meet our Aussie beef partners",
+      "name": "Meet our Aussie beef partners",
+      "length": "07:10"
+    },
+    {
+      "id": 6,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/images/nest-box-hens.2e16d0ba.fill-1200x640.jpg",
+      "url": "https://player.vimeo.com/progressive_redirect/playback/764145964/rendition/1080p/file.mp4?loc=external&signature=d42b667119293c11275778046f53d677438ef8e7ba7552fe19e3c83851fc3834",
+      "title": "Where do SpinneysFOOD Eggs come from?",
+      "name": "Where do SpinneysFOOD Eggs come from?",
+      "length": "05:17"
+    }
+  ]
+}

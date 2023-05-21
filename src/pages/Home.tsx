@@ -8,6 +8,10 @@ import TasteofItaly from "../components/home-page-components/taste-of-italy/tast
 import NewinStore from "../components/home-page-components/new-in-store/new-in-store";
 import FruitVegetables from "../components/home-page-components/fruit&vegetables/fruit-&-vegetables";
 import RecipeInspiration from "../components/home-page-components/recipe-inspiration/recipe-inspiration";
+import SpinneysStudio from "../components/home-page-components/spinneys-studio/spinneys-studio";
+import Bakery from "../components/home-page-components/bakery/bakery";
+import FlowerShop from "../components/home-page-components/flower-shop/flower-shop";
+import LifestyleReads from "../components/home-page-components/lifestyle-reads/lifestyle-reads";
 
 
 
@@ -22,6 +26,10 @@ const Home = () => {
       <NewinStore />
       <FruitVegetables />
       <RecipeInspiration />
+      <SpinneysStudio />
+      <Bakery />
+      <FlowerShop />
+      <LifestyleReads />
       <MyFooter />
     </div>
 

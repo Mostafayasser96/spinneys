@@ -56,9 +56,91 @@
   margin-top: 7px;
 }
 
+.splide {
+  padding: 2%;
+}
+
+#recipe-box {
+  cursor: pointer;
+}
+
+#recipe-img-link {
+  display: block;
+  height: 100%;
+}
+
+#recipe-img {
+  height: 404px;
+  width: 100%;
+}
+
+#bookmark {
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#bookmark-mark:hover {
+  fill: white;
+}
+
+#recipe-info {
+  padding: 20px;
+  background-color: #FFFFFF;
+  height: 260px;
+}
+
+#recipe-link {
+  text-decoration: none;
+  color: #1A1A1A;
+}
+
+#recipe-name {
+  font-family: 'Roboto Slab', serif;
+  text-align: left;
+  margin-bottom: 40px;
+  padding-bottom: 4px;
+}
+
+#sub-info {
+  text-align: left;
+  padding-top: 26%;
+}
+
+#recipe-country {
+  display: block;
+  color: #A3A3A3;
+  font-weight: 300;
+}
+
+#prop-time {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
 @media (min-width: 500px) and (max-width: 900px) {
   #recipe-inspiration {
     padding-bottom: 20px;
+  }
+
+  #recipe-img {
+    height: 290px;
+  }
+
+  #bookmark-mark:hover {
+    fill: white;
+  }
+
+  #recipe-link {
+    height: 30px;
+    display: block;
+    margin-bottom: 90px;
+  }
+  #recipe-name {
+    height: 100px;
+    margin-bottom: 25px;
   }
 
   #recipe-titles {
@@ -81,11 +163,31 @@
   #recipe-view-more {
     padding: 13px 20px;
   }
+
+  #sub-info {
+    padding-top: 0;
+  }
 }
 
 @media (min-width: 0px) and (max-width: 500px) {
   #recipe-inspiration {
     padding-bottom: 20px;
+  }
+
+  #recipe-img {
+    height: 302px;
+  }
+
+  #recipe-link {
+    height: 30px;
+    display: block;
+    margin-bottom: 70px;
+  }
+
+  #recipe-name {
+    height: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
 
   #recipe-titles {
@@ -109,8 +211,13 @@
   #recipe-shop-now {
     width: 32%;
   }
-  
+
   #recipe-view-more {
     width: 100%;
   }
+
+  #sub-info {
+    padding-top: 0px;
+  }
+
 }

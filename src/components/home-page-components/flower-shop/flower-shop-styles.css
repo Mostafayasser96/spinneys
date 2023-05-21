@@ -1,0 +1,70 @@
+.flower-shop {
+  height: 295px;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.flower-img {
+  height: 295px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.flower-txt {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  padding-top: 5%;
+}
+
+.flower-heading {
+  font-family: 'Pandu';
+  color: #FFFFFF;
+  line-height: 1;
+  margin: 0px 0px 30px;
+  text-align: center;
+  font-size: 78px;
+}
+
+.flower-p {
+  color: #FFFFFF;
+  padding: 0px 20px;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Noto Serif', serif;
+}
+
+.flower-shop-now {
+  border: none;
+  color: #8C8C8C;
+  padding: 0px;
+  border-radius: 5px;
+}
+
+.flower-shop-link {
+  color: #8C8C8C;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 15px 25px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-decoration: none;
+  display: block;
+}
+
+.flower-arrow {
+  margin-left: 10px;
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+  .flower-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+  .flower-heading {
+    font-size: 50px;
+  }
+}

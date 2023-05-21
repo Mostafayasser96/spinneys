@@ -1,0 +1,184 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/8b/98/8b98746a1fa2c2a864745866288ba43a.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/8b/98/8b98746a1fa2c2a864745866288ba43a.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/8b/98/8b98746a1fa2c2a864745866288ba43a.jpg 1x",
+      "price": "12.75 / Each",
+      "product-name": "Munchbox chocolate keto croissant 50g",
+      "product-src": "/en-ae/catalogue/munchbox-chocolate-keto-croissant-50g_54370/",
+      "rest-src": "/en-ae/catalogue/category/bakery/crumpets-croissants-pastries/croissants_610/"
+    },
+    {
+      "id": 2,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/86/80/868019393b6e4d5e9c5d192c6dcd1a47.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/86/80/868019393b6e4d5e9c5d192c6dcd1a47.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/86/80/868019393b6e4d5e9c5d192c6dcd1a47.jpg 1x",
+      "price": "17.00 / Each",
+      "product-name": "Mountain bread quinoa wraps x8 200g",
+      "product-src": "/en-ae/catalogue/mountain-bread-quinoa-wraps-200g_32700/",
+      "rest-src": "/en-ae/catalogue/category/bakery/wraps-pitta-arabic-bread_343/"
+    },
+    {
+      "id": 3,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/87/40/87402d1a6671562ccf2426fb34717b09.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/87/40/87402d1a6671562ccf2426fb34717b09.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/87/40/87402d1a6671562ccf2426fb34717b09.jpg 1x",
+      "price": "5.25 / Each",
+      "product-name": "Multigrain rolls 40g x4",
+      "product-src": "/en-ae/catalogue/rolls-multi-cereal-40g_32692/",
+      "rest-src": "/en-ae/catalogue/category/bakery/rolls-baguettes-bagels_611/"
+    },
+    {
+      "id": 4,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/08/47/0847d778b893c6bd6f49dd63e63dc219.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/08/47/0847d778b893c6bd6f49dd63e63dc219.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/08/47/0847d778b893c6bd6f49dd63e63dc219.jpg 1x",
+      "price": "22.75 / Each",
+      "product-name": "Grahams mini Victoria sponge cakes 166g",
+      "product-src": "/en-ae/catalogue/grahams-victoria-sponge-mini-cakes-166g_32662/",
+      "rest-src": "/en-ae/catalogue/category/bakery/sweet-treats/brownies-muffins-cakes_341/"
+    },
+    {
+      "id": 5,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/50/67/5067a286119dfaff493ba9344c88b5d0.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/50/67/5067a286119dfaff493ba9344c88b5d0.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/50/67/5067a286119dfaff493ba9344c88b5d0.jpg 1x",
+      "price": "2.85 / Each",
+      "product-name": "Brown hot dog rolls x6 420g",
+      "product-src": "/en-ae/catalogue/brown-hot-dog-rolls-6s-420g_25194/",
+      "rest-src": "/en-ae/catalogue/category/bakery/rolls-baguettes-bagels_611/"
+    },
+    {
+      "id": 6,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/90/a1/90a1ee2faba26b8f0884a68ba5704a3d.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/90/a1/90a1ee2faba26b8f0884a68ba5704a3d.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/90/a1/90a1ee2faba26b8f0884a68ba5704a3d.jpg 1x",
+      "price": "11.75 / Each",
+      "product-name": "SpinneysFOOD carrot cake slice",
+      "product-src": "/en-ae/catalogue/sf-carrot-cake-large_25163/",
+      "rest-src": "/en-ae/catalogue/category/bakery/sweet-treats/brownies-muffins-cakes_341/"
+    },
+    {
+      "id": 7,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/da/12/da126072bcfadd2449f9bb8f881c0a2c.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/da/12/da126072bcfadd2449f9bb8f881c0a2c.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/da/12/da126072bcfadd2449f9bb8f881c0a2c.jpg 1x",
+      "price": "17.00 / Each",
+      "product-name": "Mountain corn wraps x8 200g",
+      "product-src": "/en-ae/catalogue/mountain-corn-bread-200g_23647/",
+      "rest-src": "/en-ae/catalogue/category/bakery/wraps-pitta-arabic-bread_343/"
+    },
+    {
+      "id": 8,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/df/f2/dff2500654cfbc3d25934bf577368e35.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/df/f2/dff2500654cfbc3d25934bf577368e35.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/df/f2/dff2500654cfbc3d25934bf577368e35.jpg 1x",
+      "price": "3.15 / Each",
+      "product-name": "Capricorn bakery pan de coco x2",
+      "product-src": "/en-ae/catalogue/capricorn-pande-coco-2s_22922/",
+      "rest-src": "/en-ae/catalogue/category/bakery/bread/flavoured_335/"
+    },
+    {
+      "id": 9,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/89/50/89506c5047ec3a2d63bad60fd286be2c.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/89/50/89506c5047ec3a2d63bad60fd286be2c.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/89/50/89506c5047ec3a2d63bad60fd286be2c.jpg 1x",
+      "price": "6.75 / Each",
+      "product-name": "Capricorn mongo bread",
+      "product-src": "/en-ae/catalogue/capricorn-mongo-bread_22750/",
+      "rest-src": "/en-ae/catalogue/category/bakery/bread/flavoured_335/"
+    },
+    {
+      "id": 10,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/42/26/4226d720340cc8baa2bf544e5acddde4.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/42/26/4226d720340cc8baa2bf544e5acddde4.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/42/26/4226d720340cc8baa2bf544e5acddde4.jpg 1x",
+      "price": "1.50 / Each",
+      "product-name": "Fruit pancake 80g",
+      "product-src": "/en-ae/catalogue/fruit-pancake-80g_21832/",
+      "rest-src": "/en-ae/catalogue/category/bakery/sweet-treats/waffles-scones-pancakes_613/"
+    },
+    {
+      "id": 11,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/d2/92/d2922510ad57bdf91083e8c94a53a579.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/d2/92/d2922510ad57bdf91083e8c94a53a579.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/d2/92/d2922510ad57bdf91083e8c94a53a579.jpg 1x",
+      "price": "39.75 / Each",
+      "product-name": "Petit Gourmet assorted backlava Burj Khalifa 250g",
+      "product-src": "/en-ae/catalogue/assorted-baklawa-burj-khalifa-250g_18487/",
+      "rest-src": "/en-ae/catalogue/category/bakery/sweet-treats/arabic_340/"
+    },
+    {
+      "id": 12,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/d8/bb/d8bbe205aef90cd247cdba08288f0812.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/d8/bb/d8bbe205aef90cd247cdba08288f0812.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/d8/bb/d8bbe205aef90cd247cdba08288f0812.jpg 1x",
+      "price": "13.75 / Each",
+      "product-name": "Mestematcher protein toast bread 260g",
+      "product-src": "/en-ae/catalogue/mestemacher-protein-toast-bread-260g_18104/",
+      "rest-src": "/en-ae/catalogue/category/bakery/bread/brown-wholemeal_608/"
+    },
+    {
+      "id": 13,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/4e/ab/4eab7413e6725c8b3e187d6d99bb9871.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/4e/ab/4eab7413e6725c8b3e187d6d99bb9871.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/4e/ab/4eab7413e6725c8b3e187d6d99bb9871.jpg 1x",
+      "price": "13.50 / Each",
+      "product-name": "SpinneysFOOD Chocolate Donut Pops x6 16g",
+      "product-src": "/en-ae/catalogue/chocolate-donut-pops-16g_14826/",
+      "rest-src": "/en-ae/catalogue/category/bakery/sweet-treats/brownies-muffins-cakes_341/"
+    },
+    {
+      "id": 14,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/e7/b5/e7b5cf580d86cdf2f95c07701a24eaf8.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/e7/b5/e7b5cf580d86cdf2f95c07701a24eaf8.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/e7/b5/e7b5cf580d86cdf2f95c07701a24eaf8.jpg 1x",
+      "price": "17.00 / Each",
+      "product-name": "Mountain Oat Bread Wraps 200g",
+      "product-src": "/en-ae/catalogue/mountain-oat-bread-wraps-200g_4851/",
+      "rest-src": "/en-ae/catalogue/category/bakery/wraps-pitta-arabic-bread_343/"
+    },
+    {
+      "id": 15,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/7d/1c/7d1ca7d8a312795b2b02752c3ffd16be.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/7d/1c/7d1ca7d8a312795b2b02752c3ffd16be.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/7d/1c/7d1ca7d8a312795b2b02752c3ffd16be.jpg 1x",
+      "price": "11.75 / Each",
+      "product-name": "SpinneysFOOD milk chocolate chunk cookies",
+      "product-src": "/en-ae/catalogue/spinneys-food-large-milk-chocolate-chunk-cookies_2087/",
+      "rest-src": "/en-ae/catalogue/category/bakery/sweet-treats/donuts-cookies-biscuits_612/"
+    },
+    {
+      "id": 16,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/7e/6b/7e6b88adac419a11c1bde622909e83ba.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/7e/6b/7e6b88adac419a11c1bde622909e83ba.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/7e/6b/7e6b88adac419a11c1bde622909e83ba.jpg 1x",
+      "price": "12.75 / Each",
+      "product-name": "SpinneysFOOD Banana Pound Cake 360g",
+      "product-src": "/en-ae/catalogue/spinneys-food-banana-pound-cake-360g_2078/",
+      "rest-src": "/en-ae/catalogue/category/bakery/sweet-treats/brownies-muffins-cakes_341/"
+    },
+    {
+      "id": 17,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/03/0b/030bcc65848653415580c8d4201b5932.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/03/0b/030bcc65848653415580c8d4201b5932.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/03/0b/030bcc65848653415580c8d4201b5932.jpg 1x",
+      "price": "13.25 / Each",
+      "product-name": "SpinneysFOOD blueberry muffin 270g",
+      "product-src": "/en-ae/catalogue/spinneys-food-blueberry-muffin-270g_2076/",
+      "rest-src": "/en-ae/catalogue/category/bakery/sweet-treats/brownies-muffins-cakes_341/"
+    },
+    {
+      "id": 18,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/27/df/27df6fb2440e35b5d4da33164c326fb1.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/27/df/27df6fb2440e35b5d4da33164c326fb1.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/27/df/27df6fb2440e35b5d4da33164c326fb1.jpg 1x",
+      "price": "19.00 / Each",
+      "product-name": "Specialite Locale soltana fingerellas 250g",
+      "product-src": "/en-ae/catalogue/specialite-locale-sultana-fingerellas-250g_2075/",
+      "rest-src": "/en-ae/catalogue/category/bakery/sweet-treats/brownies-muffins-cakes_341/"
+    },
+    {
+      "id": 19,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/48/dc/48dce58003c83c51a8fc98ae1c59714b.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/48/dc/48dce58003c83c51a8fc98ae1c59714b.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/48/dc/48dce58003c83c51a8fc98ae1c59714b.jpg 1x",
+      "price": "21.00 / Each",
+      "product-name": "Schar Mini Baguette Duo (2x75g)",
+      "product-src": "/en-ae/catalogue/schar-mini-baguette-duo-2x75g_2065/",
+      "rest-src": "/en-ae/catalogue/category/bakery/rolls-baguettes-bagels_611/"
+    },
+    {
+      "id": 20,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/ee/32/ee320e671e5479831f7660e37c5cfa57.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/ee/32/ee320e671e5479831f7660e37c5cfa57.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/ee/32/ee320e671e5479831f7660e37c5cfa57.jpg 1x",
+      "price": "25.25 / Each",
+      "product-name": "Schar Ciabattine 200g",
+      "product-src": "/en-ae/catalogue/schar-ciabattine-200g_453/",
+      "rest-src": "/en-ae/catalogue/category/bakery/rolls-baguettes-bagels_611/"
+    }
+  ]
+}

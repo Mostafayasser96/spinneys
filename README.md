@@ -72,7 +72,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## New in store.
 ## Fruit & Vegetables.
 ## Recipe Inspiration.
-## The Big Grill.
 ## Spinneys Studio.
 ## Bakery.
 ## Flower Shop.

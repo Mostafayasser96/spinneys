@@ -1,0 +1,449 @@
+#bakery {
+  padding-top: 2%;
+  border-bottom: 1px solid #fafafa;
+  background-color: rgb(250, 250, 250);
+}
+
+#bakery-heading {
+  padding: 2%;
+}
+
+#bakery-title {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: left;
+}
+
+#bakery-subtitle {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #8C8C8C;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+#bakery-shop-now {
+  height: 42%;
+  width: 12%;
+  border: none;
+  color: #8C8C8C;
+  padding: 0px;
+}
+
+#bakery-shop-now:hover {
+  cursor: default;
+}
+
+#bakery-view-more {
+  height: 42%;
+  color: #8C8C8C;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px 15px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#bakery-view-more:hover {
+  color: #8C8C8C;
+}
+
+#shop-now-arrow {
+  height: 7px;
+  margin-top: 7px;
+}
+
+.fruit-vegetables .splide__slide {
+  border: 1px solid #efefef;
+  background-color: white;
+}
+
+#splide {
+  padding: 2%;
+}
+
+.splide__arrow {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border: 1px solid lightgrey;
+}
+
+.splide__arrow svg {
+  height: 12px;
+
+}
+
+#product-card {
+  cursor: pointer;
+}
+
+#product-link {
+  display: block;
+  height: 311px;
+}
+
+#splide-slide .overlay {
+  position: absolute;
+  height: 60%;
+  width: 100%;
+  background-color: black;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.ctr {
+  position: absolute;
+  transform: translate(0%, -98%);
+}
+
+.splide__slide:hover .overlay {
+  opacity: .2;
+}
+
+#product-img {
+  position: absolute;
+  height: 59%;
+  width: 100%;
+  left: 0%;
+}
+
+#badges {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 20%;
+  position: absolute;
+  z-index: 2;
+  right: 3%;
+  bottom: 41%;
+}
+
+#badge1,
+#badge2 {
+  height: 30px;
+}
+
+#product-buttons {
+  height: 52px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 14px;
+  visibility: hidden;
+}
+
+.splide__slide:hover #product-buttons {
+  visibility: visible;
+}
+
+#remove-btn,
+#add-btn {
+  width: 50%;
+  background-color: #FFFFFF;
+  border: none;
+}
+
+#remove-btn:hover,
+#add-btn:hover {
+  background-color: #f9f9f9;
+}
+
+#product-info {
+  padding: 24px;
+  text-align: left;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#price {
+  font-weight: 500;
+  color: #1A1A1A;
+  font-size: 16px;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+#name {
+  height: 70px;
+}
+
+#name-link {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: #8C8C8C;
+  opacity: .7;
+  font-weight: 100 !important;
+}
+
+#name-link:hover {
+  color: #8C8C8C;
+}
+
+#splide #rest {
+  display: flex;
+  width: 51%;
+}
+
+#rest:hover {
+  border-bottom: 1px solid #212529;
+  cursor: pointer;
+}
+
+#more-info {
+  text-decoration: none;
+  color: #212529;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#more-info:hover {
+  color: #212529;
+}
+
+#fruit-arrow-svg {
+  margin-top: 6px;
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+  #bakery {
+    padding-bottom: 20px;
+  }
+
+  #recipe-img {
+    height: 290px;
+  }
+
+  #bookmark-mark:hover {
+    fill: white;
+  }
+
+  #recipe-link {
+    height: 30px;
+    display: block;
+    margin-bottom: 90px;
+  }
+
+  #recipe-name {
+    height: 100px;
+    margin-bottom: 25px;
+  }
+
+  #bakery-titles {
+    width: 75%;
+  }
+
+  #bakery-title {
+    font-size: 26px;
+  }
+
+  #bakery-subtitle {
+    font-size: 17px;
+    text-align: left;
+  }
+
+  #bakery-shop-now {
+    width: 20%;
+  }
+
+  #bakery-view-more {
+    padding: 13px 20px;
+  }
+
+  .splide__track {
+    height: 500px;
+  }
+
+  .splide__slide {
+    background-color: white;
+  }
+
+  #splide-slide .overlay {
+    display: none;
+  }
+
+  #badges {
+    right: 0%;
+    bottom: 1%;
+  }
+
+  #product-info {
+    background-color: #FFFFFF;
+  }
+
+  #price {
+    font-size: 20px;
+  }
+
+  #name-link {
+    font-size: 18px;
+  }
+
+  #product-buttons {
+    display: none;
+  }
+
+  #more-info {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+  }
+
+  #add-remove {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+  }
+
+  #remove {
+    border: 1px solid #fafafa;
+    width: 20%;
+    text-align: center;
+    min-height: 40px;
+    padding: 10px;
+  }
+
+  #add {
+    border: 1px solid #fafafa;
+    width: 20%;
+    text-align: center;
+    min-height: 40px;
+    padding: 10px;
+  }
+
+  #count {
+    border: 1px solid #fafafa;
+    color: #212529;
+    width: 60%;
+    text-align: center;
+    min-height: 40px;
+    padding: 18px;
+  }
+
+  #product-link {
+    height: 160px;
+  }
+
+  #product-img {
+    width: 100%;
+    height: 160px;
+    left: 0%;
+  }
+
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+  #bakery {
+    padding-bottom: 20px;
+  }
+
+  #recipe-img {
+    height: 302px;
+  }
+
+  #recipe-link {
+    height: 30px;
+    display: block;
+    margin-bottom: 70px;
+  }
+
+  #recipe-name {
+    height: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  #bakery-titles {
+    width: 75%;
+  }
+
+  #bakery-title {
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 23px;
+  }
+
+  #bakery-subtitle {
+    font-weight: 200;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  #bakery-shop-now {
+    width: 32%;
+  }
+
+  #bakery-view-more {
+    width: 100%;
+  }
+
+  #splide {
+    margin-bottom: 0px;
+  }
+
+  .splide__track {
+    height: 500px;
+  }
+
+  #splide-slide .overlay {
+    display: none;
+  }
+
+  #product-buttons {
+    display: none;
+  }
+
+  #more-info {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+  }
+
+  #fruit-arrow-svg {
+    margin-top: 11px;
+  }
+
+  #add-remove {
+    display: flex !important;
+    justify-content: space-around !important;
+    margin-top: 33px;
+  }
+
+  #remove {
+    border: 1px solid #fafafa;
+    width: 20%;
+    text-align: center;
+    min-height: 40px;
+    padding: 10px;
+  }
+
+  #add {
+    border: 1px solid #fafafa;
+    width: 20%;
+    text-align: center;
+    min-height: 40px;
+    padding: 10px;
+  }
+
+  #count {
+    border: 1px solid #fafafa;
+    color: #212529;
+    width: 60%;
+    text-align: center;
+    min-height: 40px;
+    padding: 18px;
+  }
+
+  #product-link {
+    height: 160px;
+  }
+
+  #product-img {
+    width: 100%;
+    height: 180px;
+    left: 0%;
+  }
+
+}

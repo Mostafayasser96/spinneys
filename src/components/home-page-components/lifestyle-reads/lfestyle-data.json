@@ -1,0 +1,34 @@
+{
+  "reads": [
+    {
+      "id": 1,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/images/Wheels-of-cheese.original.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/images/Wheels-of-cheese.original.jpg",
+      "read-link": "/en-ae/lifestyle/emotional-maturity-italy-cheese-producers-zanetti-spinneysfood/",
+      "name": "Emotional Maturity",
+      "caption": "The SpinneysFOOD range of Italian hard cheeses includes premium Grana Padano and Parmigiano Reggiano made by the ...",
+      "category": "FOOD | ",
+      "date": "May 17, 2023"
+    },
+    {
+      "id": 2,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/images/Pasta_A7R0375.original.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/images/Pasta_A7R0375.original.jpg",
+      "read-link": "/en-ae/lifestyle/masters-of-pasta-spinneysfood-producers-berruto-piedmont-italy/",
+      "name": "Masters of pasta",
+      "caption": "Spinneys sources many of its classic dried pastas – fusilli, macaroni, penne, organic and wholewheat spaghetti – from the ...",
+      "category": "FOOD | ",
+      "date": "May 17, 2023"
+    },
+    {
+      "id": 3,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/images/vinegar-spinneys-modena.original.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/images/vinegar-spinneys-modena.original.jpg",
+      "read-link": "/en-ae/lifestyle/the-art-and-science-of-sweet-sour-balsamic-vinegar-producers-spinneysfood-acetaia-giuseppe-cremonini-modena-italy/",
+      "name": "The art and science of sweet and sour",
+      "caption": "A luxury product of Modena since medieval times, balsamic vinegar is still made the old-fashioned way even by ...",
+      "category": "FOOD | ",
+      "date": "May 17, 2023"
+    }
+  ]
+}
