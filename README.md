@@ -66,7 +66,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## Header: navbar, carousel.   
 ## Stories Carousel.  
 ## What's new this month?.
-## Ads space.
 ## SPINNEYSFOOD carousel.
 ## Taste of Italy.
 ## New in store.
@@ -77,6 +76,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## Flower Shop.
 ## Lifestyle Reads.
 ## Vegetarian & vegan.
+## Power of Plants.
 ## Footer.
 
 2- Recipes Page Components:

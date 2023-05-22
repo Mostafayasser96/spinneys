@@ -1,0 +1,105 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/3f/ce/3fce469d1b95ce09a7efa9d49add5289.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/3f/ce/3fce469d1b95ce09a7efa9d49add5289.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/3f/ce/3fce469d1b95ce09a7efa9d49add5289.jpg 1x",
+      "price": "46.25 / Each",
+      "product-name": "Beyond Meat burger patties 227g",
+      "product-src": "/en-ae/catalogue/beyond-burger-patties-227g_20048/",
+      "rest-src": "/en-ae/catalogue/category/frozen/vegetarian-vegan/meat-substitutes_839/"
+    },
+    {
+      "id": 2,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/77/f0/77f0359b17f58d5a2c6e30a8109a1b83.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/77/f0/77f0359b17f58d5a2c6e30a8109a1b83.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/77/f0/77f0359b17f58d5a2c6e30a8109a1b83.jpg 1x",
+      "price": "31.00 / Each",
+      "product-name": "Waken mouthwash spearmint 500ml",
+      "product-src": "/en-ae/catalogue/waken-mouthwash-spearmint-500ml_47002/",
+      "rest-src": "/en-ae/catalogue/category/toiletries-health/oral-care/mouthwash-floss_598/"
+    },
+    {
+      "id": 3,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/2f/cd/2fcd295d8de38fd228595aa9d6667c5b.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/77/f0/77f0359b17f58d5a2c6e30a8109a1b83.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/77/f0/77f0359b17f58d5a2c6e30a8109a1b83.jpg 1x",
+      "price": "28.75 / Each",
+      "product-name": "Americana Nabati chicken-free nuggets 270g",
+      "product-src": "/en-ae/catalogue/americana-nabati-chicken-free-nuggets-270g_46283/",
+      "rest-src": "/en-ae/catalogue/category/frozen/vegetarian-vegan/meat-substitutes_839/"
+    },
+    {
+      "id": 4,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/f1/59/f159fe769ae7b97eb7169714e0471b3e.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/f1/59/f159fe769ae7b97eb7169714e0471b3e.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/f1/59/f159fe769ae7b97eb7169714e0471b3e.jpg 1x",
+      "price": "12.75 / Each",
+      "product-name": "SpinneysFOOD Unsweetened Almond Mylk 1L",
+      "product-src": "/en-ae/catalogue/spinneysfood-unsweetened-almond-mylk-1ltr_46512/",
+      "rest-src": "/en-ae/catalogue/category/beverages/long-life-milk/alternative_875/"
+    },
+    {
+      "id": 5,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/6d/b2/6db2415c4497f8a8bbbe0ac8b61dbd7a.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/6d/b2/6db2415c4497f8a8bbbe0ac8b61dbd7a.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/6d/b2/6db2415c4497f8a8bbbe0ac8b61dbd7a.jpg 1x",
+      "organic-badge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/flags/organic.cd927f5ce70e.svg",
+      "price": "30.50 / Each",
+      "product-name": "Earth Goods organic smooth peanut butter 220g",
+      "product-src": "/en-ae/catalogue/earth-goods-peanut-butter-creamy-220g_26625/",
+      "rest-src": "/en-ae/catalogue/category/food-cupboard/honey-jams-spreads/nut-butters_665/"
+    },
+    {
+      "id": 6,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/0f/b9/0fb94df150b3a701a3bc4914abdef71b.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/0f/b9/0fb94df150b3a701a3bc4914abdef71b.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/0f/b9/0fb94df150b3a701a3bc4914abdef71b.jpg 1x",
+      "price": "21.00 / Each",
+      "product-name": "SpinneysFOOD Vegan Salted Caramel Ice Cream 500ml",
+      "product-src": "/en-ae/catalogue/spinneysfood-vegan-salted-caramel-ice-cream-500ml_46168/",
+      "rest-src": "/en-ae/catalogue/category/frozen/desserts-ice-cream-lollies/ice-cream-tubs-large_686/"
+    },
+    {
+      "id": 7,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/be/0f/be0f2489861dae3f0eb8a9a8ad99bcd5.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/be/0f/be0f2489861dae3f0eb8a9a8ad99bcd5.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/be/0f/be0f2489861dae3f0eb8a9a8ad99bcd5.jpg 1x",
+      "organic-badge": "https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/flags/organic.cd927f5ce70e.svg",
+      "price": "20.00 / Each",
+      "product-name": "Remedy kombucha sparkling passion fruit 330ml",
+      "product-src": "/en-ae/catalogue/remedy-kombucha-sparkling-passion-fruit-330ml_40241/",
+      "rest-src": "/en-ae/catalogue/category/beverages/refrigerated/health-drinks_362/"
+    },
+    {
+      "id": 8,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/bb/ef/bbef828307afc9203abb92ffb57af38f.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/bb/ef/bbef828307afc9203abb92ffb57af38f.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/bb/ef/bbef828307afc9203abb92ffb57af38f.jpg 1x",
+      "price": "22.25 / Each",
+      "product-name": "Bob's Red Mill tapioca flour 454g",
+      "product-src": "/en-ae/catalogue/bobs-red-mill-tapioca-flour-454g_11355/",
+      "rest-src": "/en-ae/catalogue/category/food-cupboard/sugar-home-baking/flour/speciality-fre-from-mixes_928/"
+    },
+    {
+      "id": 9,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/0e/2b/0e2b49c06af0b32b4f527c3f005d88b6.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/0e/2b/0e2b49c06af0b32b4f527c3f005d88b6.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/0e/2b/0e2b49c06af0b32b4f527c3f005d88b6.jpg 1x",
+      "price": "20.00 / Each",
+      "product-name": "Nuttelex olive spread 375g",
+      "product-src": "/en-ae/catalogue/nuttelex-olive-spread-375g_819/",
+      "rest-src": "/en-ae/catalogue/category/dairy-deli-chilled-foods/butter-spreads/margarine-spreads_402/"
+    },
+    {
+      "id": 10,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/bb/ff/bbff94aa79db420accb1a46a16df8e9d.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/bb/ff/bbff94aa79db420accb1a46a16df8e9d.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/bb/ff/bbff94aa79db420accb1a46a16df8e9d.jpg 1x",
+      "price": "13.75 / Each",
+      "product-name": "Arlene tom yum spring roll 250g",
+      "product-src": "/en-ae/catalogue/arlenetomyum-springroll-250g_38822/",
+      "rest-src": "/en-ae/catalogue/category/frozen/vegetarian-vegan_787/"
+    },
+    {
+      "id": 11,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/b9/2a/b92abc133617b38a98d6b6859dcc02c8.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/b9/2a/b92abc133617b38a98d6b6859dcc02c8.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/b9/2a/b92abc133617b38a98d6b6859dcc02c8.jpg 1x",
+      "price": "24.25 / Each",
+      "product-name": "Hellmann's vegan chipotle mayo 270g",
+      "product-src": "/en-ae/catalogue/hellmanns-vegan-mayo-chipotle-270g_41054/",
+      "rest-src": "/en-ae/catalogue/category/food-cupboard/condiments-table-sauces/mayonnaise_491/"
+    }
+  ]
+}

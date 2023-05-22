@@ -1,0 +1,130 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/f9/36/f936b0f68ba2406a0a2baae1f3c40a11.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/f9/36/f936b0f68ba2406a0a2baae1f3c40a11.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/f9/36/f936b0f68ba2406a0a2baae1f3c40a11.jpg 1x",
+      "price": "29.00 / Each",
+      "product-name": "Lamb Wiston crispy onion rings 600g",
+      "product-src": "/en-ae/catalogue/lamb-weston-crispy-onion-rings-600g_53095/",
+      "rest-src": "/en-ae/catalogue/category/frozen/vegetarian-vegan/vegetable-products_788/"
+    },
+    {
+      "id": 2,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/98/a6/98a6ebaa5aa8d1863f2fdcb67b454a4a.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/98/a6/98a6ebaa5aa8d1863f2fdcb67b454a4a.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/98/a6/98a6ebaa5aa8d1863f2fdcb67b454a4a.jpg 1x",
+      "price": "29.00 / Each",
+      "product-name": "Quorn steak strips 300g",
+      "product-src": "/en-ae/catalogue/quorn-steak-strips-300g_53072/",
+      "rest-src": "/en-ae/catalogue/category/frozen/vegetarian-vegan/meat-substitutes_839/"
+    },
+    {
+      "id": 3,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/0f/02/0f029fdc5f19df0d6b9bc7d812f246b8.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/0f/02/0f029fdc5f19df0d6b9bc7d812f246b8.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/0f/02/0f029fdc5f19df0d6b9bc7d812f246b8.jpg 1x",
+      "price": "22.25 / Each",
+      "product-name": "Arlene pre-fried plant-based kibbeh 180g",
+      "product-src": "/en-ae/catalogue/arlene-pre-fried-plant-based-kibbeh-180g_49057/",
+      "rest-src": "/en-ae/catalogue/category/frozen/vegetarian-vegan/vegetable-products_788/"
+    },
+    {
+      "id": 4,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/63/de/63dedbc19f5b63e09473ed7cd7b499ac.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/63/de/63dedbc19f5b63e09473ed7cd7b499ac.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/63/de/63dedbc19f5b63e09473ed7cd7b499ac.jpg 1x",
+      "price": "14.75 / Each",
+      "product-name": "SpinneysFOOD Meat Free Crunchy Nuggets 160g",
+      "product-src": "/en-ae/catalogue/spinneysfood-meat-free-crunchy-nuggets-160g_47442/",
+      "rest-src": "/en-ae/catalogue/category/frozen/vegetarian-vegan_787/"
+    },
+    {
+      "id": 5,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/06/c6/06c6976664d84b3c5d533aa227bb5131.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/06/c6/06c6976664d84b3c5d533aa227bb5131.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/06/c6/06c6976664d84b3c5d533aa227bb5131.jpg 1x",
+      "price": "27.75 / Each",
+      "product-name": "Americana Nabati beef-free meatballs 280g",
+      "product-src": "/en-ae/catalogue/americana-nabati-beef-free-meatballs-280g_46288/",
+      "rest-src": "/en-ae/catalogue/category/frozen/vegetarian-vegan/meat-substitutes_839/"
+    },
+    {
+      "id": 6,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/aa/bb/aabb8698db62fcd82efea05d4b8ffa35.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/aa/bb/aabb8698db62fcd82efea05d4b8ffa35.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/aa/bb/aabb8698db62fcd82efea05d4b8ffa35.jpg 1x",
+      "price": "34.00 / Each",
+      "product-name": "Americana Nabati unbreaded chicken free burger 226g",
+      "product-src": "/en-ae/catalogue/americana-nabati-unbreaded-chicken-free-burger-226g_46278/",
+      "rest-src": "/en-ae/catalogue/category/frozen/vegetarian-vegan/meat-substitutes_839/"
+    },
+    {
+      "id": 7,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/32/53/32530e45e30d5db450e38eb74957463c.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/32/53/32530e45e30d5db450e38eb74957463c.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/32/53/32530e45e30d5db450e38eb74957463c.jpg 1x",
+      "price": "15.25 / Each",
+      "product-name": "Arlene chili gyoza 120g",
+      "product-src": "/en-ae/catalogue/arlene-chili-gyoza-120g_38826/",
+      "rest-src": "/en-ae/catalogue/category/frozen/vegetarian-vegan_787/"
+    },
+    {
+      "id": 8,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/69/5e/695ecde59e600842915154bbb30b19ee.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/69/5e/695ecde59e600842915154bbb30b19ee.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/69/5e/695ecde59e600842915154bbb30b19ee.jpg 1x",
+      "price": "31.50 / Each",
+      "product-name": "Future Farm sausage 250g",
+      "product-src": "/en-ae/catalogue/future-farm-sausage-250g_38487/",
+      "rest-src": "/en-ae/catalogue/category/frozen/gluten-free_1010/"
+    },
+    {
+      "id": 9,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/e0/7a/e07a96b942300eb2caf4cb2fc0928378.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/e0/7a/e07a96b942300eb2caf4cb2fc0928378.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/e0/7a/e07a96b942300eb2caf4cb2fc0928378.jpg 1x",
+      "price": "30.25 / Each",
+      "product-name": "Quorn chicktastic burgers x4 252g",
+      "product-src": "/en-ae/catalogue/quorn-chicken-style-burgers-252g_29857/",
+      "rest-src": "/en-ae/catalogue/category/frozen/vegetarian-vegan/meat-substitutes_839/"
+    },
+    {
+      "id": 10,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/fe/a0/fea080c0ad8285add714556e1d25d031.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/fe/a0/fea080c0ad8285add714556e1d25d031.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/fe/a0/fea080c0ad8285add714556e1d25d031.jpg 1x",
+      "price": "21.00 / Each",
+      "product-name": "Linda McCartney's 6 vegetarian sausages 270g",
+      "product-src": "/en-ae/catalogue/linda-mc-6-vegetarian-sausages-270g_29842/",
+      "rest-src": "/en-ae/catalogue/category/frozen/vegetarian-vegan/meat-substitutes_839/"
+    },
+    {
+      "id": 11,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/3f/c8/3fc8794ee27a6b3b545be2ee82846833.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/3f/c8/3fc8794ee27a6b3b545be2ee82846833.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/3f/c8/3fc8794ee27a6b3b545be2ee82846833.jpg 1x",
+      "price": "29.50 / Each",
+      "product-name": "Whole creation roasted tomato & basil sheesy pizza 275g",
+      "product-src": "/en-ae/catalogue/wc-rstd-tomatobasil-sheesy-pizza-275g_20340/",
+      "rest-src": "/en-ae/catalogue/category/frozen/vegetarian-vegan/vegetable-products_788/"
+    },
+    {
+      "id": 12,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/3f/ce/3fce469d1b95ce09a7efa9d49add5289.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/3f/ce/3fce469d1b95ce09a7efa9d49add5289.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/3f/ce/3fce469d1b95ce09a7efa9d49add5289.jpg 1x",
+      "price": "46.25 / Each",
+      "product-name": "Beyond Meat burger patties 227g",
+      "product-src": "/en-ae/catalogue/beyond-burger-patties-227g_20048/",
+      "rest-src": "/en-ae/catalogue/category/frozen/vegetarian-vegan/meat-substitutes_839/"
+    },
+    {
+      "id": 13,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/37/22/37228b6c24dacdf850d7c59483e9fc9c.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/37/22/37228b6c24dacdf850d7c59483e9fc9c.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/37/22/37228b6c24dacdf850d7c59483e9fc9c.jpg 1x",
+      "price": "31.50 / Each",
+      "product-name": "Linda McCartney's mozzarella burgers 227g",
+      "product-src": "/en-ae/catalogue/linda-mc-2-vege-mozzarella-burgers-227g_17611/",
+      "rest-src": "/en-ae/catalogue/category/frozen/vegetarian-vegan/meat-substitutes_839/"
+    },
+    {
+      "id": 14,
+      "src": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/e7/4f/e74f25e2f8b0edbded0146a18d06e162.jpg",
+      "srcset": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/e7/4f/e74f25e2f8b0edbded0146a18d06e162.jpg 2x, https://prod-spinneys-cdn-new.azureedge.net/media/cache/e7/4f/e74f25e2f8b0edbded0146a18d06e162.jpg 1x",
+      "price": "29.00 / Each",
+      "product-name": "Quorn crispy nuggets 300g",
+      "product-src": "/en-ae/catalogue/quorn-crispy-nuggets-300g_11428/",
+      "rest-src": "/en-ae/catalogue/category/frozen/vegetarian-vegan/meat-substitutes_839/"
+    }
+  ]
+}

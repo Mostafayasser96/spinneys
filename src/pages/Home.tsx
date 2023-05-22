@@ -12,6 +12,8 @@ import SpinneysStudio from "../components/home-page-components/spinneys-studio/s
 import Bakery from "../components/home-page-components/bakery/bakery";
 import FlowerShop from "../components/home-page-components/flower-shop/flower-shop";
 import LifestyleReads from "../components/home-page-components/lifestyle-reads/lifestyle-reads";
+import Vegetarian from "../components/home-page-components/vegetarian&vegan/vegetarian-&-vegan";
+import PowerofPlants from "../components/home-page-components/power-of-plants/power-of-plants";
 
 
 
@@ -30,6 +32,8 @@ const Home = () => {
       <Bakery />
       <FlowerShop />
       <LifestyleReads />
+      <Vegetarian />
+      <PowerofPlants />
       <MyFooter />
     </div>
 

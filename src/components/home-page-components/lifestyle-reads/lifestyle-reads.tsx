@@ -21,7 +21,7 @@ const LifestyleReads = () => {
       </div>
       <ul className="articles" id="articles">
         {Products.reads.map((article, i) => (
-          <li className="article" id="article">
+          <li className="article" id="article" key={i}>
             <a className="article-link" id="article-link" href={article["read-link"]}>
               <img className="article-img" id="article-img" src={article?.src} srcSet={article?.srcset} alt={article?.name} />
             </a>

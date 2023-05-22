@@ -1,24 +1,26 @@
 import React, { useState } from "react";
-import "../vegetarian&vegan/vegetarian&vegan.css";
+import "../power-of-plants/powerofPlants-styles.css";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import '@splidejs/splide/css';
 import '@splidejs/splide/css/core';
 import 'bootstrap/dist/css/bootstrap.css';
-import Products from "../vegetarian&vegan/vegetarian&vegan-products.json";
+import Products from "../power-of-plants/powerofPlants-products.json";
 import { Offcanvas } from "react-bootstrap";
 
 
-const Vegetarian = () => {
+
+
+const PowerofPlants = () => {
   const [show, setShow] = useState<boolean>(false);
   const handleShow = () => setShow(true);
   const handleClose = () => setShow(false);
 
   return (
-    <div className="vegetarian" id="vegetarian">
-      <div className="d-flex justify-content-between" id="vegan-heading">
-        <div className="titles" id="vegan-titles">
-          <p className="text-left" id="vegan-title">Vegetarian & vegan</p>
-          <p className="text-#8C8C8C" id="vegan-subtitle">Our selection of vegan and plant-based products.</p>
+    <div className="power-of-plants" id="power-of-plants">
+      <div className="d-flex justify-content-between" id="plants-heading">
+        <div className="plants-titles" id="plants-titles">
+          <p className="text-left" id="plants-title">Vegetarian & vegan</p>
+          <p className="text-#8C8C8C" id="plants-subtitle">Our selection of vegan and plant-based products.</p>
         </div>
         <button className="text-center bg-white d-flex justify-content-between" id="shop-now" type="button">
           <a id="view-more" className="w-100 d-flex justify-content-evenly text-decoration-none bg-#FFFFFF" href="https://www.spinneys.com/en-ae/catalogue/?selected_facets=is_new_exact%3ATrue&sort_by=boost-value">
@@ -53,6 +55,15 @@ const Vegetarian = () => {
             <div className="product-card" id="product-card">
               <a className="product-link" href={product["product-src"]} id="product-link" >
                 <img id="product-img" alt="product" src={product["product-src"]} srcSet={product.srcset} />
+
+                {product["organic-badge"] ?
+                  <div className="badges" id="badges">
+                    <img id="badge1" alt="country badge" src={product["organic-badge"]} />
+                  </div>
+                  :
+                  <div></div>
+                }
+
               </a>
             </div>
             <div className="overlay ctr"></div>
@@ -107,7 +118,9 @@ const Vegetarian = () => {
           have chosen. Like, text, images, lists, etc.
         </Offcanvas.Body>
       </Offcanvas>
+
+
     </div>
   )
 }
-export default Vegetarian;
+export default PowerofPlants;
