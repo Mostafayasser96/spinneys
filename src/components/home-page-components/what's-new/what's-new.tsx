@@ -5,8 +5,9 @@ import '@splidejs/splide/css';
 import '@splidejs/splide/css/core';
 import 'bootstrap/dist/css/bootstrap.css';
 import Products from "./what's-new-products.json";
-import { Offcanvas } from "react-bootstrap";
-import OffcanvasRight from "../../offcanvas-components/offcanvas-right";
+import SignIn from "../../mutual-components/signIn/signin";
+
+
 
 const WhatsNew = () => {
   const [show, setShow] = useState<boolean>(false);
@@ -105,15 +106,8 @@ const WhatsNew = () => {
         ))}
       </Splide>
 
-      <Offcanvas show={show} onHide={handleClose} placement="end">
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
-        </Offcanvas.Body>
-      </Offcanvas>
+      <SignIn show={show} onHide={handleClose} placement="end" />
+
 
     </div>
   )

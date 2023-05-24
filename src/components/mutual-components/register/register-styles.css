@@ -1,0 +1,388 @@
+.register-title {
+  display: block;
+  width: 100%;
+  padding: 0 0 18px;
+}
+
+.register-logo {
+  display: block;
+  width: 180px;
+  margin: 15px 105px 30px;
+}
+
+.register-heading {
+  display: block;
+  width: 100%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 23.5px;
+  color: #212529;
+  font-weight: 200;
+  line-height: 1;
+  text-align: center;
+  padding: 0px 40px 10px;
+}
+
+.register-form {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.field {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.field-title {
+  width: 19%;
+  padding: 15px 10px;
+  font-size: 14px;
+  color: #8C8C8C;
+  border-radius: 5px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  border: 1px solid #efefef;
+}
+
+.first-name,
+.last-name {
+  width: 37%;
+  padding: 15px 10px;
+  font-size: 14px;
+  border: 1px solid #efefef;
+  color: #8C8C8C;
+  border-radius: 5px;
+}
+
+.email-address,
+.phone-number,
+.password {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #efefef;
+  margin-bottom: 10px;
+  padding-left: 13px;
+  font-weight: 400;
+}
+
+.preferences {
+  padding-top: 10px;
+  color: #212529;
+  font-size: 14px;
+  display: block;
+  width: 100%;
+}
+
+.sub-preferences,
+.question {
+  font-size: 12px;
+  line-height: 1.2;
+  color: #3f3f3f;
+  display: block;
+  margin: 0 0 15px;
+  font-weight: 400;
+}
+
+.check {
+  margin-bottom: 10px;
+}
+
+.check-sms {
+  padding-left: 5px;
+  color: #3f3f3f;
+  padding-right: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.check-email {
+  padding-left: 5px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.s-card-check {
+  position: absolute;
+  top: 46%;
+  left: 50px;
+  height: 25px;
+  width: 25px;
+}
+
+.register-sub-btn {
+  width: 100%;
+  display: block;
+  text-align: center;
+  height: 45px;
+  color: white;
+  background-color: #124634;
+  border-radius: 5px;
+  border: 1px solid #efefef;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.register-or {
+  width: 100%;
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.register-line {
+  height: 1px;
+  background-color: #BABABA;
+  width: 40%;
+  margin-top: 10px;
+}
+
+.or {
+  width: 20%;
+  text-align: center;
+  font-size: 12px;
+  color: #BABABA;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.register-facebook {
+  display: block;
+  width: 100%;
+  text-align: center;
+  height: 45px;
+  color: #FFFFFF;
+  background-color: #3B5998;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.facebook-span {
+  padding-left: 10px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.register-line2 {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #BABABA;
+  width: 100%;
+}
+
+.terms-conditions {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.agreement {
+  margin-bottom: 0px;
+  font-size: 14px;
+  display: block;
+  width: 100%;
+  color: #BABABA;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.terms-link {
+  font-size: 14px;
+  color: #1A1A1A;
+  text-decoration: none;
+}
+
+.terms-link:hover {
+  color: #124634 !important;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.register-hint {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #BABABA;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.register-link {
+  font-size: 14px;
+  color: #1A1A1A;
+  font-weight: 600;
+}
+
+.register-link:hover {
+  color: #124634 !important;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+  .offcanvas-body {
+    padding: 20px 30px;
+  }
+
+  .register-logo {
+    margin: 15px 72px 30px;
+  }
+
+  .register-heading {
+    font-size: 28px;
+    padding: 0 0 10px;
+  }
+
+  .field-title,
+  .first-name,
+  .last-name,
+  .email-address,
+  .phone-number,
+  .password {
+    height: 55px;
+  }
+
+  .field-title {
+    width: 23%;
+  }
+
+  .preferences {
+    font-size: 16px;
+  }
+
+  .question {
+    font-size: 14px;
+  }
+
+  .check-sms,
+  .check-email {
+    font-size: 18px;
+  }
+
+  .sub-preferences {
+    font-size: 16px;
+  }
+
+  .register-sub-btn {
+    height: 55px;
+    font-size: 16px;
+  }
+
+  .register-or {
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  .or {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .register-facebook {
+    height: 55px;
+    margin-bottom: 30px;
+  }
+
+  .facebook-span {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .agreement,
+  .terms-link,
+  .register-link {
+    font-size: 15px;
+  }
+
+  .register-hint {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+  .register-logo {
+    margin: 40px 75px 30px;
+  }
+
+  .register-heading {
+    font-size: 25px;
+    padding: 0 10px 5px;
+  }
+
+  .field-title {
+    width: 23%;
+  }
+
+  .field-title,
+  .first-name,
+  .last-name,
+  .email-address,
+  .phone-number,
+  .password {
+    font-size: 17px;
+    height: 70px;
+  }
+
+  .preferences {
+    font-size: 18px;
+  }
+
+  .question,
+  .sub-preferences {
+    font-size: 15px;
+  }
+
+  .check-sms,
+  .check-email {
+    font-size: 20px;
+  }
+
+  .register-sub-btn {
+    height: 60px;
+    font-size: 18px;
+  }
+
+  .register-or {
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+
+  .or {
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  .register-facebook {
+    height: 60px;
+    margin-bottom: 35px;
+  }
+
+  .facebook-span {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .agreement {
+    font-size: 16px;
+  }
+
+  .terms-link {
+    font-size: 16px;
+  }
+
+  .register-hint {
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  .register-link {
+    font-size: 17px;
+  }
+}

@@ -1,9 +1,23 @@
+import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../navbar/navbar-styles.css';
 import { Carousel } from 'react-bootstrap';
 import Menu from "../navbar/navbar-carousel-data.json";
+import SignIn from '../signIn/signin';
+import Register from '../register/register';
+
+
 
 const MyNavbar = () => {
+
+  const [show, setShow] = useState<Boolean>(false);
+  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false);
+
+  const [register, setRegister] = useState<Boolean>(false);
+  const showRegister = () => setRegister(true);
+  const closeRegister = () => setRegister(false);
+
   return (
     <div className='header'>
       <nav className="navbar fixed-top w-100 bg-white border-bottom p-0">
@@ -63,17 +77,16 @@ const MyNavbar = () => {
                 />
               </button>
               <input className="input w-100 border border-none" placeholder="Search Products, Recipes & Articles"></input>
-
             </form>
           </li>
           <li className="arabic border-end">
             <a href="/" className="nav-link fw-600 p-0 text-black">العربية</a>
           </li>
-          <li className="register border-end">
-            <a href="/" className="nav-link fw-600 p-0 text-black">Register</a>
+          <li className="register border-end" onClick={showRegister}>
+            <a href="#" className="nav-link fw-600 p-0 text-black">Register</a>
           </li>
-          <li className="sign-in border-end">
-            <a href="/" className=" d-flex justify-content-space-between h-100% text-decoration-none text-black cursor-pointer">
+          <li className="sign-in border-end" onClick={handleShow}>
+            <a href="#" className=" d-flex justify-content-space-between h-100% text-decoration-none text-black cursor-pointer">
               <span>Sign In</span>
               <img src="https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/sign-in.01d28dab1267.svg"
                 className="signin-img"
@@ -98,28 +111,6 @@ const MyNavbar = () => {
             </a>
           </li>
         </ul>
-
-        <div className="offcanvas offcanvas-bottom" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-
-        </div>
-        <div className="offcanvas offcanvas-top" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
-          <div className="offcanvas-header">
-            <h5 id="offcanvasTopLabel">Offcanvas top</h5>
-            <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div className="offcanvas-body">
-            ...
-          </div>
-        </div>
-        <div className="offcanvas offcanvas-end" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-          <div className="offcanvas-header">
-            <h5 id="offcanvasRightLabel">Offcanvas right</h5>
-            <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div className="offcanvas-body">
-            ...
-          </div>
-        </div>
       </nav>
       <Carousel className='carousel' interval={null}>
         {Menu.menu.map((element) => (
@@ -135,7 +126,8 @@ const MyNavbar = () => {
         ))}
       </Carousel>
 
-
+      <SignIn show={show} onHide={handleClose} placement="end" />
+      <Register show={register} onHide={closeRegister} placement="end" />
 
     </div>
   )

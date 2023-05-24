@@ -1,0 +1,352 @@
+.offcanvas {
+  width: 40% !important;
+  padding: 0px;
+}
+
+.offcanvas-body {
+  padding: 20px 57px;
+}
+
+.btn-close {
+  position: absolute;
+  left: -26px;
+  top: 4%;
+  border-radius: 50%;
+  border: 1px solid #efefef;
+  width: 35px;
+  height: 35px;
+  background-color: #FFFFFF;
+  opacity: 1;
+}
+
+.btn-close:hover {
+  background-color: #FFFFFF;
+}
+
+.offcanvas-header {
+  display: block;
+  text-align: center;
+  padding: 0px;
+}
+
+.signin-logo {
+  margin: 15px 105px 30px;
+  width: 180px;
+}
+
+.welcome {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 23.5px;
+  color: #212529;
+  margin: 0 28% 8px;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.signin-p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-style: normal;
+  line-height: 1;
+  font-size: 14px;
+  color: #1A1A1A;
+  margin-left: 20%;
+}
+
+.signin-email {
+  display: block;
+  width: 100%;
+  border: 1px solid #e6e6e6;
+  background-color: white;
+  height: 50px;
+  padding: 0 10px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 1.25;
+  font-weight: 400;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.signin-password {
+  display: block;
+  width: 100%;
+  border: 1px solid #e6e6e6;
+  background-color: white;
+  height: 50px;
+  padding: 0 10px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 1.25;
+  font-weight: 400;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.signin-btn {
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  background-color: #124634;
+  color: #FFFFFF;
+  border: 1px solid #e6e6e6;
+  height: 50px;
+  font-size: 12px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 1.25;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.forgot-password {
+  margin-top: 15px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #BABABA;
+  display: inline-block;
+  margin-left: 70%;
+}
+
+.forgot-password:hover {
+  color: #BABABA;
+}
+
+.signin-or {
+  width: 100%;
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.signin-line {
+  height: 1px;
+  background-color: #BABABA;
+  width: 40%;
+  margin-top: 10px;
+}
+
+.or {
+  width: 20%;
+  text-align: center;
+  font-size: 12px;
+  color: #BABABA;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.signin-facebook {
+  display: block;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  color: #FFFFFF;
+  background-color: #3B5998;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.facebook-span {
+  padding-left: 10px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.signin-google {
+  text-align: center;
+  width: 100%;
+  height: 55px;
+  padding-left: 23%;
+  padding-top: 15px;
+  color: #1A1A1A;
+  background-color: #FFFFFF;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.signin-google svg {
+  padding-top: 4px;
+}
+
+.google-span {
+  font-size: 19px;
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.signin-hint {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.25;
+  font-weight: 400;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #bababa;
+  margin-top: 40px;
+}
+
+.register-link {
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+  text-decoration: none;
+  color: #212529;
+  margin-left: 5px;
+}
+
+.register-link:hover {
+  color: #124634;
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+  .offcanvas {
+    width: 60% !important;
+  }
+
+  .offcanvas-body {
+    padding: 20px 45px;
+  }
+
+  .signin-logo {
+    width: 210px;
+    margin: 25px 75px 30px;
+  }
+
+  .welcome {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .signin-p {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+  }
+
+  .signin-btn {
+    height: 55px;
+    font-size: 16px;
+  }
+
+  .signin-email,
+  .signin-password {
+    height: 55px;
+  }
+
+  .forgot-password {
+    font-size: 16px;
+    margin-left: 60%;
+  }
+
+  .signin-or {
+    width: 100%;
+  }
+
+  .or {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .signin-google {
+    height: 55px;
+    padding-left: 0px;
+  }
+
+  .signin-google svg {
+    padding-top: 0px;
+  }
+
+  .signin-facebook {
+    height: 55px;
+  }
+
+  .facebook-span {
+    font-size: 18px;
+  }
+
+  .signin-hint {
+    font-size: 16px;
+  }
+
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+  .offcanvas {
+    width: 90% !important;
+  }
+
+  .offcanvas-body {
+    padding: 0px 20px;
+  }
+
+  .signin-form {
+    width: 100%;
+  }
+
+  .signin-logo {
+    margin: 30px 73px 30px;
+    width: 200px;
+  }
+
+  .signin-p {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 0px;
+  }
+
+  .welcome {
+    font-size: 27px;
+    margin: 0px 22% 12px;
+  }
+
+  .signin-email,
+  .signin-password,
+  .signin-btn {
+    width: 100%;
+  }
+
+  .signin-btn,
+  .signin-facebook,
+  .signin-google {
+    height: 55px;
+    font-size: 17px;
+    width: 100%;
+  }
+
+  .forgot-password {
+    display: block;
+    font-size: 16px;
+    margin-left: 65%;
+  }
+
+  .facebook-span {
+    font-size: 19px;
+  }
+
+  .signin-google {
+    padding-left: 0px;
+  }
+
+  .signin-google svg {
+    padding-top: 0px;
+  }
+
+  .signin-or,
+  .signin-facebook,
+  .signin-google {
+    width: 100%;
+  }
+
+  .signin-google {
+    margin-bottom: 15px;
+  }
+
+  .signin-hint {
+    width: 100%;
+    font-size: 17px;
+  }
+}

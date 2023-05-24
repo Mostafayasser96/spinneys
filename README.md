@@ -127,5 +127,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 2- We have 2 approaches to deal with different groups of element inside the navbar:- 
    => The first approach:- first ul contains shop, recipes, lifestyle and podcast elements. the second ul contains Arabic, register and sign-in elements. 
    => The second approach:- it's only one ul containing all elements [shop, recipes, lifestyle, podcast, Arabic, register, sign-in].
-
+3- The free alternative of the font "GT-America Sans Serif" is the "IBM Plex Sans, Sans Serif".
 
