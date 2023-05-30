@@ -2,9 +2,10 @@ import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../navbar/navbar-styles.css';
 import { Carousel } from 'react-bootstrap';
-import Menu from "../navbar/navbar-carousel-data.json";
+import CarouselMenu from "../navbar/navbar-carousel-data.json";
 import SignIn from '../signIn/signin';
 import Register from '../register/register';
+import Menu from '../menu/menu';
 
 
 
@@ -18,6 +19,7 @@ const MyNavbar = () => {
   const showRegister = () => setRegister(true);
   const closeRegister = () => setRegister(false);
 
+  
   return (
     <div className='header'>
       <nav className="navbar fixed-top w-100 bg-white border-bottom p-0">
@@ -113,7 +115,7 @@ const MyNavbar = () => {
         </ul>
       </nav>
       <Carousel className='carousel' interval={null}>
-        {Menu.menu.map((element) => (
+        {CarouselMenu.menu.map((element) => (
           <Carousel.Item key={element.id} >
             <img src={element.src} className="carousel-img d-block w-100" alt={element.alt} />
             <Carousel.Caption>
@@ -128,6 +130,7 @@ const MyNavbar = () => {
 
       <SignIn show={show} onHide={handleClose} placement="end" />
       <Register show={register} onHide={closeRegister} placement="end" />
+      <Menu  />
 
     </div>
   )

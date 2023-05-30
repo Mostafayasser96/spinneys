@@ -1,6 +1,7 @@
 import React from "react";
 import { Offcanvas } from "react-bootstrap";
 import "../signIn/signin-styles.css";
+import 'bootstrap/dist/css/bootstrap.css';
 
 
 const SignIn = ({ ...props }) => {
