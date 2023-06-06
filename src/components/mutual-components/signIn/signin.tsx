@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 const SignIn = ({ ...props }) => {
   return (
     <div className="sign-in">
-      <Offcanvas {...props}>
+      <Offcanvas {...props} id="signin-offcanvas" >
         <Offcanvas.Header closeButton>
         </Offcanvas.Header>
         <Offcanvas.Body>
@@ -36,10 +36,10 @@ const SignIn = ({ ...props }) => {
           <div className="signin-google">
             <svg xmlns="http://www.w3.org/2000/svg" width="22.547" height="23.007" viewBox="0 0 22.547 23.007">
               <g id="Group_15527" data-name="Group 15527" transform="translate(-1376 -575.144)">
-                <path id="Shape" d="M20.047,9.717a13.222,13.222,0,0,0-.209-2.354H9v4.451h6.193a5.294,5.294,0,0,1-2.3,3.473v2.887h3.719a11.223,11.223,0,0,0,3.431-8.458Z" transform="translate(1378.5 577.189)" fill="#4285f4" fill-rule="evenodd"></path>
-                <path id="Shape-2" data-name="Shape" d="M11.24,20.031a10.986,10.986,0,0,0,7.616-2.788l-3.719-2.887A6.942,6.942,0,0,1,4.8,10.71H.957v2.981A11.5,11.5,0,0,0,11.24,20.031Z" transform="translate(1376.267 578.121)" fill="#34a853" fill-rule="evenodd"></path>
-                <path id="Shape-3" data-name="Shape" d="M5.068,12.312a6.8,6.8,0,0,1,0-4.373V4.958H1.224a11.522,11.522,0,0,0,0,10.335l3.844-2.981Z" transform="translate(1376 576.522)" fill="#fbbc05" fill-rule="evenodd"></path>
-                <path id="Shape-4" data-name="Shape" d="M11.24,4.577a6.216,6.216,0,0,1,4.4,1.721L18.94,3a11.059,11.059,0,0,0-7.7-3A11.5,11.5,0,0,0,.957,6.339L4.8,9.321A6.858,6.858,0,0,1,11.24,4.577Z" transform="translate(1376.267 575.144)" fill="#ea4335" fill-rule="evenodd"></path>
+                <path id="Shape" d="M20.047,9.717a13.222,13.222,0,0,0-.209-2.354H9v4.451h6.193a5.294,5.294,0,0,1-2.3,3.473v2.887h3.719a11.223,11.223,0,0,0,3.431-8.458Z" transform="translate(1378.5 577.189)" fill="#4285f4" fillRule="evenodd"></path>
+                <path id="Shape-2" data-name="Shape" d="M11.24,20.031a10.986,10.986,0,0,0,7.616-2.788l-3.719-2.887A6.942,6.942,0,0,1,4.8,10.71H.957v2.981A11.5,11.5,0,0,0,11.24,20.031Z" transform="translate(1376.267 578.121)" fill="#34a853" fillRule="evenodd"></path>
+                <path id="Shape-3" data-name="Shape" d="M5.068,12.312a6.8,6.8,0,0,1,0-4.373V4.958H1.224a11.522,11.522,0,0,0,0,10.335l3.844-2.981Z" transform="translate(1376 576.522)" fill="#fbbc05" fillRule="evenodd"></path>
+                <path id="Shape-4" data-name="Shape" d="M11.24,4.577a6.216,6.216,0,0,1,4.4,1.721L18.94,3a11.059,11.059,0,0,0-7.7-3A11.5,11.5,0,0,0,.957,6.339L4.8,9.321A6.858,6.858,0,0,1,11.24,4.577Z" transform="translate(1376.267 575.144)" fill="#ea4335" fillRule="evenodd"></path>
               </g>
             </svg>
             <span className="google-span"> sign in with Google</span>

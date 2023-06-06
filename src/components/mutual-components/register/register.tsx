@@ -27,7 +27,7 @@ const Register = ({ ...props }) => {
   }
   return (
     <div className="register">
-      <Offcanvas {...props}>
+      <Offcanvas {...props} id="register-offcanvas">
         <Offcanvas.Header closeButton>
         </Offcanvas.Header>
         <Offcanvas.Body>

@@ -428,21 +428,16 @@
     },
     {
       "id": 12,
-      "item": "Pasta & Noodles",
-      "link": "/en-ae/catalogue/category/food-cupboard/pasta-noodles_668/"
-    },
-    {
-      "id": 13,
       "item": "Rice, Grains & Pulses",
       "link": "/en-ae/catalogue/category/food-cupboard/rice-grains-pulses_506/"
     },
     {
-      "id": 14,
+      "id": 13,
       "item": "Sports Nutrition",
       "link": "/en-ae/catalogue/category/food-cupboard/sports-nutrition_1017/"
     },
     {
-      "id": 15,
+      "id": 14,
       "item": "Sugar & Home Baking",
       "link": "/en-ae/catalogue/category/food-cupboard/sugar-home-baking_511/"
     }
@@ -954,7 +949,7 @@
       "link": "/en-ae/catalogue/category/bakery/bread/seeded-multigrain_337/"
     },
     {
-      "id": 4,
+      "id": 5,
       "item": "White Bread",
       "link": "/en-ae/catalogue/category/bakery/bread/white_338/"
     }
@@ -1165,7 +1160,7 @@
       "link": "/en-ae/catalogue/category/beverages/premium-mixers/tonic-water_1005/"
     }
   ],
-  "Refrigerted-products": [
+  "Refrigerated-products": [
     {
       "id": 1,
       "item": "Fresh Juices",

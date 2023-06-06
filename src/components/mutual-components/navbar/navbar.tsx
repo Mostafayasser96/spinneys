@@ -19,7 +19,10 @@ const MyNavbar = () => {
   const showRegister = () => setRegister(true);
   const closeRegister = () => setRegister(false);
 
-  
+  const [menu, setMenu] = useState<Boolean>(false);
+  const showMenu = () => setMenu(true);
+  const closeMenu = () => setMenu(false);
+
   return (
     <div className='header'>
       <nav className="navbar fixed-top w-100 bg-white border-bottom p-0">
@@ -52,8 +55,8 @@ const MyNavbar = () => {
               />
             </button>
           </li>
-          <li className="shop border-end">
-            <a href="/" className="text-black w-100% h-100% d-flex justify-content-space-between text-decoration-none cursor-pointer">
+          <li className="shop border-end" onClick={showMenu}>
+            <a href="#" className="text-black w-100% h-100% d-flex justify-content-space-between text-decoration-none cursor-pointer">
               <span>Shop</span>
               <img src="https://prod-spinneys-cdn-new.azureedge.net/static/spinneys/svg/arrow-menu-down-black.a21cbb2d6b36.svg"
                 alt="arrow"
@@ -130,7 +133,7 @@ const MyNavbar = () => {
 
       <SignIn show={show} onHide={handleClose} placement="end" />
       <Register show={register} onHide={closeRegister} placement="end" />
-      <Menu  />
+      <Menu show={menu} onHide={closeMenu} placement="top" />
 
     </div>
   )
